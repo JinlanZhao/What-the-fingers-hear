@@ -1,0 +1,447 @@
+          ,rescore - ,journey
+
+                 ,test
+
+             ,jinlan ,zhao
+
+
+,flute #a '''''''''''''' >fl'
+,flute #b '''''''''''''' >fl'
+,oboe #a ''''''''''''''' >ob'
+,oboe #b ''''''''''''''' >ob'
+,clarinet 7,b ,flat7 #a  >cl'
+,clarinet 7,b ,flat7 #b  >cl'
+,bassoon #a '''''''''''' >bsn'
+,bassoon #b '''''''''''' >bsn'
+,horn 7,f7 #a '''''''''' >hn'
+,horn 7,f7 #b '''''''''' >hn'
+,horn 7,f7 #c '''''''''' >hn'
+,horn 7,f7 #d '''''''''' >hn'
+,trumpet 7,c7 #a ''''''' >tpt'
+,trumpet 7,c7 #b ''''''' >tpt'
+                   #A
+,trombone #a ''''''''''' >tbn'
+,trombone #b ''''''''''' >tbn'
+,tuba '''''''''''''''''' >tba'
+,glockenspiel '''''''''' >glock'
+,snare ,drum ''''''''''' >sd'
+,bass ,drum '''''''''''' >bd'
+,violin #a ''''''''''''' >vln'
+,violin #b ''''''''''''' >vln'
+,viola ''''''''''''''''' >vla'
+,violoncello ''''''''''' >vc'
+,double ,bass '''''''''' >db'
+
+             ,'?7#add,' #d4
+                 >,a  >
+       a 
+>fl'         <k'm
+>fl'         <k'm
+>ob'         <k'm
+>ob'         <k'm
+>cl'         <k'm
+>cl'         <k'm
+>bsn'        <k'm
+>bsn'        <k'm
+>hn'         <k'm
+                   #B
+>hn'         <k'm
+>hn'         <k'm
+>hn'         <k'm
+>tpt'        <k'm
+>tpt'        <k'm
+>tbn'        <k'm
+>tbn'        <k'm
+>tba'        <k'm
+>glock'      <k'm
+>sd'         <k'vx8"fvff
+>bd'         <k'"$vu
+>vln'    <k'>mf'<"t'}
+>vln'     <k'>mf"q'<:
+>vla'    <k'>mp'88<"eeeeeee8e
+>vc'   <k'>mp>c'88<~jjjjjjj8j
+>db'         <k'<`jxjxww "3
+
+
+
+
+
+
+
+
+                   #C
+     b 
+>hn' u<.$v
+>hn' u'"e"lc<f"lc
+>hn' u"n
+>hn' u_r
+>tpt'u<"{"lch"lci
+>tpt'u"}"lc<f"lcg
+>tba'u<`{"lch"lci
+>sd' x88"fxfvf'8&
+>bd' "$u'
+>vln'.y
+>vln'"=
+>vla'88"ddddddd8d
+>vc' 88<~jjjjjjj8j
+>db' `gxgxgxgx "3
+
+
+
+
+
+
+
+
+
+                   #D
+       c 
+>fl'    >mf;}"lc<{"l;b}<$"lc
+>fl'   >mf'<;:}o"lc
+>ob'    >mf"}"lc<{"l;b}<$"lc
+>bsn'   >mf_}"lc<{"l;b}<$"lc
+>hn'       .=
+>hn'      c<"z
+>hn'       <_!
+>hn'       _=
+>tpt'      <")
+>tpt'      <"(
+>tba'      <`)
+>glock'    .}"lc<{"l;b}<$"lc
+>sd'       8"fx8fv'2fff
+>bd'       "$u'
+>vln'      <.z`c
+>vln'      <")`c
+>vla'      88<"eeeeeee8e
+>vc'       88<~hhhhhhh8h
+>db'       <`hxhxhxhx "3
+
+
+
+
+                   #E
+       d 
+>fl'     <;p'"l~2v
+>fl'    c<;z
+>ob'   >f"l;b<.$}$<:"lc
+>ob'     <"p'"l~2v
+>cl'   >f"l;b.}|}<$"lc
+>bsn'    <_p'"l~2v
+>bsn'  >f"l;b<"$}$<:"lc
+>hn'     u>f'<":"lc<$
+>tpt'    u>mf'<"|"lc<{
+>tpt'    u>mf'<"$"lc}
+>glock'  <.p'"l~2v
+>sd'     8"fv'8fx&&8f
+>bd'     "$u'
+>vln'  `c"<.ov<f"lc<z"lc<y
+>vln'  `c"<"tv<d"lc<)"lc<(
+>vla'    88<"fffffff8f
+>vc'     88<_ddddddd8d
+>db'     <~dxdxdxdx "3
+
+
+
+
+
+                   #F
+     e 
+>ob'    <.o'"l~2v
+>cl'    <.p'"l~2v
+>bsn'   <"o'"l~2v
+>hn'    "q'<_w
+>tpt'   <"t'<$
+>tpt'   "n'<w
+>sd'    88"ffxfvf'8&
+>bd'    "$u'
+>vln'   <"t'}
+>vln'   "q'<:
+>vla'   88<"eeeeeee8e
+>vc' >d'88<~jjjjjjj8j
+>db'    <`jxjxjxjx "3
+
+
+
+
+
+
+
+
+
+
+                   #G
+     f 
+>hn' <"t'|
+>tpt'<.p'?
+>tpt'<"!
+>sd' 88"ffxfvf'8&
+>bd' "$u'
+>vln'.y
+>vln'<"!
+>vla'88"ddddddd8d
+>vc' 88<~iiiiiii8i
+>db' `gxgxgxgx "3
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   #H
+     g 
+>hn'    "=
+>hn'    88"ddxddxd8d
+>hn'    88<_jjxjjxj8j
+>tpt'   <")
+>tpt'   "=
+>tbn'   88<_eexeexe8e
+>tba'   ,8<~w.8t'
+>sd'    8"fx8fv'2fff
+>bd'    "$u'
+>vln'>c'88<"jjxjjxj>3'8"j
+>vln'>c'88"ggxggxg>3'8"g
+>vla'   88<"fffffff8f
+>vc' >c'88<~jjjjjjj8j
+>db'    <`jxjxjxjx "3
+
+
+
+
+
+
+
+
+
+                   #I
+     h 
+>hn' 88"ddxddxd8d
+>hn' 88<_jjxjjxj8j
+>tbn'88_ddxddxd8d
+>tba',8<~{.8s'
+>sd' 8"fu''
+>bd' "$u'
+>vln'u>mp>c"l;b<"!<j<d<e<&g<h>3'<.i"l~2
+>vln'u>mp>c"l;b<_!<j<d<e<&g<h>3'<"i"l~2
+>vla'88<"fffffff8f
+>vc' 88<_ddddddd8d
+>db' `gxgxgxgx "3
+
+
+
+
+
+
+
+
+
+
+
+
+                  #AJ
+     i 
+>fl'   >mf'<.t'}
+>fl'    >mf.q'<:
+>ob'   >mf'88<"eeeeeee8e
+>cl'    >mf.n'"|
+>cl'       88<"fffffff8f
+>bsn'  >mf'<_t'}
+>tbn'      _=
+>tbn'      ,8,8<_www,8w
+>tba'      <~)
+>sd'       v'8"fvff
+>bd'       "$u'
+>vln'  >mf'<.t'}
+>vln'   >mf.q'<:
+>vla'      88<.eeeeeee8e
+>vc' >mf>c'88<_jjjjjjj8j
+>db'       <`jxjxww "3
+
+
+
+
+
+
+
+                  #AA
+     aj 
+>fl'   ;y
+>fl'   .=
+>ob'   88"ddddddd8d
+>ob' >f.q<p
+>cl'   .z
+>cl'   88"ddddddd8d
+>bsn'  "y
+>bsn'>f"q<p
+>hn'   "n<t
+>tpt'  "q<p
+>tbn'  _=
+>tbn'  ,8,8<_www,8w
+>tba'  _y
+>sd'   x88"fxfvf'8&
+>bd'   "$u'
+>vln'  ;y
+>vln'  .=
+>vla'  88.ddddddd8d
+>vc'   88<_jjjjjjj8j
+>db'   ~gxgxgxgx "3
+
+
+
+                  #AB
+       aa 
+>fl'   <;z"lc
+>fl'   <.)"lc
+>ob'   88<"eeeeeee8e
+>ob'   .=
+>cl'   <.&"lc
+>cl'   88<"fffffff8f
+>bsn'  <"z"lc
+>bsn'  "=
+>hn'   "y
+>tpt'  "=
+>tbn'  <_(
+>tbn'  ,8,8<_|||,8|
+>tba'  <_z
+>glock'u<.$<:
+>sd'   8"fx8fv'2fff
+>bd'   "$u'
+>vln'  <;z`c
+>vln'  <.)`c
+>vla'  88<.eeeeeee8e
+>vc'   88<_hhhhhhh8h
+>db'   <~hxhxhxhx "3
+
+
+                  #AC
+       ab 
+>fl'     c<;ov<f"lcz"lc<y
+>fl'     c<.tv<d"lc)"lc<(
+>ob'      88<"fffffff8f
+>ob'      <.r<s
+>cl'     c<.pvg"lc&"lc<z
+>cl'      88"ggggggg8g
+>bsn'    c<"ov<f"lcz"lc<y
+>bsn'     <"r<s
+>hn'      <"o<p
+>tpt'     <"r<s
+>tbn'     <_(
+>tbn'     ,8,8<_|||,8<{
+>tba'     <_&
+>glock'   <.$}"lcq
+>sd'      8"fv'8fx&&8f
+>bd'      "$u'
+>vln'   `c"<;ov<f"lc<z"lc<y
+>vln'   `c"<.tv<d"lc<)"lc<(
+>vla'     88<.fffffff8f
+>vc'   >d'88<"ddddddd8d
+>db'      <~dxdxdxdx "3
+
+
+                  #AD
+     ac 
+>fl' <.t'}
+>fl' .q'<:
+>ob' 88<"eeeeeee8e
+>ob' .=
+>cl' .n'"|
+>cl' 88<"fffffff8f
+>bsn'<_t'}
+>bsn'"=
+>hn' "y
+>tpt'"=
+>tbn'_=
+>tbn',8,8<_www,8w
+>tba'<~)
+>sd' 88"ffxfvf'8&
+>bd' "$u'
+>vln'<.t'}
+>vln'.q'<:
+>vla'88<.eeeeeee8e
+>vc' 88<_jjjjjjj8j
+>db' <`jxjxjxjx "3
+
+
+
+                  #AE
+     ad 
+>fl' ;y
+>fl' .=
+>ob' 88"ddddddd8d
+>cl' .z
+>cl' 88"eeeeeee8e
+>bsn'"y
+>tbn'_=
+>tbn',8,8<_{{{,8{
+>tba'_y
+>sd' 88"ffxfvf'8&
+>bd' "$u'
+>vln';y
+>vln'.=
+>vla'88.ddddddd8d
+>vc' 88<_iiiiiii8i
+>db' ~gxgxgx8} "3
+
+
+
+
+
+
+
+                  #AF
+     ae 
+>fl'      <.)
+>fl'      .=
+>ob'      88<"eeeeeee8e
+>cl'      .y
+>cl'      88<"fffffff8f
+>bsn'     <_)
+>hn' >f>c'88"ggxggxg8g
+>hn' >f>c'88"ddxddxd8d
+>tbn'     <_(
+>tbn'     ,8,8<_www,8w
+>tba'     <_z
+>sd'      8"fx8fv'2fff
+>bd'      "$u'
+>vln'  >d'88<.jjxjjxj8j
+>vln'  >d'88.ggxggxg8g
+>vla'     88<.eeeeeee8e
+>vc'   >c'88<_jjjjjjj8j
+>db'      <`jxjxjxjx
+     af 
+>fl'    <.!<k
+>fl'    <.&<k
+>ob'    88"ddddddd8d<k
+>cl'    <")<k
+                  #AG
+>cl'    88"eeeeeee8e<k
+>bsn'   <_!<k
+>hn'    88<"ffxffxf8f<k
+>hn'    88<_jjxjjxj8j<k
+>tbn'   <_!<k
+>tbn'   ,8,8<_{{{,8{<k
+>tba'   <_&<k
+>sd'    8"fu''<k
+>bd'    "$u'<k
+>vln'>c'88<.iixiixi>3'8.i<k
+>vln'>c'88<.ffxffxf>3'8.f<k
+>vla'   88.ddddddd8d<k
+>vc'    88<_iiiiiii8i<k
+>db'    <~ixixixix<k
+
+
+
+
+
+
+
+
+
+
+                  #AH
