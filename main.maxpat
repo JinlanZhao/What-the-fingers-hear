@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 33.0, 93.0, 1736.0, 953.0 ],
+        "rect": [ 34.0, 96.0, 1660.0, 987.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-82",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 671.5, 179.5, 150.0, 33.0 ],
+                    "text": "NEED TO FIX: doesn't affect by the bar control"
+                }
+            },
             {
                 "box": {
                     "id": "obj-85",
@@ -131,7 +142,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1204.0, 100.0, 163.0, 20.0 ],
+                    "patching_rect": [ 1203.7666528522968, 97.0, 163.0, 20.0 ],
                     "text": "Woodwinds",
                     "textjustification": 1
                 }
@@ -338,7 +349,7 @@
                             "isbase64": 1,
                             "sliderorder": [],
                             "slidervisibility": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-                            "blob": "987.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAk..............PD....v7Cf......PL9.H......HiOWmjL....y7Cf.......M+........TyOe7Gd....13y3u1M...vM.........fyO........47Cf.....XvG+.H.....F.hO6gUb..fAg3ivOxE..XfH+bQKNB..FLB.......fAj3ipptJ..XPI8nhpqJMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIgckU1LP.fDgUmY38TDBPkUCISHKI...vyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh7iOfviUgwFZgwFagYUZtQWXmUlUkImXf.Ga0cVZtYUYxMWZu4VOhHiKw3hLh.BbxU1bkQmSg0VY8HBQkYVX0wFch.RSogWOhDiKvHBHPIWYDUFagkWOh.iKyPCLxLCMyXSNvLSN0LSM0HBHDU1XgkWOh.iKxTSNvfiLvDSNyHSNvbSLh.xTooWY8HBLtPCMyfCM2XSM1HSMh.RPzQWXisVOh.iK0HBHBE1by0TcrQWOh.iKvbCN2.iL2jiL0HSMxjSLzPiHfHTXyMGVuYWYx0iHv3BMzPyMvDSLvTyL0XiLwXCMh.BRocFZSgVYrYVOh.iKvHBHHk1YnYjbkEWOh.iK3HyL0fyL4XCL0LyLwPiLwHBHEElbrkGQoYlY0MWZu4VOh.iK1PiMwjSLzDCNwbCL4HSNh.BSgQWYDklYlU2bo8la8HRLt.iHfzzajIUXzUVOh.iKxPSMzTCM0XCM1jCL0fSN4HBHM8FYDUFbzgVOh.iKybSN4jSN4jSMxLSL1HCNzHBHHk1YnMTcz0iHv3BNvXCM4PSLwXyM3LSLzHSLh.BSuc2P0QWOh.iKwHSM4HyM2LSLyjCM2XyM3HBHC8FauIWSuQVY8HBLtLyLyLyLyLCMyHiM2PCMvfiHfHUY1Ulbh0zajUVOh.iKvPSL1XiM1XyM4.CNzLCLwHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH4LSMh.RcogTYocFZz0iHzLSMh7hO.fUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV..DPAAbP.ID.CA3P.TDvEA3Q.iDPIAnx.BB.......HP..........fA..................Lvh"
+                            "blob": "986.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAk..............PD....v7Cf......PL9.H......HiOWmjL....y7Cf.......M+........TyOe7Gd....13y3u1M...vM.........fyO........47Cf.....XvG+.H.....F.hO6gUb..fAg3ivOxE..XfH+bQKNB..FLB.......fAj3ipptJ..XPI8nhpqJMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIgckU1LP.fDgUmY38TDBLkUCISHJI...vyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh7iOfviUgwFZgwFagYUZtQWXmUlUkImXf.Ga0cVZtYUYxMWZu4VOhHiKw3hLh.BbxU1bkQmSg0VY8HBQkYVX0wFch.RSogWOhDiKvHBHPIWYDUFagkWOh.iKyPCLxLCMyXSNvLSN0LSM0HBHDU1XgkWOh.iKxTSNvfiLvDSNyHSNvbSLh.xTooWY8HBLtPCMyfCM2XSM1HSMh.RPzQWXisVOh.iK0HBHBE1by0TcrQWOh.iK1HyLvLCN2XCN2XCNyDCL0HBHBE1byg0a1Ulb8HBLtPCMzbCLwDCL0LSM1HSL1PiHffTZmg1TnUFal0iHv3BLh.BRocFZFIWYw0iHv3BNxLSM3LSN1.SMyLSLzHSLh.RQgIGa4QTZlYVcyk1at0iHv3hMzXSL4DCMwfSL2.SNxjiHfvTXzUFQoYlY0MWZu4VOhDiKvHBHM8FYREFck0iHv3hLzTCM0PSM1PiM4.SM3jSNh.RSuQFQkAGcn0iHv3xL2jSN4jSN4TiLyDiMxfCMh.BRocFZCUGc8HBLtfCL1PSNzDSL1bCNyDCMxDiHfvza2MTcz0iHv3RLxTSNxbyMyDyL4PyM1bCNh.xPuw1ax0zajUVOh.iKyLyLyLyLyPyLxXyMzPCL3HBHRUlckImXM8FYk0iHv3BLzDiM1XiM1bSNvfCMy.SLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HRNyTiHfTWZHUVZmgFc8HBMyTiHu3C.XUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oE..ATP.GDPBAvP.ND.EAbQ.dDvHATR.pLPf........BD..........X...................CnH"
                         },
                         "snapshotlist": {
                             "current_snapshot": 0,
@@ -362,7 +373,7 @@
                                         "isbase64": 1,
                                         "sliderorder": [],
                                         "slidervisibility": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-                                        "blob": "987.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAk..............PD....v7Cf......PL9.H......HiOWmjL....y7Cf.......M+........TyOe7Gd....13y3u1M...vM.........fyO........47Cf.....XvG+.H.....F.hO6gUb..fAg3ivOxE..XfH+bQKNB..FLB.......fAj3ipptJ..XPI8nhpqJMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIgckU1LP.fDgUmY38TDBPkUCISHKI...vyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh7iOfviUgwFZgwFagYUZtQWXmUlUkImXf.Ga0cVZtYUYxMWZu4VOhHiKw3hLh.BbxU1bkQmSg0VY8HBQkYVX0wFch.RSogWOhDiKvHBHPIWYDUFagkWOh.iKyPCLxLCMyXSNvLSN0LSM0HBHDU1XgkWOh.iKxTSNvfiLvDSNyHSNvbSLh.xTooWY8HBLtPCMyfCM2XSM1HSMh.RPzQWXisVOh.iK0HBHBE1by0TcrQWOh.iKvbCN2.iL2jiL0HSMxjSLzPiHfHTXyMGVuYWYx0iHv3BMzPyMvDSLvTyL0XiLwXCMh.BRocFZSgVYrYVOh.iKvHBHHk1YnYjbkEWOh.iK3HyL0fyL4XCL0LyLwPiLwHBHEElbrkGQoYlY0MWZu4VOh.iK1PiMwjSLzDCNwbCL4HSNh.BSgQWYDklYlU2bo8la8HRLt.iHfzzajIUXzUVOh.iKxPSMzTCM0XCM1jCL0fSN4HBHM8FYDUFbzgVOh.iKybSN4jSN4jSMxLSL1HCNzHBHHk1YnMTcz0iHv3BNvXCM4PSLwXyM3LSLzHSLh.BSuc2P0QWOh.iKwHSM4HyM2LSLyjCM2XyM3HBHC8FauIWSuQVY8HBLtLyLyLyLyLCMyHiM2PCMvfiHfHUY1Ulbh0zajUVOh.iKvPSL1XiM1XyM4.CNzLCLwHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH4LSMh.RcogTYocFZz0iHzLSMh7hO.fUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV..DPAAbP.ID.CA3P.TDvEA3Q.iDPIAnx.BB.......HP..........fA..................Lvh"
+                                        "blob": "986.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAk..............PD....v7Cf......PL9.H......HiOWmjL....y7Cf.......M+........TyOe7Gd....13y3u1M...vM.........fyO........47Cf.....XvG+.H.....F.hO6gUb..fAg3ivOxE..XfH+bQKNB..FLB.......fAj3ipptJ..XPI8nhpqJMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIgckU1LP.fDgUmY38TDBLkUCISHJI...vyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTEUF0BNh7iOfviUgwFZgwFagYUZtQWXmUlUkImXf.Ga0cVZtYUYxMWZu4VOhHiKw3hLh.BbxU1bkQmSg0VY8HBQkYVX0wFch.RSogWOhDiKvHBHPIWYDUFagkWOh.iKyPCLxLCMyXSNvLSN0LSM0HBHDU1XgkWOh.iKxTSNvfiLvDSNyHSNvbSLh.xTooWY8HBLtPCMyfCM2XSM1HSMh.RPzQWXisVOh.iK0HBHBE1by0TcrQWOh.iK1HyLvLCN2XCN2XCNyDCL0HBHBE1byg0a1Ulb8HBLtPCMzbCLwDCL0LSM1HSL1PiHffTZmg1TnUFal0iHv3BLh.BRocFZFIWYw0iHv3BNxLSM3LSN1.SMyLSLzHSLh.RQgIGa4QTZlYVcyk1at0iHv3hMzXSL4DCMwfSL2.SNxjiHfvTXzUFQoYlY0MWZu4VOhDiKvHBHM8FYREFck0iHv3hLzTCM0PSM1PiM4.SM3jSNh.RSuQFQkAGcn0iHv3xL2jSN4jSN4TiLyDiMxfCMh.BRocFZCUGc8HBLtfCL1PSNzDSL1bCNyDCMxDiHfvza2MTcz0iHv3RLxTSNxbyMyDyL4PyM1bCNh.xPuw1ax0zajUVOh.iKyLyLyLyLyPyLxXyMzPCL3HBHRUlckImXM8FYk0iHv3BLzDiM1XiM1bSNvfCMy.SLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HRNyTiHfTWZHUVZmgFc8HBMyTiHu3C.XUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oE..ATP.GDPBAvP.ND.EAbQ.dDvHATR.pLPf........BD..........X...................CnH"
                                     },
                                     "fileref": {
                                         "name": "ValhallaVintageVerb",
