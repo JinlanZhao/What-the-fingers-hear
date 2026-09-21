@@ -1,0 +1,11 @@
+{
+  "source_image": "camera/output/page_02_snapshot_2.jpg",
+  "x_origin": 59.0,
+  "y_origin": 178.0,
+  "cell_width": 23.6,
+  "line_height": 50.6,
+  "columns": 40,
+  "rows": 25,
+  "content_rows": 24,
+  "method": "grid_interactive"
+}

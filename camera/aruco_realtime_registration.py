@@ -19,6 +19,7 @@ Keys:
 import argparse
 import sys
 import time
+from pathlib import Path
 
 import cv2
 import numpy as np
@@ -29,6 +30,12 @@ DICT_ID      = cv2.aruco.DICT_4X4_50
 FRAME_IDS    = [0, 1, 2, 3]   # TL, TR, BR, BL
 OUT_W, OUT_H = 1100, 1700
 SCAN_RANGE   = range(11)       # probe indices 0–10
+
+# Maps ArUco page marker ID → human-readable page number
+PAGE_ID_TO_PAGE = {
+    10: 1,
+    11: 2,
+}
 
 # Inner corner of each frame marker facing the page interior
 # Corners returned by ArUco: [TL=0, TR=1, BR=2, BL=3]
@@ -70,6 +77,16 @@ def get_page_id(id_map):
         if mid not in FRAME_IDS:
             return mid
     return None
+
+
+def page_label(marker_id):
+    """Return display string for a page marker ID, e.g. 'Page 1 (ID 10)'."""
+    if marker_id is None:
+        return "Page: ---"
+    page_num = PAGE_ID_TO_PAGE.get(marker_id)
+    if page_num is not None:
+        return f"Page {page_num} (ID {marker_id})"
+    return f"Page: ? (ID {marker_id})"
 
 
 def compute_locked_homography(calib_buffer):
@@ -145,11 +162,12 @@ def open_camera(idx):
     cap = cv2.VideoCapture(idx, cv2.CAP_AVFOUNDATION)
     if not cap.isOpened():
         return None
-    ok, _ = cap.read()
-    if not ok:
-        cap.release()
-        return None
-    return cap
+    for _ in range(10):
+        ok, _ = cap.read()
+        if ok:
+            return cap
+    cap.release()
+    return None
 
 # ── display helpers ───────────────────────────────────────────────────────────
 
@@ -187,9 +205,6 @@ def draw_overlay(frame, id_map, fps,
         cv2.polylines(out, [quad], isClosed=True, color=(0, 255, 0), thickness=2)
 
     # Status strings
-    page_label = f"Page {confirmed_page_id}" if confirmed_page_id is not None \
-                 else "Page: ---"
-
     if state == WAITING_FOR_PAGE:
         state_str   = f"WAITING FOR PAGE  ({page_streak}/{PAGE_CONFIRM_FRAMES})"
         state_color = (0, 160, 255)
@@ -208,7 +223,7 @@ def draw_overlay(frame, id_map, fps,
                     else f"Frame 0-3: LOST  missing={missing_frame}"
 
     lines = [
-        (page_label,                  (200, 200, 200)),
+        (page_label(confirmed_page_id), (200, 200, 200)),
         (state_str,                   state_color),
         (f"IDs: {detected_ids}",      (200, 200, 200)),
         (frame_str,                   frame_color),
@@ -225,6 +240,9 @@ def draw_overlay(frame, id_map, fps,
 
 def run_realtime(cap, camera_idx):
     detector = make_detector()
+
+    out_dir = Path(__file__).parent / "output"
+    out_dir.mkdir(exist_ok=True)
 
     # Placeholder shown when locked_H is not available
     blank = np.full((OUT_H, OUT_W, 3), 30, dtype=np.uint8)
@@ -289,7 +307,7 @@ def run_realtime(cap, camera_idx):
                     calib_buffer      = []
                     page_streak       = 0
                     state             = CALIBRATING
-                    print(f"  Page {confirmed_page_id} confirmed → CALIBRATING")
+                    print(f"  {page_label(confirmed_page_id)} confirmed → CALIBRATING")
             else:
                 page_streak = 0
 
@@ -306,6 +324,12 @@ def run_realtime(cap, camera_idx):
                 diff_page_streak = 0
                 print(f"  Homography locked — page {confirmed_page_id}  "
                       f"(calibration #{recal_count})")
+                # Save one rectified snapshot on lock
+                snapshot     = cv2.warpPerspective(frame, locked_H, (OUT_W, OUT_H))
+                page_num     = PAGE_ID_TO_PAGE.get(confirmed_page_id, confirmed_page_id)
+                snap_path    = out_dir / f"page_{page_num:02d}_snapshot_{recal_count}.jpg"
+                cv2.imwrite(str(snap_path), snapshot)
+                print(f"  Snapshot saved → {snap_path}")
 
         elif state == LOCKED:
             # Watch for a different page ID appearing consistently
@@ -318,7 +342,7 @@ def run_realtime(cap, camera_idx):
                     calib_buffer      = []
                     diff_page_streak  = 0
                     state             = CALIBRATING
-                    print(f"  New page {confirmed_page_id} detected → recalibrating")
+                    print(f"  {page_label(confirmed_page_id)} detected → recalibrating")
             else:
                 # Same page or page temporarily absent — keep locked homography
                 diff_page_streak = 0
