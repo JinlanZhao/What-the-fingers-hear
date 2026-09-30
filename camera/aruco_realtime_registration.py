@@ -32,10 +32,8 @@ OUT_W, OUT_H = 1100, 1700
 SCAN_RANGE   = range(11)       # probe indices 0–10
 
 # Maps ArUco page marker ID → human-readable page number
-PAGE_ID_TO_PAGE = {
-    10: 1,
-    11: 2,
-}
+# Formula: ID = page_number + 9  →  pages 1–18 use IDs 10–27
+PAGE_ID_TO_PAGE = {9 + n: n for n in range(1, 19)}
 
 # Inner corner of each frame marker facing the page interior
 # Corners returned by ArUco: [TL=0, TR=1, BR=2, BL=3]
