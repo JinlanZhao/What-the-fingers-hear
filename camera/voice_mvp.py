@@ -30,6 +30,7 @@ OSC output  (127.0.0.1:7400)
 """
 
 import argparse
+import subprocess
 import sys
 import threading
 from pathlib import Path
@@ -45,13 +46,31 @@ from osc_cmd import (
     ValidationError,
     send_play_stems, send_play_all, send_stop,
 )
-from voice_parser import parse_command
+from llm_parser import parse_command as _llm_parse
 from pythonosc.udp_client import SimpleUDPClient
 
 SAMPLE_RATE = 16_000          # Hz — Whisper's expected input rate
 MIN_DURATION = 0.4            # seconds — shorter recordings are discarded
 
+# Whisper initial_prompt — biases the model toward performance vocabulary,
+# which reduces transcription errors like "Trump at 1" for "trumpet one".
+_WHISPER_PROMPT = (
+    "Commands: play violin one, play violin two, play trumpet one, "
+    "play trumpet two, play flute one, play flute two, play clarinet one, "
+    "play oboe one, play horn one, play french horn two, play cello, "
+    "play viola, play trombone one, play tuba, play bassoon one, "
+    "play glockenspiel, play bass drum, play snare, play double bass, "
+    "play full mix, play measures five through eight, stop."
+)
+
 _SERIAL_BAUD_DEFAULT = 115200
+
+
+# ── TTS ───────────────────────────────────────────────────────────────────────
+
+def _speak(text: str) -> None:
+    """Speak text via macOS say (blocking)."""
+    subprocess.run(["say", text])
 
 
 # ── audio recording ───────────────────────────────────────────────────────────
@@ -79,8 +98,9 @@ def _transcribe(audio: np.ndarray, model) -> str:
     """Run Whisper on a mono float32 array. Returns empty string if too short."""
     if len(audio) < SAMPLE_RATE * MIN_DURATION:
         return ""
-    result = model.transcribe(audio, language="en", fp16=False)
-    return result["text"].strip()
+    result = model.transcribe(audio, language="en", fp16=False,
+                              initial_prompt=_WHISPER_PROMPT)
+    return result["text"].strip().rstrip(" .,")  # strip trailing punctuation artifacts
 
 
 # ── OSC dispatch ──────────────────────────────────────────────────────────────
@@ -132,6 +152,8 @@ class Controller:
         self._state = self.IDLE
         self._stop_evt: threading.Event | None = None
         self._request_id = 0
+        self._last_start: int | None = None   # start of last successfully dispatched command
+        self._pending: dict | None = None     # {"anchor": int|None, "question": str} when awaiting clarification
 
     # ── anchor ───────────────────────────────────────────────────────────
 
@@ -144,6 +166,27 @@ class Controller:
         with self._lock:
             self._anchor = n
         print(f"\n  anchor_measure → {n}")
+
+    def _get_anchor(self) -> int | None:
+        """
+        Return the current measure to anchor on.
+
+        Priority:
+          1. Live value from camera (shared_state.read_measure) — updated by
+             finger_measure_test.py whenever the fingertip moves to a new measure
+             or leaves the frame (→ None).
+          2. Manual fallback: self._anchor set via --anchor or digit keys.
+
+        Returns None if neither source has a value — caller should warn the user.
+        """
+        try:
+            from shared_state import read_measure
+            live = read_measure()
+            if live is not None:
+                return live
+        except Exception:
+            pass
+        return self._anchor
 
     def print_status(self) -> None:
         a = self.anchor
@@ -162,12 +205,19 @@ class Controller:
                 print("  (busy — processing, ignoring RECORD_START)")
                 return
             # IDLE → RECORDING
-            anchor = self._anchor
             self._request_id += 1
             rid = self._request_id
             evt = threading.Event()
             self._stop_evt = evt
             self._state = self.RECORDING
+            pending = self._pending   # capture under lock
+
+        # If awaiting clarification, preserve original anchor; otherwise read live.
+        if pending is not None:
+            anchor = pending["anchor"]
+        else:
+            anchor = self._get_anchor()
+        last_start = self._last_start
 
         # Stop any active playback before opening the microphone.
         try:
@@ -175,10 +225,11 @@ class Controller:
         except ValidationError:
             pass
 
-        print(f"\n  [REC ▶]  anchor frozen = {anchor}")
+        label = "(clarification) " if pending is not None else ""
+        print(f"\n  [REC ▶]  {label}anchor frozen = {anchor}")
         threading.Thread(
             target=self._run_recording,
-            args=(evt, anchor, rid),
+            args=(evt, anchor, rid, last_start),
             daemon=True,
             name=f"recording-{rid}",
         ).start()
@@ -206,6 +257,7 @@ class Controller:
                 self._stop_evt.set()
                 self._stop_evt = None
             self._state = self.IDLE
+            self._pending = None           # cancel any pending clarification
 
         try:
             send_stop(self._client)
@@ -220,15 +272,17 @@ class Controller:
             print("\n  [STOP]  /stop sent")
 
     def on_play(self) -> None:
-        """PLAY pressed — play Full Mix from current anchor to measure 16."""
+        """PLAY pressed — play Full Mix from current measure to measure 16."""
         with self._lock:
             if self._state != self.IDLE:
                 print(f"  (busy — {self._state}, ignoring PLAY)")
                 return
-            anchor = self._anchor
+
+        # Read anchor outside the lock (file I/O).
+        anchor = self._get_anchor()
 
         if anchor is None:
-            print("  (no anchor — use --anchor N or digit keys 1–9)")
+            print("  (no measure — point at a measure or use --anchor N)")
             return
 
         try:
@@ -239,7 +293,8 @@ class Controller:
     # ── background recording + ASR thread ────────────────────────────────
 
     def _run_recording(self, stop_evt: threading.Event,
-                       anchor: int | None, rid: int) -> None:
+                       anchor: int | None, rid: int,
+                       last_start: int | None = None) -> None:
         """
         Record until stop_evt, then run ASR → parse → OSC dispatch.
         Checks request_id at every checkpoint; returns without dispatching
@@ -277,11 +332,31 @@ class Controller:
                     self._state = self.IDLE
             return
 
+        # Get pending clarification context (thread-safe read).
+        with self._lock:
+            pending = self._pending
+
         print(f"  Transcript: {text!r}")
-        cmd = parse_command(text, anchor)
+        cmd, feedback = _llm_parse(
+            text, anchor,
+            last_start=last_start,
+            pending_question=pending["question"] if pending else None,
+        )
+
+        if feedback:
+            print(f"  [Voice] {feedback}")
+            if cmd is None:
+                # Clarification question or error — user needs to hear this.
+                _speak(feedback)
+            # Execute confirmations: print only, no TTS.
+
+        # Update pending clarification state.
+        is_clarify = cmd is None and feedback is not None and "?" in feedback
+        with self._lock:
+            if self._request_id == rid:
+                self._pending = {"anchor": anchor, "question": feedback} if is_clarify else None
 
         if cmd is None:
-            print("  Unrecognised — no OSC sent")
             with self._lock:
                 if self._request_id == rid:
                     self._state = self.IDLE
@@ -295,6 +370,8 @@ class Controller:
             self._state = self.IDLE
 
         _dispatch(cmd, self._client)
+        if cmd["cmd"] in ("play_stems", "play_all"):
+            self._last_start = cmd["start"]
 
 
 # ── Serial listener ───────────────────────────────────────────────────────────
@@ -446,9 +523,25 @@ def main() -> None:
         dev_name = sd.query_devices(args.device)["name"]
         print(f"Input device: [{args.device}] {dev_name}")
     else:
-        dev_info = sd.query_devices(kind="input")
-        print(f"Input device: [{dev_info['index']}] {dev_info['name']}  "
-              f"(use --device to change)")
+        input_devices = [
+            (i, d) for i, d in enumerate(sd.query_devices())
+            if d["max_input_channels"] > 0
+        ]
+        print("Input devices:")
+        for i, d in input_devices:
+            default = " ← default" if i == sd.default.device[0] else ""
+            print(f"  [{i}] {d['name']}{default}")
+        valid_indices = {i for i, _ in input_devices}
+        while True:
+            raw = input("Select device index: ").strip()
+            try:
+                idx = int(raw)
+                if idx in valid_indices:
+                    args.device = idx
+                    break
+            except ValueError:
+                pass
+            print(f"  Enter a number from the list above.")
 
     run(args.anchor, args.model,
         device=args.device,

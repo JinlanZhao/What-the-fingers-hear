@@ -29,6 +29,8 @@ _WORD_NUM: dict[str, int] = {
     "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
     "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13,
     "fourteen": 14, "fifteen": 15, "sixteen": 16,
+    # ASR variations for "one"
+    "once": 1, "won": 1,
 }
 
 
@@ -191,6 +193,10 @@ def parse_command(
     tracks = extract_tracks(rest)
 
     if not tracks:
+        # "play full mix" / "play everything" → Full Mix, no anchor required
+        if re.search(r"\b(full\s+mix|full\s+score|everything)\b", rest, re.IGNORECASE):
+            m_start = anchor_measure if anchor_measure is not None else 1
+            return {"cmd": "play_all", "start": m_start, "end": 16}
         # "play measures N through M" with no instruments stated
         if start is not None:
             return {"cmd": "play_all", "start": start, "end": end}

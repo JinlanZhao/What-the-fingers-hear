@@ -156,6 +156,39 @@ eq(parse_command("hello", None),         None, "cmd: random phrase → None")
 eq(parse_command("play", None),          None, "cmd: bare 'play' → None")
 eq(parse_command("play piano", 1),       None, "cmd: unknown instrument → None")
 
+# ── parse_command: "play full mix" ───────────────────────────────────────────
+# "play full mix" maps to play_all, anchor not required.
+
+eq(parse_command("Play full mix.", None),
+   {"cmd": "play_all", "start": 1, "end": 16},
+   "cmd: play full mix, no anchor → start=1")
+
+eq(parse_command("Play full mix.", 7),
+   {"cmd": "play_all", "start": 7, "end": 16},
+   "cmd: play full mix, anchor=7 → start=7")
+
+eq(parse_command("Play everything.", None),
+   {"cmd": "play_all", "start": 1, "end": 16},
+   "cmd: play everything → play_all from 1")
+
+# ── parse_command: ASR number variations ("once", "won") ─────────────────────
+
+eq(parse_command("Play violin once.", 5),
+   {"cmd": "play_stems", "start": 5, "end": 16, "tracks": ["vln1"]},
+   "cmd: 'once' ASR variation → vln1")
+
+eq(parse_command("Play violin won.", 5),
+   {"cmd": "play_stems", "start": 5, "end": 16, "tracks": ["vln1"]},
+   "cmd: 'won' ASR variation → vln1")
+
+# ── parse_command: anchor=None for stem commands ─────────────────────────────
+
+eq(parse_command("play violin one", None), None,
+   "cmd: stem command, anchor=None → None (anchor required)")
+
+eq(parse_command("play trumpet one", None), None,
+   "cmd: trumpet, anchor=None → None")
+
 # ── summary ───────────────────────────────────────────────────────────────────
 
 print(f"\n{'='*40}")

@@ -48,11 +48,12 @@ flowchart TD
     C --> D[Python state manager]
     E[Record trigger] --> F[Voice recorder]
     F --> G[ASR]
-    G --> H[Command parser]
+    G --> H[LLM Parser]
     D --> H
-    H --> I[Command validator]
-    I -->|Valid| J[TTS confirmation]
-    I -->|Missing or ambiguous| K[Clarification]
+    H --> I[Python Validator]
+    I -->|Valid — feedback text from LLM| J[TTS confirmation]
+    I -->|Clarification needed — question from LLM| K[Clarification]
+    I -->|Validation error — hard-coded message| J
     K --> F
     J --> L[OSC sender]
     L --> M[Max command handler]
@@ -125,27 +126,49 @@ The ASR module only produces text. It does not select Track IDs or send commands
 
 ### 4.4 Command parsing
 
-The deterministic Command Parser converts the transcript and current system state into a structured command.
+The LLM Parser converts the transcript and current system state into a structured command **and** a feedback text string in a single inference call. No separate response-generation model is needed.
 
-Example:
+Example output:
 
 ```json
 {
-  "action": "play_stems",
+  "status": "execute",
+  "cmd": "play_stems",
   "tracks": ["fl1", "vln1"],
-  "start_measure": 5,
-  "end_measure": 16
+  "start": 5,
+  "end": 16,
+  "feedback_text": "Playing flute one and violin one from measure five.",
+  "clarification_question": null
 }
 ```
 
-The parser is responsible for:
+Clarification output:
+
+```json
+{
+  "status": "clarify",
+  "cmd": null,
+  "tracks": [],
+  "start": null,
+  "end": null,
+  "feedback_text": null,
+  "clarification_question": "Flute one, flute two, or both?"
+}
+```
+
+The LLM parser is responsible for:
 
 - identifying the requested action;
 - resolving spoken instrument names to Track IDs;
 - detecting explicit Measure numbers and ranges;
 - applying the default start and end rules;
 - resolving commands such as `same selection` and `same selection again`;
-- marking missing or ambiguous information instead of guessing.
+- marking missing or ambiguous information as `clarify` instead of guessing;
+- generating the feedback text that matches the resolved command.
+
+The LLM receives the known track list and valid measure range in the system prompt and is expected to self-validate before producing output. A Python Validator checks the output as a safety net; validation failures use hard-coded error messages rather than a second LLM call.
+
+**Model selection (see D29):** GPT-4o-mini (OpenAI API) during development for guaranteed JSON Schema compliance. Qwen2.5:7b via local Ollama for deployment.
 
 ### 4.5 Validation and clarification
 
@@ -233,7 +256,7 @@ All requested Stems use the existing shared signal-rate playhead and therefore r
 | State Manager | Measure updates, Record events, successful commands | Anchors and prior-command state | Maintains current position, frozen request position, previous selection, and previous range |
 | Record Controller | Keyboard, UI, or future Button event | Audio recording session | Starts and stops capture; freezes `anchor_measure` at recording start |
 | ASR | Recorded audio | Transcript | Converts speech into text |
-| Command Parser | Transcript and state | Structured command candidate | Resolves actions, instruments, Measures, ranges, and repeat commands |
+| LLM Parser | Transcript, system state, and dialogue context | Structured command candidate + feedback text string (single LLM call) | Resolves actions, instruments, Measures, ranges, and repeat commands; generates confirmation or clarification text; marks unresolved information instead of guessing |
 | Command Validator | Structured command candidate and score metadata | Validated command or clarification need | Prevents incomplete, unsupported, or out-of-range commands from reaching Max |
 | Clarification Manager | Validation error | Spoken follow-up prompt | Requests only the missing or ambiguous information |
 | TTS | Confirmation or clarification text | Spoken feedback | Provides nonvisual confirmation and error recovery |
@@ -492,18 +515,20 @@ Required tests:
 - Stop during playback;
 - Dry stop with continuing Reverb tail.
 
-### Phase C — Voice input
+### Phase C — Voice input and LLM parser
 
 1. Add temporary keyboard-triggered recording.
 2. Freeze `anchor_measure` at recording start.
 3. Run ASR and collect latency and transcription results.
-4. Feed transcripts to the deterministic parser.
+4. Feed transcripts to the LLM parser (GPT-4o-mini); print feedback text to terminal.
+5. Verify structured output schema compliance via Python Validator.
+6. When prompt and schema are stable, switch LLM endpoint to Qwen2.5:7b local Ollama.
 
 ### Phase D — Validation, clarification, and TTS
 
-1. Validate every structured command.
-2. Add targeted clarification prompts.
-3. Add nonvisual confirmation before execution.
+1. Python Validator checks every structured command from LLM output.
+2. Clarification multi-turn dialogue: LLM generates question text; Python preserves anchor and pending request across turns.
+3. Connect confirmed feedback text and clarification questions to TTS (TTS implemented separately from LLM parser per D30).
 4. Update prior-command state only after successful execution.
 
 ### Phase E — Full integration

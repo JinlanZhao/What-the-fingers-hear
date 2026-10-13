@@ -51,6 +51,7 @@ from pythonosc.udp_client import SimpleUDPClient
 
 # ── import shared registration code (camera/aruco_realtime_registration.py) ───
 sys.path.insert(0, str(Path(__file__).parent))
+from shared_state import write_measure      # noqa: E402
 from aruco_realtime_registration import (   # noqa: E402
     make_detector,
     get_page_id,
@@ -279,6 +280,7 @@ def run(cap, camera_idx: int):
     last_pointed_measure: int | None = None  # last measure seen under Pointing_Up
     gesture_being_held:  str | None = None  # gesture currently accumulating dwell
     gesture_dwell_count: int        = 0     # consecutive frames of gesture_being_held
+    _prev_shared_measure: int | None = None  # last value written to shared_state
 
     fps    = 0.0
     t_prev = time.perf_counter()
@@ -386,6 +388,16 @@ def run(cap, camera_idx: int):
         elif not mp_result.hand_landmarks:
             last_pointed_measure = None   # hand left frame
 
+        # Write to shared state when measure changes.
+        # Hold last valid measure even when hand leaves frame — the user needs
+        # to lift their hand to press a physical button, so clearing on leave
+        # would wipe the measure before the button press arrives.
+        # State is only cleared explicitly on camera exit.
+        if region is not None and region["measure"] != _prev_shared_measure:
+            write_measure(region["measure"])
+            _prev_shared_measure = region["measure"]
+            print(f"  current_measure → {region['measure']}")
+
         # ── resolve effective gesture ─────────────────────────────────────────
         # Both triggers use the GestureRecognizer model output directly:
         #   Closed_Fist → play from last_pointed_measure
@@ -434,6 +446,7 @@ def run(cap, camera_idx: int):
         cv2.imshow("Canonical Page", scale_for_display(canon_disp))
 
     cap.release()
+    write_measure(None)   # clear shared state on exit
     recognizer.close()
     cv2.destroyAllWindows()
 

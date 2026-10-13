@@ -1,6 +1,6 @@
 # Braille Score — Interaction Decisions and Voice Architecture
 
-**Updated:** September 30, 2026 (America/New_York)  
+**Updated:** October 12, 2026 (America/New_York)  
 **Basis:** The design discussion in this conversation, the existing Design Review, and the current playback/camera progress reports.  
 **Status:** Specification for the next prototype. Design choices below are not evidence of completed implementation or measured performance.
 
@@ -36,6 +36,11 @@ The following records the user's decisions and requirements from the discussion.
 | D24 | Support measure awareness and Instrument/Part inventory information through Voice feedback: selected position, playback position, available Parts/counts, and activity at the selected location. |
 | D25 | Latency means the waiting time after the user finishes the command until music is heard; the user's speaking/thinking duration is not the processing delay of interest. |
 | D26 | The existing decisions are sufficient for the first prototype. Routine implementation details should use consistent defaults and testing rather than a long sequence of additional design questions. |
+| D27 | The LLM parser and feedback text generation are a single LLM layer. One call receives the ASR transcript and system state, and outputs both a structured command and a feedback text string simultaneously. No separate response-generation model is needed. |
+| D28 | When the Python Validator rejects LLM output, the system responds with a hard-coded error message rather than a second LLM call. The LLM is expected to self-validate against the known track list and measure range in the system prompt; the Python Validator is a safety net for edge cases only. |
+| D29 | GPT-4o-mini (OpenAI API) is the development model for the LLM parser. Once the prompt and output schema are stable, the deployment target is Qwen2.5:7b via local Ollama. The model swap requires no prompt changes. Selection basis: GPT-4o-mini provides guaranteed JSON Schema output, enabling faster prompt iteration; Qwen2.5:7b provides equivalent quality offline with acceptable latency on Apple Silicon. |
+| D30 | LLM parser and TTS are implemented in separate phases. Phase 1: LLM parser with terminal-printed feedback text, no audio. Phase 2: connect confirmed feedback text to TTS after parser output is verified end-to-end. |
+| D31 | Clarification multi-turn dialogue is in scope. The system is used for rehearsal and preparation, not live performance; interactive back-and-forth is appropriate and expected. |
 
 Architecture and implementation defaults are separated below from these interaction decisions. In particular, candidate models, exact response wording, and optional features have not become confirmed requirements simply because they were discussed.
 
@@ -248,7 +253,7 @@ An intelligible but incorrect ASR transcript can still produce a valid wrong sel
 |---|---|---|
 | ASR | Parakeet TDT 0.6B v3 through community `parakeet-mlx` for Apple Silicon. Its documented language set includes English, not Chinese. | Candidate; not installed/tested on the user's Mac in this conversation. Supported input language must match the chosen ASR. |
 | ASR alternative | Whisper/`mlx-whisper`; multilingual Whisper can be considered if Chinese input is needed. | Discussed, not final selection. |
-| LLM Parser | A local pretrained model such as Qwen through Ollama with Structured outputs, or a hosted LLM API. | Final model, size, and runtime not selected. Test natural commands before committing. |
+| LLM Parser | Single LLM layer: one call outputs both a structured command and a feedback text string. Development model: GPT-4o-mini via OpenAI API (JSON Schema output guaranteed). Deployment model: Qwen2.5:7b via local Ollama. Model swap requires no prompt changes. See D27–D29. | Development model selected. Prompt and output schema design pending. |
 | Dedicated NLU | Rasa DIET for Intent classification and Entity extraction, requiring domain examples/labels. | Discussed alternative; not the starting approach for free phrasing/self-correction. |
 | Decision layer | Ordinary Python state/validation module. | Initial implementation direction. No extra model needed for metadata lookup, range checks, or cancellation. |
 | Optional decision model | TypeSafe AI Jev, a System One model returning typed choices/probabilities. | Researched but not adopted; avoid an additional model/network call without a demonstrated need. |
