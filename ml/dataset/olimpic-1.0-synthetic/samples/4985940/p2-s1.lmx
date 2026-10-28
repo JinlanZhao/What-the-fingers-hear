@@ -1,0 +1,1 @@
+measure key:fifths:-2 clef:G2 staff:1 clef:F4 staff:2 C4 voice:1 quarter stem:up staff:1 chord F4 quarter F4 eighth beam:begin E4 eighth natural beam:end backup half print-object:no rest voice:2 quarter staff:1 B3 quarter stem:down chord C4 quarter backup half A2 voice:5 quarter stem:up staff:2 G2 eighth beam:begin C3 eighth beam:end

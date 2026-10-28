@@ -1,0 +1,7986 @@
+[
+  {
+    "sample_id": "samples/6404150/p8-s2",
+    "error_position": 6,
+    "replacement_token": "B2",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6456450/p6-s3",
+    "error_position": 176,
+    "replacement_token": "B4",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6202660/p2-s1",
+    "error_position": 209,
+    "replacement_token": "C7",
+    "target_token": "D5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p1-s2",
+    "error_position": 80,
+    "replacement_token": "B1",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6141796/p2-s3",
+    "error_position": 225,
+    "replacement_token": "F3",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5661740/p6-s4",
+    "error_position": 157,
+    "replacement_token": "D5",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5026077/p1-s4",
+    "error_position": 178,
+    "replacement_token": "A0",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4945954/p1-s4",
+    "error_position": 128,
+    "replacement_token": "F5",
+    "target_token": "A2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p5-s2",
+    "error_position": 84,
+    "replacement_token": "E7",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6636042/p6-s1",
+    "error_position": 88,
+    "replacement_token": "C4",
+    "target_token": "F2",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "F4",
+      "E4",
+      "B3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985973/p1-s2",
+    "error_position": 18,
+    "replacement_token": "F1",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6645396/p5-s2",
+    "error_position": 69,
+    "replacement_token": "B3",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5023603/p4-s3",
+    "error_position": 27,
+    "replacement_token": "C4",
+    "target_token": "E4",
+    "predicted_token": "E4",
+    "correct": true,
+    "top5_candidates": [
+      "E4",
+      "F4",
+      "G4",
+      "D4",
+      "B3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6491377/p1-s2",
+    "error_position": 70,
+    "replacement_token": "A7",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6421815/p6-s3",
+    "error_position": 62,
+    "replacement_token": "G4",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p7-s3",
+    "error_position": 242,
+    "replacement_token": "C1",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6425381/p1-s2",
+    "error_position": 50,
+    "replacement_token": "F6",
+    "target_token": "A3",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "B3",
+      "D4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5661740/p6-s2",
+    "error_position": 44,
+    "replacement_token": "A1",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5187781/p1-s3",
+    "error_position": 352,
+    "replacement_token": "A5",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p2-s3",
+    "error_position": 84,
+    "replacement_token": "C1",
+    "target_token": "E2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p3-s5",
+    "error_position": 136,
+    "replacement_token": "F1",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6001354/p3-s1",
+    "error_position": 148,
+    "replacement_token": "E3",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5079442/p4-s4",
+    "error_position": 263,
+    "replacement_token": "A2",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6412767/p3-s2",
+    "error_position": 52,
+    "replacement_token": "A5",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098715/p2-s4",
+    "error_position": 130,
+    "replacement_token": "C5",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "E4",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6589315/p2-s3",
+    "error_position": 296,
+    "replacement_token": "G2",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5661740/p4-s1",
+    "error_position": 46,
+    "replacement_token": "E5",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6415075/p3-s4",
+    "error_position": 81,
+    "replacement_token": "G5",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098715/p5-s5",
+    "error_position": 22,
+    "replacement_token": "D1",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5077675/p1-s3",
+    "error_position": 141,
+    "replacement_token": "G0",
+    "target_token": "C4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "C4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6421815/p4-s2",
+    "error_position": 60,
+    "replacement_token": "A5",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6085883/p1-s1",
+    "error_position": 264,
+    "replacement_token": "F2",
+    "target_token": "B3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "F4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p2-s1",
+    "error_position": 23,
+    "replacement_token": "G5",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p5-s3",
+    "error_position": 72,
+    "replacement_token": "B1",
+    "target_token": "E2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985973/p1-s3",
+    "error_position": 77,
+    "replacement_token": "E3",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6421815/p5-s3",
+    "error_position": 79,
+    "replacement_token": "C4",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "E4",
+      "B3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6629643/p3-s4",
+    "error_position": 164,
+    "replacement_token": "C2",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6425381/p2-s2",
+    "error_position": 19,
+    "replacement_token": "D3",
+    "target_token": "E4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "B3",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6230261/p4-s4",
+    "error_position": 35,
+    "replacement_token": "F4",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6412767/p5-s1",
+    "error_position": 133,
+    "replacement_token": "F3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p3-s1",
+    "error_position": 188,
+    "replacement_token": "E7",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5100073/p1-s1",
+    "error_position": 98,
+    "replacement_token": "C6",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p4-s1",
+    "error_position": 14,
+    "replacement_token": "B2",
+    "target_token": "A5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6230261/p3-s2",
+    "error_position": 70,
+    "replacement_token": "B3",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6196782/p3-s4",
+    "error_position": 241,
+    "replacement_token": "C7",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6189628/p1-s2",
+    "error_position": 24,
+    "replacement_token": "G3",
+    "target_token": "A2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p1-s4",
+    "error_position": 181,
+    "replacement_token": "D7",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6629643/p1-s1",
+    "error_position": 16,
+    "replacement_token": "D2",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5067692/p1-s3",
+    "error_position": 196,
+    "replacement_token": "C4",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "E4",
+      "F4",
+      "B3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6757520/p4-s2",
+    "error_position": 87,
+    "replacement_token": "B2",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "C4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5187781/p3-s4",
+    "error_position": 110,
+    "replacement_token": "B4",
+    "target_token": "E3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p3-s1",
+    "error_position": 135,
+    "replacement_token": "E7",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4985990/p5-s5",
+    "error_position": 344,
+    "replacement_token": "E5",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6581327/p6-s3",
+    "error_position": 122,
+    "replacement_token": "C6",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6641170/p2-s2",
+    "error_position": 57,
+    "replacement_token": "F5",
+    "target_token": "C5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6196782/p1-s2",
+    "error_position": 87,
+    "replacement_token": "C5",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "C4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5071629/p1-s4",
+    "error_position": 113,
+    "replacement_token": "E3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5187781/p3-s3",
+    "error_position": 41,
+    "replacement_token": "C3",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6636042/p3-s1",
+    "error_position": 86,
+    "replacement_token": "A7",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6210961/p2-s1",
+    "error_position": 138,
+    "replacement_token": "G0",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5987851/p2-s1",
+    "error_position": 197,
+    "replacement_token": "A7",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5987851/p3-s2",
+    "error_position": 202,
+    "replacement_token": "A2",
+    "target_token": "D3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6753337/p3-s3",
+    "error_position": 17,
+    "replacement_token": "C3",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p1-s4",
+    "error_position": 52,
+    "replacement_token": "B6",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p6-s4",
+    "error_position": 112,
+    "replacement_token": "A0",
+    "target_token": "F2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6189628/p3-s2",
+    "error_position": 226,
+    "replacement_token": "F2",
+    "target_token": "F1",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "E4",
+      "D4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6589315/p2-s5",
+    "error_position": 28,
+    "replacement_token": "G4",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "G4",
+      "B3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5067692/p2-s3",
+    "error_position": 236,
+    "replacement_token": "A3",
+    "target_token": "B5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474359/p5-s3",
+    "error_position": 23,
+    "replacement_token": "E1",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p4-s4",
+    "error_position": 105,
+    "replacement_token": "A7",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4985990/p4-s4",
+    "error_position": 142,
+    "replacement_token": "G0",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6629763/p2-s1",
+    "error_position": 36,
+    "replacement_token": "A3",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5986599/p4-s3",
+    "error_position": 232,
+    "replacement_token": "G1",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6230261/p4-s1",
+    "error_position": 167,
+    "replacement_token": "G5",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5015499/p2-s3",
+    "error_position": 254,
+    "replacement_token": "D5",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098678/p1-s3",
+    "error_position": 200,
+    "replacement_token": "A6",
+    "target_token": "A3",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6654137/p2-s4",
+    "error_position": 161,
+    "replacement_token": "C1",
+    "target_token": "B5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p5-s2",
+    "error_position": 46,
+    "replacement_token": "C2",
+    "target_token": "F1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "A3",
+      "B3",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5069066/p1-s4",
+    "error_position": 19,
+    "replacement_token": "D6",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "C4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p7-s2",
+    "error_position": 37,
+    "replacement_token": "G7",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "C4",
+      "D4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6085883/p1-s2",
+    "error_position": 69,
+    "replacement_token": "C5",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G3",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5986599/p3-s2",
+    "error_position": 250,
+    "replacement_token": "F4",
+    "target_token": "B3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6197282/p2-s3",
+    "error_position": 265,
+    "replacement_token": "E6",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "G3",
+      "B3",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6409323/p5-s2",
+    "error_position": 89,
+    "replacement_token": "F7",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6572043/p2-s3",
+    "error_position": 229,
+    "replacement_token": "A6",
+    "target_token": "A3",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6010916/p4-s1",
+    "error_position": 71,
+    "replacement_token": "C5",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5015499/p2-s1",
+    "error_position": 151,
+    "replacement_token": "C7",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098732/p1-s1",
+    "error_position": 249,
+    "replacement_token": "E2",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5862368/p6-s4",
+    "error_position": 132,
+    "replacement_token": "A5",
+    "target_token": "C4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p1-s2",
+    "error_position": 230,
+    "replacement_token": "F6",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6210961/p3-s4",
+    "error_position": 108,
+    "replacement_token": "A3",
+    "target_token": "E3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5652250/p1-s3",
+    "error_position": 107,
+    "replacement_token": "A6",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p3-s3",
+    "error_position": 182,
+    "replacement_token": "C4",
+    "target_token": "B4",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "D4",
+      "B3",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6425381/p4-s3",
+    "error_position": 60,
+    "replacement_token": "D6",
+    "target_token": "D5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474359/p9-s4",
+    "error_position": 160,
+    "replacement_token": "B2",
+    "target_token": "G2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p1-s3",
+    "error_position": 172,
+    "replacement_token": "E4",
+    "target_token": "D2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6505088/p4-s2",
+    "error_position": 238,
+    "replacement_token": "A5",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6011095/p5-s1",
+    "error_position": 240,
+    "replacement_token": "G4",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5935864/p6-s1",
+    "error_position": 84,
+    "replacement_token": "A1",
+    "target_token": "F5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985990/p3-s4",
+    "error_position": 263,
+    "replacement_token": "C1",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p5-s2",
+    "error_position": 190,
+    "replacement_token": "A1",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6264558/p5-s2",
+    "error_position": 70,
+    "replacement_token": "C5",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6583512/p3-s3",
+    "error_position": 115,
+    "replacement_token": "C5",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098715/p4-s2",
+    "error_position": 83,
+    "replacement_token": "E2",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6589315/p2-s4",
+    "error_position": 201,
+    "replacement_token": "B4",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5026077/p3-s4",
+    "error_position": 241,
+    "replacement_token": "E6",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "C4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6491377/p1-s4",
+    "error_position": 19,
+    "replacement_token": "B0",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5987937/p1-s2",
+    "error_position": 126,
+    "replacement_token": "G7",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098728/p1-s4",
+    "error_position": 178,
+    "replacement_token": "A2",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6505088/p3-s2",
+    "error_position": 121,
+    "replacement_token": "A0",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4945954/p2-s1",
+    "error_position": 182,
+    "replacement_token": "E6",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "C4",
+      "G4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5079391/p3-s1",
+    "error_position": 349,
+    "replacement_token": "F4",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6636042/p3-s2",
+    "error_position": 120,
+    "replacement_token": "C2",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5001716/p4-s4",
+    "error_position": 97,
+    "replacement_token": "C7",
+    "target_token": "A1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "C4",
+      "G4",
+      "B3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p1-s1",
+    "error_position": 62,
+    "replacement_token": "C1",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5652250/p2-s4",
+    "error_position": 198,
+    "replacement_token": "G3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p10-s1",
+    "error_position": 145,
+    "replacement_token": "F4",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5071629/p2-s3",
+    "error_position": 266,
+    "replacement_token": "D2",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p2-s4",
+    "error_position": 297,
+    "replacement_token": "F3",
+    "target_token": "E4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "F4",
+      "B3",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6007571/p2-s4",
+    "error_position": 84,
+    "replacement_token": "A6",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6236150/p2-s4",
+    "error_position": 152,
+    "replacement_token": "C4",
+    "target_token": "B3",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "E4",
+      "D4",
+      "G4",
+      "B3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6425381/p1-s1",
+    "error_position": 60,
+    "replacement_token": "F5",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6007571/p4-s2",
+    "error_position": 56,
+    "replacement_token": "D1",
+    "target_token": "D2",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "B3",
+      "F4",
+      "D4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p1-s1",
+    "error_position": 171,
+    "replacement_token": "G5",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985990/p2-s3",
+    "error_position": 530,
+    "replacement_token": "D7",
+    "target_token": "A2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985990/p4-s1",
+    "error_position": 23,
+    "replacement_token": "F1",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6010916/p4-s3",
+    "error_position": 111,
+    "replacement_token": "F7",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5987851/p4-s2",
+    "error_position": 22,
+    "replacement_token": "E6",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6001354/p1-s3",
+    "error_position": 77,
+    "replacement_token": "A0",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "F4",
+      "G4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5001716/p5-s4",
+    "error_position": 27,
+    "replacement_token": "F1",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p5-s1",
+    "error_position": 82,
+    "replacement_token": "A7",
+    "target_token": "E2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p7-s4",
+    "error_position": 52,
+    "replacement_token": "E5",
+    "target_token": "A2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6499366/p2-s1",
+    "error_position": 25,
+    "replacement_token": "D2",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5079442/p2-s1",
+    "error_position": 59,
+    "replacement_token": "D3",
+    "target_token": "E4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "F4",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6230261/p2-s1",
+    "error_position": 137,
+    "replacement_token": "E3",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6409323/p2-s3",
+    "error_position": 25,
+    "replacement_token": "B2",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4976604/p2-s4",
+    "error_position": 336,
+    "replacement_token": "D6",
+    "target_token": "F2",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p2-s1",
+    "error_position": 153,
+    "replacement_token": "B5",
+    "target_token": "C3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6801790/p1-s1",
+    "error_position": 34,
+    "replacement_token": "B4",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5001716/p3-s5",
+    "error_position": 167,
+    "replacement_token": "E7",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6910703/p1-s3",
+    "error_position": 135,
+    "replacement_token": "A5",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6801790/p1-s3",
+    "error_position": 31,
+    "replacement_token": "B3",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p3-s1",
+    "error_position": 163,
+    "replacement_token": "C2",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p1-s4",
+    "error_position": 159,
+    "replacement_token": "C4",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "G4",
+      "E4",
+      "B3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6801790/p2-s3",
+    "error_position": 199,
+    "replacement_token": "A0",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "G4",
+      "A3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6412767/p3-s4",
+    "error_position": 144,
+    "replacement_token": "D2",
+    "target_token": "A2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6636042/p1-s1",
+    "error_position": 24,
+    "replacement_token": "D1",
+    "target_token": "B5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6645396/p2-s1",
+    "error_position": 14,
+    "replacement_token": "A7",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5026077/p1-s1",
+    "error_position": 13,
+    "replacement_token": "C5",
+    "target_token": "C4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "B3",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6197282/p2-s1",
+    "error_position": 207,
+    "replacement_token": "A5",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6404150/p4-s4",
+    "error_position": 169,
+    "replacement_token": "B7",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p4-s2",
+    "error_position": 74,
+    "replacement_token": "F2",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p2-s2",
+    "error_position": 17,
+    "replacement_token": "F7",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5023603/p3-s5",
+    "error_position": 256,
+    "replacement_token": "C3",
+    "target_token": "A1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6421815/p2-s4",
+    "error_position": 130,
+    "replacement_token": "D5",
+    "target_token": "D2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6645396/p4-s4",
+    "error_position": 46,
+    "replacement_token": "A1",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6645396/p4-s2",
+    "error_position": 25,
+    "replacement_token": "B5",
+    "target_token": "G5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p2-s2",
+    "error_position": 104,
+    "replacement_token": "F2",
+    "target_token": "F3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6425381/p4-s1",
+    "error_position": 187,
+    "replacement_token": "E1",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4978397/p2-s3",
+    "error_position": 56,
+    "replacement_token": "E5",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6174661/p1-s3",
+    "error_position": 154,
+    "replacement_token": "C7",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6801790/p5-s4",
+    "error_position": 21,
+    "replacement_token": "C2",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p3-s4",
+    "error_position": 29,
+    "replacement_token": "E3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6632270/p3-s2",
+    "error_position": 187,
+    "replacement_token": "A1",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5989993/p3-s3",
+    "error_position": 69,
+    "replacement_token": "C6",
+    "target_token": "D2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p4-s1",
+    "error_position": 166,
+    "replacement_token": "B6",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079378/p4-s4",
+    "error_position": 80,
+    "replacement_token": "D3",
+    "target_token": "G5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6245974/p3-s3",
+    "error_position": 123,
+    "replacement_token": "G3",
+    "target_token": "G2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p1-s4",
+    "error_position": 166,
+    "replacement_token": "D5",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G3",
+      "A3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5026077/p5-s4",
+    "error_position": 27,
+    "replacement_token": "C4",
+    "target_token": "E4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "E4",
+      "G4",
+      "D4",
+      "B3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6197282/p4-s4",
+    "error_position": 139,
+    "replacement_token": "C1",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6652787/p7-s2",
+    "error_position": 177,
+    "replacement_token": "A7",
+    "target_token": "G2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6010916/p2-s1",
+    "error_position": 207,
+    "replacement_token": "F2",
+    "target_token": "G5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "E4",
+      "F4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p3-s4",
+    "error_position": 33,
+    "replacement_token": "A4",
+    "target_token": "A2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6196782/p2-s3",
+    "error_position": 159,
+    "replacement_token": "D5",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p6-s1",
+    "error_position": 132,
+    "replacement_token": "B4",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6641170/p3-s2",
+    "error_position": 52,
+    "replacement_token": "D4",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "E4",
+      "F4",
+      "B3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6491377/p2-s3",
+    "error_position": 128,
+    "replacement_token": "A7",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6196782/p4-s1",
+    "error_position": 183,
+    "replacement_token": "B2",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5661740/p1-s3",
+    "error_position": 465,
+    "replacement_token": "G6",
+    "target_token": "A2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098728/p2-s5",
+    "error_position": 164,
+    "replacement_token": "F6",
+    "target_token": "G2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "G4",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5987851/p2-s2",
+    "error_position": 214,
+    "replacement_token": "D3",
+    "target_token": "A2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "F4",
+      "D4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474359/p3-s3",
+    "error_position": 79,
+    "replacement_token": "B3",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p6-s3",
+    "error_position": 18,
+    "replacement_token": "B6",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6499366/p1-s3",
+    "error_position": 37,
+    "replacement_token": "A7",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p2-s2",
+    "error_position": 127,
+    "replacement_token": "G5",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p1-s4",
+    "error_position": 33,
+    "replacement_token": "F2",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6210961/p1-s1",
+    "error_position": 9,
+    "replacement_token": "E1",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p4-s2",
+    "error_position": 221,
+    "replacement_token": "G5",
+    "target_token": "D6",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6598624/p1-s2",
+    "error_position": 66,
+    "replacement_token": "G0",
+    "target_token": "C3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p1-s3",
+    "error_position": 53,
+    "replacement_token": "G4",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6816059/p1-s2",
+    "error_position": 143,
+    "replacement_token": "B7",
+    "target_token": "B2",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "B3",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p7-s3",
+    "error_position": 50,
+    "replacement_token": "A7",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5653497/p2-s1",
+    "error_position": 207,
+    "replacement_token": "A3",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p5-s4",
+    "error_position": 19,
+    "replacement_token": "C4",
+    "target_token": "C5",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "G4",
+      "B3",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6151337/p2-s5",
+    "error_position": 161,
+    "replacement_token": "G6",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6629643/p1-s2",
+    "error_position": 163,
+    "replacement_token": "B7",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098678/p2-s2",
+    "error_position": 67,
+    "replacement_token": "F5",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6151337/p2-s1",
+    "error_position": 76,
+    "replacement_token": "F6",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5001716/p4-s3",
+    "error_position": 161,
+    "replacement_token": "G6",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p5-s4",
+    "error_position": 110,
+    "replacement_token": "A2",
+    "target_token": "D3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474359/p5-s4",
+    "error_position": 12,
+    "replacement_token": "C2",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6801790/p3-s1",
+    "error_position": 276,
+    "replacement_token": "B0",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6245974/p2-s3",
+    "error_position": 6,
+    "replacement_token": "C7",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259568/p3-s2",
+    "error_position": 122,
+    "replacement_token": "F2",
+    "target_token": "C5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6572043/p1-s2",
+    "error_position": 205,
+    "replacement_token": "D6",
+    "target_token": "E2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p3-s1",
+    "error_position": 95,
+    "replacement_token": "E6",
+    "target_token": "F5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4945954/p2-s2",
+    "error_position": 98,
+    "replacement_token": "E3",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "C4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6652787/p3-s1",
+    "error_position": 13,
+    "replacement_token": "E3",
+    "target_token": "G5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "C4",
+      "B3",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p1-s3",
+    "error_position": 166,
+    "replacement_token": "G2",
+    "target_token": "E5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p1-s5",
+    "error_position": 301,
+    "replacement_token": "A6",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6151337/p1-s3",
+    "error_position": 113,
+    "replacement_token": "D2",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4985973/p2-s2",
+    "error_position": 300,
+    "replacement_token": "C4",
+    "target_token": "F5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474359/p5-s1",
+    "error_position": 54,
+    "replacement_token": "G4",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6654137/p3-s3",
+    "error_position": 109,
+    "replacement_token": "B0",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6165152/p1-s2",
+    "error_position": 72,
+    "replacement_token": "D1",
+    "target_token": "B4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6654137/p1-s2",
+    "error_position": 126,
+    "replacement_token": "E1",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p3-s4",
+    "error_position": 171,
+    "replacement_token": "A7",
+    "target_token": "F1",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p3-s4",
+    "error_position": 232,
+    "replacement_token": "A1",
+    "target_token": "E3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6757520/p7-s2",
+    "error_position": 116,
+    "replacement_token": "A0",
+    "target_token": "A2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6196782/p2-s2",
+    "error_position": 52,
+    "replacement_token": "E3",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p3-s2",
+    "error_position": 146,
+    "replacement_token": "C1",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259568/p4-s4",
+    "error_position": 163,
+    "replacement_token": "G4",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p4-s3",
+    "error_position": 134,
+    "replacement_token": "G5",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p2-s2",
+    "error_position": 240,
+    "replacement_token": "D3",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "E4",
+      "G4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p3-s4",
+    "error_position": 126,
+    "replacement_token": "F5",
+    "target_token": "C3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5652250/p1-s1",
+    "error_position": 237,
+    "replacement_token": "C3",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6805149/p1-s2",
+    "error_position": 21,
+    "replacement_token": "E3",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4978397/p2-s2",
+    "error_position": 277,
+    "replacement_token": "F6",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "C4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6236150/p1-s1",
+    "error_position": 16,
+    "replacement_token": "F2",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6757520/p1-s2",
+    "error_position": 81,
+    "replacement_token": "D4",
+    "target_token": "G3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p3-s3",
+    "error_position": 159,
+    "replacement_token": "F2",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5079391/p3-s3",
+    "error_position": 17,
+    "replacement_token": "A6",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G3",
+      "D4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6218728/p1-s1",
+    "error_position": 9,
+    "replacement_token": "B3",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6151982/p1-s4",
+    "error_position": 194,
+    "replacement_token": "E3",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6141796/p1-s3",
+    "error_position": 151,
+    "replacement_token": "F4",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "A3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p2-s2",
+    "error_position": 156,
+    "replacement_token": "B5",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p1-s3",
+    "error_position": 29,
+    "replacement_token": "E4",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p2-s3",
+    "error_position": 188,
+    "replacement_token": "D1",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "G4",
+      "F4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5001716/p4-s2",
+    "error_position": 219,
+    "replacement_token": "A5",
+    "target_token": "F5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4978393/p1-s4",
+    "error_position": 197,
+    "replacement_token": "A4",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "C4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5935864/p5-s2",
+    "error_position": 19,
+    "replacement_token": "B2",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "C4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6629763/p1-s1",
+    "error_position": 252,
+    "replacement_token": "C7",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6645396/p1-s3",
+    "error_position": 103,
+    "replacement_token": "B2",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p4-s4",
+    "error_position": 121,
+    "replacement_token": "F7",
+    "target_token": "G2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5069066/p1-s2",
+    "error_position": 56,
+    "replacement_token": "G5",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6474469/p2-s1",
+    "error_position": 193,
+    "replacement_token": "G0",
+    "target_token": "A2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p5-s1",
+    "error_position": 104,
+    "replacement_token": "A1",
+    "target_token": "F2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5987851/p4-s1",
+    "error_position": 35,
+    "replacement_token": "A0",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5986599/p2-s3",
+    "error_position": 28,
+    "replacement_token": "B1",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p5-s4",
+    "error_position": 376,
+    "replacement_token": "D1",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "E4",
+      "D4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p1-s2",
+    "error_position": 140,
+    "replacement_token": "E5",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6632270/p3-s3",
+    "error_position": 49,
+    "replacement_token": "G5",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "E4",
+      "D4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5987851/p2-s3",
+    "error_position": 51,
+    "replacement_token": "C3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474359/p6-s2",
+    "error_position": 181,
+    "replacement_token": "B6",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259568/p2-s4",
+    "error_position": 107,
+    "replacement_token": "E5",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5023603/p3-s1",
+    "error_position": 255,
+    "replacement_token": "B3",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "C4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6141796/p2-s2",
+    "error_position": 52,
+    "replacement_token": "A0",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6230261/p4-s3",
+    "error_position": 141,
+    "replacement_token": "E5",
+    "target_token": "F3",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5661740/p4-s2",
+    "error_position": 124,
+    "replacement_token": "F1",
+    "target_token": "E5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p5-s3",
+    "error_position": 53,
+    "replacement_token": "C3",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5935864/p4-s2",
+    "error_position": 34,
+    "replacement_token": "C6",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6598624/p2-s4",
+    "error_position": 269,
+    "replacement_token": "C3",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p8-s1",
+    "error_position": 157,
+    "replacement_token": "A4",
+    "target_token": "D5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6753337/p2-s1",
+    "error_position": 187,
+    "replacement_token": "D6",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p2-s2",
+    "error_position": 60,
+    "replacement_token": "B2",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6230261/p2-s2",
+    "error_position": 6,
+    "replacement_token": "A1",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6472842/p7-s4",
+    "error_position": 188,
+    "replacement_token": "A7",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5077917/p5-s2",
+    "error_position": 115,
+    "replacement_token": "B2",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p3-s2",
+    "error_position": 63,
+    "replacement_token": "F2",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985990/p2-s2",
+    "error_position": 105,
+    "replacement_token": "E5",
+    "target_token": "B2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p4-s3",
+    "error_position": 18,
+    "replacement_token": "E1",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5079442/p1-s2",
+    "error_position": 18,
+    "replacement_token": "F3",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6421815/p1-s2",
+    "error_position": 45,
+    "replacement_token": "G7",
+    "target_token": "D4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "F4",
+      "B3",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6236150/p2-s1",
+    "error_position": 60,
+    "replacement_token": "A1",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5023603/p2-s1",
+    "error_position": 23,
+    "replacement_token": "E6",
+    "target_token": "G4",
+    "predicted_token": "G4",
+    "correct": true,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6645396/p1-s2",
+    "error_position": 100,
+    "replacement_token": "B2",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p1-s3",
+    "error_position": 24,
+    "replacement_token": "C3",
+    "target_token": "E4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "G4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6505088/p4-s1",
+    "error_position": 229,
+    "replacement_token": "B3",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6230261/p1-s3",
+    "error_position": 53,
+    "replacement_token": "E4",
+    "target_token": "G5",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p1-s3",
+    "error_position": 166,
+    "replacement_token": "C6",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p5-s1",
+    "error_position": 71,
+    "replacement_token": "A5",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6757520/p3-s2",
+    "error_position": 66,
+    "replacement_token": "B7",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "G3",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5986599/p2-s1",
+    "error_position": 272,
+    "replacement_token": "C3",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p1-s1",
+    "error_position": 262,
+    "replacement_token": "E6",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "C4",
+      "B3",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5026077/p3-s1",
+    "error_position": 205,
+    "replacement_token": "B2",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p5-s1",
+    "error_position": 193,
+    "replacement_token": "F7",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6474359/p8-s1",
+    "error_position": 323,
+    "replacement_token": "B7",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "E4",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4978393/p1-s3",
+    "error_position": 145,
+    "replacement_token": "D2",
+    "target_token": "F5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6652787/p5-s2",
+    "error_position": 36,
+    "replacement_token": "D1",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5071629/p2-s1",
+    "error_position": 120,
+    "replacement_token": "D7",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "C4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985990/p2-s5",
+    "error_position": 353,
+    "replacement_token": "B7",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "E4",
+      "F4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6982743/p1-s3",
+    "error_position": 165,
+    "replacement_token": "C2",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6001354/p4-s4",
+    "error_position": 271,
+    "replacement_token": "G1",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p2-s4",
+    "error_position": 110,
+    "replacement_token": "C3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5023603/p1-s4",
+    "error_position": 110,
+    "replacement_token": "A7",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p6-s3",
+    "error_position": 67,
+    "replacement_token": "B0",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6636042/p4-s2",
+    "error_position": 136,
+    "replacement_token": "D1",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "G4",
+      "F4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6249298/p2-s2",
+    "error_position": 25,
+    "replacement_token": "A7",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p1-s2",
+    "error_position": 188,
+    "replacement_token": "C4",
+    "target_token": "E4",
+    "predicted_token": "E4",
+    "correct": true,
+    "top5_candidates": [
+      "E4",
+      "D4",
+      "G4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098715/p2-s3",
+    "error_position": 213,
+    "replacement_token": "A2",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6245974/p2-s2",
+    "error_position": 115,
+    "replacement_token": "F2",
+    "target_token": "B3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6165152/p2-s1",
+    "error_position": 19,
+    "replacement_token": "E6",
+    "target_token": "F5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "C4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5015499/p2-s2",
+    "error_position": 247,
+    "replacement_token": "D7",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098678/p4-s2",
+    "error_position": 109,
+    "replacement_token": "A2",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6456450/p2-s2",
+    "error_position": 87,
+    "replacement_token": "E6",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "C4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p3-s3",
+    "error_position": 98,
+    "replacement_token": "B4",
+    "target_token": "C2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p4-s2",
+    "error_position": 247,
+    "replacement_token": "B3",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6632270/p2-s1",
+    "error_position": 244,
+    "replacement_token": "C3",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "E4",
+      "D4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5652250/p2-s2",
+    "error_position": 283,
+    "replacement_token": "G5",
+    "target_token": "E5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p3-s2",
+    "error_position": 184,
+    "replacement_token": "E5",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6011095/p8-s2",
+    "error_position": 29,
+    "replacement_token": "C6",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6151337/p1-s1",
+    "error_position": 157,
+    "replacement_token": "G0",
+    "target_token": "D3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p4-s1",
+    "error_position": 69,
+    "replacement_token": "F2",
+    "target_token": "D2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6652787/p4-s1",
+    "error_position": 14,
+    "replacement_token": "B4",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5862368/p6-s3",
+    "error_position": 213,
+    "replacement_token": "B0",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "F4",
+      "B3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6245974/p2-s1",
+    "error_position": 12,
+    "replacement_token": "F1",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098732/p1-s3",
+    "error_position": 270,
+    "replacement_token": "C6",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "A3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6629763/p2-s4",
+    "error_position": 212,
+    "replacement_token": "F7",
+    "target_token": "C3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5987851/p1-s2",
+    "error_position": 11,
+    "replacement_token": "D3",
+    "target_token": "C5",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "B3",
+      "D4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6409323/p3-s2",
+    "error_position": 24,
+    "replacement_token": "B6",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5653497/p2-s3",
+    "error_position": 6,
+    "replacement_token": "A7",
+    "target_token": "E5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6389103/p2-s4",
+    "error_position": 358,
+    "replacement_token": "A1",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6230261/p3-s3",
+    "error_position": 24,
+    "replacement_token": "G6",
+    "target_token": "B4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "B3",
+      "D4",
+      "E4",
+      "A3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p2-s3",
+    "error_position": 200,
+    "replacement_token": "E7",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5862368/p2-s4",
+    "error_position": 318,
+    "replacement_token": "B3",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p1-s1",
+    "error_position": 154,
+    "replacement_token": "A0",
+    "target_token": "D5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474469/p1-s1",
+    "error_position": 151,
+    "replacement_token": "D5",
+    "target_token": "A1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "A3",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6589315/p2-s1",
+    "error_position": 56,
+    "replacement_token": "A2",
+    "target_token": "A1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6010916/p3-s3",
+    "error_position": 104,
+    "replacement_token": "F2",
+    "target_token": "A4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6177220/p1-s2",
+    "error_position": 185,
+    "replacement_token": "A4",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p6-s1",
+    "error_position": 68,
+    "replacement_token": "C6",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6488630/p1-s2",
+    "error_position": 250,
+    "replacement_token": "A5",
+    "target_token": "E3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098732/p2-s4",
+    "error_position": 149,
+    "replacement_token": "A2",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6801790/p5-s3",
+    "error_position": 265,
+    "replacement_token": "C2",
+    "target_token": "F2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p2-s5",
+    "error_position": 38,
+    "replacement_token": "C3",
+    "target_token": "F5",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "G4",
+      "D4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5013969/p1-s2",
+    "error_position": 43,
+    "replacement_token": "C4",
+    "target_token": "B3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "F4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259568/p4-s2",
+    "error_position": 26,
+    "replacement_token": "D6",
+    "target_token": "A5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079378/p3-s2",
+    "error_position": 71,
+    "replacement_token": "C6",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6989465/p1-s1",
+    "error_position": 99,
+    "replacement_token": "D5",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6001354/p4-s1",
+    "error_position": 128,
+    "replacement_token": "B1",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6409323/p4-s1",
+    "error_position": 83,
+    "replacement_token": "E3",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p1-s1",
+    "error_position": 80,
+    "replacement_token": "F2",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098715/p1-s2",
+    "error_position": 89,
+    "replacement_token": "C6",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6474359/p6-s3",
+    "error_position": 322,
+    "replacement_token": "A5",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p10-s2",
+    "error_position": 156,
+    "replacement_token": "F3",
+    "target_token": "B5",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098678/p1-s2",
+    "error_position": 149,
+    "replacement_token": "B0",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6645396/p1-s1",
+    "error_position": 86,
+    "replacement_token": "G3",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G3",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6801790/p5-s1",
+    "error_position": 418,
+    "replacement_token": "C3",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5026077/p1-s2",
+    "error_position": 96,
+    "replacement_token": "A2",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6456450/p5-s3",
+    "error_position": 124,
+    "replacement_token": "B7",
+    "target_token": "C6",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6982743/p1-s1",
+    "error_position": 89,
+    "replacement_token": "E7",
+    "target_token": "E2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6654137/p3-s4",
+    "error_position": 177,
+    "replacement_token": "B1",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6218728/p2-s1",
+    "error_position": 53,
+    "replacement_token": "D2",
+    "target_token": "F3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474469/p1-s2",
+    "error_position": 143,
+    "replacement_token": "E4",
+    "target_token": "B4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "D4",
+      "B3",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6577688/p1-s3",
+    "error_position": 91,
+    "replacement_token": "A7",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6010916/p1-s1",
+    "error_position": 79,
+    "replacement_token": "D4",
+    "target_token": "F2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6007571/p4-s1",
+    "error_position": 27,
+    "replacement_token": "A7",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5987851/p4-s3",
+    "error_position": 63,
+    "replacement_token": "C4",
+    "target_token": "F2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "E4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6636042/p5-s1",
+    "error_position": 174,
+    "replacement_token": "G1",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G3",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5661740/p5-s1",
+    "error_position": 151,
+    "replacement_token": "B3",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p4-s4",
+    "error_position": 150,
+    "replacement_token": "B0",
+    "target_token": "A2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6389103/p2-s1",
+    "error_position": 425,
+    "replacement_token": "G4",
+    "target_token": "G2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p3-s1",
+    "error_position": 75,
+    "replacement_token": "D4",
+    "target_token": "D5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6151982/p1-s2",
+    "error_position": 18,
+    "replacement_token": "C1",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5026077/p2-s2",
+    "error_position": 194,
+    "replacement_token": "F6",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6757520/p1-s1",
+    "error_position": 27,
+    "replacement_token": "D1",
+    "target_token": "D6",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "B3",
+      "E4",
+      "G4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5187781/p1-s1",
+    "error_position": 256,
+    "replacement_token": "D5",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "A3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p1-s2",
+    "error_position": 72,
+    "replacement_token": "D1",
+    "target_token": "A3",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p5-s4",
+    "error_position": 72,
+    "replacement_token": "F7",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6652787/p8-s1",
+    "error_position": 70,
+    "replacement_token": "D6",
+    "target_token": "E4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "F4",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5058194/p2-s3",
+    "error_position": 186,
+    "replacement_token": "D2",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098678/p2-s4",
+    "error_position": 155,
+    "replacement_token": "F4",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5935864/p1-s4",
+    "error_position": 271,
+    "replacement_token": "E5",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5067692/p1-s4",
+    "error_position": 346,
+    "replacement_token": "E2",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6141796/p1-s2",
+    "error_position": 216,
+    "replacement_token": "F4",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "E4",
+      "B3",
+      "A3",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p2-s2",
+    "error_position": 81,
+    "replacement_token": "E1",
+    "target_token": "G3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p3-s4",
+    "error_position": 92,
+    "replacement_token": "A4",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6404150/p10-s3",
+    "error_position": 72,
+    "replacement_token": "E4",
+    "target_token": "A5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p1-s2",
+    "error_position": 312,
+    "replacement_token": "E2",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G3",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6645396/p3-s1",
+    "error_position": 13,
+    "replacement_token": "A0",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6001354/p5-s1",
+    "error_position": 6,
+    "replacement_token": "C4",
+    "target_token": "E4",
+    "predicted_token": "F4",
+    "correct": false,
+    "top5_candidates": [
+      "F4",
+      "B3",
+      "E4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4985990/p3-s1",
+    "error_position": 198,
+    "replacement_token": "A7",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6085883/p2-s3",
+    "error_position": 130,
+    "replacement_token": "A6",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6488630/p1-s1",
+    "error_position": 184,
+    "replacement_token": "D7",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6598624/p2-s1",
+    "error_position": 43,
+    "replacement_token": "C2",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G3",
+      "C4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6474359/p3-s4",
+    "error_position": 300,
+    "replacement_token": "C2",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5986599/p4-s2",
+    "error_position": 230,
+    "replacement_token": "A7",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5098715/p4-s3",
+    "error_position": 212,
+    "replacement_token": "C1",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5989993/p4-s1",
+    "error_position": 70,
+    "replacement_token": "E1",
+    "target_token": "D4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "B3",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6581327/p2-s4",
+    "error_position": 64,
+    "replacement_token": "E2",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5077917/p4-s1",
+    "error_position": 97,
+    "replacement_token": "G4",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "C4",
+      "B3",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6202660/p1-s3",
+    "error_position": 232,
+    "replacement_token": "G4",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6641170/p2-s4",
+    "error_position": 142,
+    "replacement_token": "A3",
+    "target_token": "F5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5069066/p1-s3",
+    "error_position": 61,
+    "replacement_token": "E2",
+    "target_token": "F2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6202660/p2-s3",
+    "error_position": 338,
+    "replacement_token": "F1",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6641170/p3-s3",
+    "error_position": 126,
+    "replacement_token": "C4",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "F4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4985990/p1-s4",
+    "error_position": 506,
+    "replacement_token": "D1",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "E4",
+      "G4",
+      "D4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6259566/p2-s1",
+    "error_position": 86,
+    "replacement_token": "C3",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5098715/p4-s4",
+    "error_position": 10,
+    "replacement_token": "G6",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "A3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6011095/p8-s4",
+    "error_position": 47,
+    "replacement_token": "A4",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6404150/p8-s1",
+    "error_position": 29,
+    "replacement_token": "B1",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G3",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5862368/p7-s1",
+    "error_position": 190,
+    "replacement_token": "A0",
+    "target_token": "F6",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "F4",
+      "G4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6474469/p3-s2",
+    "error_position": 223,
+    "replacement_token": "E1",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985990/p4-s2",
+    "error_position": 454,
+    "replacement_token": "A4",
+    "target_token": "A2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "C4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6456450/p2-s4",
+    "error_position": 170,
+    "replacement_token": "F7",
+    "target_token": "F5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p1-s3",
+    "error_position": 29,
+    "replacement_token": "E3",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6404150/p9-s2",
+    "error_position": 29,
+    "replacement_token": "G1",
+    "target_token": "C5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5935864/p1-s1",
+    "error_position": 75,
+    "replacement_token": "B1",
+    "target_token": "C4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6989465/p3-s1",
+    "error_position": 130,
+    "replacement_token": "B0",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6404150/p9-s3",
+    "error_position": 108,
+    "replacement_token": "C3",
+    "target_token": "F3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "F4",
+      "D4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6245974/p2-s4",
+    "error_position": 269,
+    "replacement_token": "D1",
+    "target_token": "E4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "F4",
+      "D4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6499366/p2-s2",
+    "error_position": 257,
+    "replacement_token": "B7",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6757520/p5-s3",
+    "error_position": 43,
+    "replacement_token": "C7",
+    "target_token": "A2",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "F4",
+      "C4",
+      "B3",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4985973/p1-s1",
+    "error_position": 209,
+    "replacement_token": "D3",
+    "target_token": "C2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p4-s4",
+    "error_position": 198,
+    "replacement_token": "G6",
+    "target_token": "G5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "A3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6641170/p1-s2",
+    "error_position": 79,
+    "replacement_token": "E4",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p6-s5",
+    "error_position": 148,
+    "replacement_token": "B1",
+    "target_token": "D1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6572043/p2-s4",
+    "error_position": 464,
+    "replacement_token": "B4",
+    "target_token": "C2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6629763/p1-s3",
+    "error_position": 46,
+    "replacement_token": "F7",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p4-s4",
+    "error_position": 95,
+    "replacement_token": "G4",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6491377/p2-s5",
+    "error_position": 272,
+    "replacement_token": "C6",
+    "target_token": "G5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6910703/p2-s3",
+    "error_position": 212,
+    "replacement_token": "A3",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6801790/p2-s4",
+    "error_position": 12,
+    "replacement_token": "F6",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "C4",
+      "E4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6197282/p3-s2",
+    "error_position": 13,
+    "replacement_token": "A6",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "E4",
+      "B3",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6491377/p1-s3",
+    "error_position": 120,
+    "replacement_token": "C5",
+    "target_token": "D4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6412767/p4-s2",
+    "error_position": 52,
+    "replacement_token": "A5",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6249298/p2-s3",
+    "error_position": 67,
+    "replacement_token": "G1",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6474469/p3-s4",
+    "error_position": 106,
+    "replacement_token": "D6",
+    "target_token": "A1",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "D4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6236150/p2-s2",
+    "error_position": 80,
+    "replacement_token": "E2",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6415075/p2-s2",
+    "error_position": 107,
+    "replacement_token": "F4",
+    "target_token": "A3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "D4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6421815/p2-s3",
+    "error_position": 119,
+    "replacement_token": "B1",
+    "target_token": "G5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6389103/p1-s4",
+    "error_position": 283,
+    "replacement_token": "E7",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5661740/p5-s2",
+    "error_position": 138,
+    "replacement_token": "G0",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077675/p2-s4",
+    "error_position": 60,
+    "replacement_token": "C5",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "G3",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6409323/p8-s2",
+    "error_position": 85,
+    "replacement_token": "E1",
+    "target_token": "E4",
+    "predicted_token": "C4",
+    "correct": false,
+    "top5_candidates": [
+      "C4",
+      "D4",
+      "G4",
+      "B3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079442/p4-s3",
+    "error_position": 179,
+    "replacement_token": "G4",
+    "target_token": "F2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5187781/p3-s2",
+    "error_position": 255,
+    "replacement_token": "A2",
+    "target_token": "E5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6001354/p3-s4",
+    "error_position": 14,
+    "replacement_token": "D7",
+    "target_token": "G5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4945954/p3-s3",
+    "error_position": 285,
+    "replacement_token": "E7",
+    "target_token": "A3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G3",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6581327/p5-s3",
+    "error_position": 211,
+    "replacement_token": "E4",
+    "target_token": "A5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6629643/p1-s3",
+    "error_position": 199,
+    "replacement_token": "D5",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6412767/p7-s2",
+    "error_position": 110,
+    "replacement_token": "E5",
+    "target_token": "G5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259568/p1-s2",
+    "error_position": 87,
+    "replacement_token": "G7",
+    "target_token": "B4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "C4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6189628/p3-s4",
+    "error_position": 194,
+    "replacement_token": "C7",
+    "target_token": "E2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079442/p4-s1",
+    "error_position": 290,
+    "replacement_token": "A0",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6456450/p4-s3",
+    "error_position": 194,
+    "replacement_token": "F6",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6505088/p1-s2",
+    "error_position": 42,
+    "replacement_token": "D7",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "F4",
+      "B3",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p6-s3",
+    "error_position": 110,
+    "replacement_token": "A2",
+    "target_token": "D6",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6141796/p2-s1",
+    "error_position": 162,
+    "replacement_token": "G5",
+    "target_token": "D5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p8-s4",
+    "error_position": 21,
+    "replacement_token": "D1",
+    "target_token": "B5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "F4",
+      "E4",
+      "D4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079378/p2-s4",
+    "error_position": 78,
+    "replacement_token": "C2",
+    "target_token": "F5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6757520/p5-s1",
+    "error_position": 147,
+    "replacement_token": "A0",
+    "target_token": "G1",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "A3",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p5-s4",
+    "error_position": 190,
+    "replacement_token": "G3",
+    "target_token": "E3",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5071629/p2-s4",
+    "error_position": 187,
+    "replacement_token": "G3",
+    "target_token": "E2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6654137/p1-s1",
+    "error_position": 155,
+    "replacement_token": "F7",
+    "target_token": "E3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p8-s3",
+    "error_position": 52,
+    "replacement_token": "B3",
+    "target_token": "E4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "G4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6801790/p4-s3",
+    "error_position": 116,
+    "replacement_token": "C4",
+    "target_token": "C2",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "D4",
+      "E4",
+      "F4",
+      "B3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259568/p2-s2",
+    "error_position": 166,
+    "replacement_token": "C2",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "E4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/4978397/p1-s1",
+    "error_position": 118,
+    "replacement_token": "D2",
+    "target_token": "F2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6816059/p2-s2",
+    "error_position": 219,
+    "replacement_token": "G4",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5652250/p2-s3",
+    "error_position": 89,
+    "replacement_token": "G5",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6505088/p1-s1",
+    "error_position": 77,
+    "replacement_token": "D2",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "G4",
+      "D4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5987937/p2-s3",
+    "error_position": 140,
+    "replacement_token": "D2",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6472842/p1-s2",
+    "error_position": 137,
+    "replacement_token": "A3",
+    "target_token": "F4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5862368/p4-s4",
+    "error_position": 83,
+    "replacement_token": "A7",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077917/p4-s2",
+    "error_position": 48,
+    "replacement_token": "G4",
+    "target_token": "C4",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "D4",
+      "B3",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6421815/p6-s2",
+    "error_position": 153,
+    "replacement_token": "B5",
+    "target_token": "C3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079378/p4-s2",
+    "error_position": 216,
+    "replacement_token": "A3",
+    "target_token": "D3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5023603/p3-s2",
+    "error_position": 64,
+    "replacement_token": "A6",
+    "target_token": "A4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p3-s1",
+    "error_position": 217,
+    "replacement_token": "A1",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6910703/p1-s4",
+    "error_position": 239,
+    "replacement_token": "C6",
+    "target_token": "G3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5077675/p3-s1",
+    "error_position": 94,
+    "replacement_token": "E3",
+    "target_token": "F4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "F4",
+      "C4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6197282/p1-s2",
+    "error_position": 91,
+    "replacement_token": "D4",
+    "target_token": "B4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "F4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6264558/p7-s3",
+    "error_position": 43,
+    "replacement_token": "B5",
+    "target_token": "C1",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6412767/p2-s1",
+    "error_position": 153,
+    "replacement_token": "G5",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6001354/p5-s2",
+    "error_position": 86,
+    "replacement_token": "E3",
+    "target_token": "B3",
+    "predicted_token": "B3",
+    "correct": true,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6474359/p2-s4",
+    "error_position": 589,
+    "replacement_token": "E6",
+    "target_token": "F3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "E4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p6-s1",
+    "error_position": 133,
+    "replacement_token": "D3",
+    "target_token": "A4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5079391/p3-s4",
+    "error_position": 149,
+    "replacement_token": "G5",
+    "target_token": "B2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "D4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5862368/p4-s1",
+    "error_position": 164,
+    "replacement_token": "F3",
+    "target_token": "B4",
+    "predicted_token": "G4",
+    "correct": false,
+    "top5_candidates": [
+      "G4",
+      "B3",
+      "D4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5023603/p1-s2",
+    "error_position": 154,
+    "replacement_token": "F7",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5013969/p1-s4",
+    "error_position": 59,
+    "replacement_token": "F6",
+    "target_token": "E3",
+    "predicted_token": "C4",
+    "correct": false,
+    "top5_candidates": [
+      "C4",
+      "D4",
+      "G4",
+      "B3",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6629643/p2-s3",
+    "error_position": 234,
+    "replacement_token": "F7",
+    "target_token": "D5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6632270/p2-s4",
+    "error_position": 299,
+    "replacement_token": "C5",
+    "target_token": "E2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "E4",
+      "F4",
+      "D4",
+      "C4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6598624/p2-s2",
+    "error_position": 211,
+    "replacement_token": "F1",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6197282/p4-s1",
+    "error_position": 120,
+    "replacement_token": "A5",
+    "target_token": "F5",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6197282/p1-s3",
+    "error_position": 219,
+    "replacement_token": "B1",
+    "target_token": "G2",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "G3",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5013969/p1-s1",
+    "error_position": 209,
+    "replacement_token": "A4",
+    "target_token": "E5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "G4",
+      "E4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/5013969/p2-s1",
+    "error_position": 63,
+    "replacement_token": "F7",
+    "target_token": "B3",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "F4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/4945954/p3-s4",
+    "error_position": 201,
+    "replacement_token": "C1",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "E4",
+      "G4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6001354/p3-s2",
+    "error_position": 63,
+    "replacement_token": "E4",
+    "target_token": "G4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "F4",
+      "C4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p4-s4",
+    "error_position": 259,
+    "replacement_token": "E6",
+    "target_token": "D4",
+    "predicted_token": "D4",
+    "correct": true,
+    "top5_candidates": [
+      "D4",
+      "G4",
+      "B3",
+      "C4",
+      "E4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6236150/p3-s3",
+    "error_position": 120,
+    "replacement_token": "A7",
+    "target_token": "C4",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/5989993/p3-s4",
+    "error_position": 120,
+    "replacement_token": "F2",
+    "target_token": "C5",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "G4",
+      "C4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6259566/p3-s3",
+    "error_position": 145,
+    "replacement_token": "F3",
+    "target_token": "E4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "F4",
+      "G4",
+      "D4",
+      "G3"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6011095/p5-s4",
+    "error_position": 74,
+    "replacement_token": "F6",
+    "target_token": "D2",
+    "predicted_token": "D4",
+    "correct": false,
+    "top5_candidates": [
+      "D4",
+      "B3",
+      "C4",
+      "G4",
+      "F4"
+    ],
+    "target_in_top5": false
+  },
+  {
+    "sample_id": "samples/6491377/p3-s5",
+    "error_position": 106,
+    "replacement_token": "A2",
+    "target_token": "G4",
+    "predicted_token": "B3",
+    "correct": false,
+    "top5_candidates": [
+      "B3",
+      "D4",
+      "G4",
+      "F4",
+      "G3"
+    ],
+    "target_in_top5": true
+  },
+  {
+    "sample_id": "samples/6645396/p5-s4",
+    "error_position": 50,
+    "replacement_token": "C6",
+    "target_token": "B4",
+    "predicted_token": "E4",
+    "correct": false,
+    "top5_candidates": [
+      "E4",
+      "D4",
+      "B3",
+      "F4",
+      "G4"
+    ],
+    "target_in_top5": false
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "epoch": 0,
+    "train_loss": 4.12425,
+    "train_top1": 0.0178,
+    "train_top5": 0.093,
+    "dev_loss": 4.12393,
+    "dev_top1": 0.014,
+    "dev_top5": 0.0862,
+    "elapsed_s": 3.2
+  },
+  {
+    "epoch": 1,
+    "train_loss": 3.36484,
+    "train_top1": 0.0681,
+    "train_top5": 0.3009,
+    "dev_loss": 3.32798,
+    "dev_top1": 0.0481,
+    "dev_top5": 0.3106,
+    "elapsed_s": 8.3
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3.30731,
+    "train_top1": 0.067,
+    "train_top5": 0.3164,
+    "dev_loss": 3.25668,
+    "dev_top1": 0.0621,
+    "dev_top5": 0.3066,
+    "elapsed_s": 12.9
+  },
+  {
+    "epoch": 3,
+    "train_loss": 3.21569,
+    "train_top1": 0.0793,
+    "train_top5": 0.3548,
+    "dev_loss": 3.2084,
+    "dev_top1": 0.0882,
+    "dev_top5": 0.3647,
+    "elapsed_s": 17.6
+  },
+  {
+    "epoch": 4,
+    "train_loss": 3.15674,
+    "train_top1": 0.0921,
+    "train_top5": 0.3812,
+    "dev_loss": 3.24213,
+    "dev_top1": 0.0681,
+    "dev_top5": 0.3527,
+    "elapsed_s": 22.2
+  },
+  {
+    "epoch": 5,
+    "train_loss": 3.07849,
+    "train_top1": 0.115,
+    "train_top5": 0.4288,
+    "dev_loss": 3.20803,
+    "dev_top1": 0.1102,
+    "dev_top5": 0.3667,
+    "elapsed_s": 26.9
+  },
+  {
+    "epoch": 6,
+    "train_loss": 2.97484,
+    "train_top1": 0.1362,
+    "train_top5": 0.4718,
+    "dev_loss": 3.22809,
+    "dev_top1": 0.0842,
+    "dev_top5": 0.3848,
+    "elapsed_s": 31.5
+  },
+  {
+    "epoch": 7,
+    "train_loss": 2.85158,
+    "train_top1": 0.1633,
+    "train_top5": 0.5374,
+    "dev_loss": 3.31148,
+    "dev_top1": 0.0822,
+    "dev_top5": 0.3267,
+    "elapsed_s": 36.2
+  },
+  {
+    "epoch": 8,
+    "train_loss": 2.69288,
+    "train_top1": 0.209,
+    "train_top5": 0.5905,
+    "dev_loss": 3.41537,
+    "dev_top1": 0.0822,
+    "dev_top5": 0.3267,
+    "elapsed_s": 40.8
+  },
+  {
+    "epoch": 9,
+    "train_loss": 2.51727,
+    "train_top1": 0.2524,
+    "train_top5": 0.6625,
+    "dev_loss": 3.46578,
+    "dev_top1": 0.0982,
+    "dev_top5": 0.3407,
+    "elapsed_s": 45.5
+  },
+  {
+    "epoch": 10,
+    "train_loss": 2.31403,
+    "train_top1": 0.3092,
+    "train_top5": 0.7144,
+    "dev_loss": 3.65179,
+    "dev_top1": 0.0882,
+    "dev_top5": 0.3267,
+    "elapsed_s": 50.1
+  }
+]

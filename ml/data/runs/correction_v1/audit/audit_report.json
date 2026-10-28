@@ -1,0 +1,26 @@
+{
+  "bug": "evaluate_dataset and run_train_epoch use equal-weight batch averaging",
+  "location": "run_experiment_v1.py evaluate_dataset() and run_train_epoch()",
+  "original_reported": {
+    "top1": 0.0613,
+    "top5": 0.3088,
+    "n": 499
+  },
+  "corrected": {
+    "top1_hits": 30,
+    "top5_hits": 154,
+    "n_total": 499,
+    "top1_acc": 0.06012,
+    "top5_acc": 0.308617
+  },
+  "mfc_baseline_corrected": {
+    "top1_hits": 26,
+    "top5_hits": 155,
+    "n": 499,
+    "top1_acc": 0.052104,
+    "top5_acc": 0.310621
+  },
+  "predictions_unchanged": true,
+  "checkpoint_loss_delta": 0.000391,
+  "batch_size_consistency": true
+}

@@ -5,3 +5,5 @@
 *.MOV
 *.mp4
 *.mov
+*.ckpt
+*.pt

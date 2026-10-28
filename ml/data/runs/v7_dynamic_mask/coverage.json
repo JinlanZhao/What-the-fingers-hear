@@ -1,0 +1,9 @@
+{
+  "unique_positions_seen": 57173,
+  "total_eligible_positions": 610301,
+  "coverage_pct": 9.37,
+  "training_epochs_completed": 6,
+  "total_optimizer_steps": 1878,
+  "v5_step_budget": 4695,
+  "budget_used_pct": 40.0
+}

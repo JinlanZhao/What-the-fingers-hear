@@ -1,0 +1,102 @@
+[
+  {
+    "epoch": 0,
+    "train_loss": 4.12472,
+    "train_top1": 0.0084,
+    "train_top5": 0.0681,
+    "dev_loss": 4.0992,
+    "dev_top1": 0.006,
+    "dev_top5": 0.0501,
+    "elapsed_s": 3.7
+  },
+  {
+    "epoch": 1,
+    "train_loss": 3.36359,
+    "train_top1": 0.0636,
+    "train_top5": 0.3031,
+    "dev_loss": 3.30219,
+    "dev_top1": 0.0962,
+    "dev_top5": 0.3086,
+    "elapsed_s": 8.5
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3.24562,
+    "train_top1": 0.0746,
+    "train_top5": 0.3377,
+    "dev_loss": 3.24205,
+    "dev_top1": 0.0641,
+    "dev_top5": 0.3327,
+    "elapsed_s": 13.2
+  },
+  {
+    "epoch": 3,
+    "train_loss": 3.19307,
+    "train_top1": 0.0786,
+    "train_top5": 0.3596,
+    "dev_loss": 3.20899,
+    "dev_top1": 0.0862,
+    "dev_top5": 0.3387,
+    "elapsed_s": 17.9
+  },
+  {
+    "epoch": 4,
+    "train_loss": 3.1625,
+    "train_top1": 0.084,
+    "train_top5": 0.367,
+    "dev_loss": 3.22581,
+    "dev_top1": 0.1142,
+    "dev_top5": 0.3487,
+    "elapsed_s": 22.6
+  },
+  {
+    "epoch": 5,
+    "train_loss": 3.13661,
+    "train_top1": 0.0934,
+    "train_top5": 0.3821,
+    "dev_loss": 3.19887,
+    "dev_top1": 0.0822,
+    "dev_top5": 0.3407,
+    "elapsed_s": 27.3
+  },
+  {
+    "epoch": 6,
+    "train_loss": 3.09743,
+    "train_top1": 0.0999,
+    "train_top5": 0.4011,
+    "dev_loss": 3.19524,
+    "dev_top1": 0.0882,
+    "dev_top5": 0.3868,
+    "elapsed_s": 32.0
+  },
+  {
+    "epoch": 7,
+    "train_loss": 3.07521,
+    "train_top1": 0.1053,
+    "train_top5": 0.4164,
+    "dev_loss": 3.16947,
+    "dev_top1": 0.0842,
+    "dev_top5": 0.3607,
+    "elapsed_s": 36.7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 3.04391,
+    "train_top1": 0.1102,
+    "train_top5": 0.437,
+    "dev_loss": 3.18681,
+    "dev_top1": 0.0922,
+    "dev_top5": 0.3527,
+    "elapsed_s": 41.4
+  },
+  {
+    "epoch": 9,
+    "train_loss": 3.02049,
+    "train_top1": 0.1129,
+    "train_top5": 0.4458,
+    "dev_loss": 3.16797,
+    "dev_top1": 0.0962,
+    "dev_top5": 0.3928,
+    "elapsed_s": 46.1
+  }
+]

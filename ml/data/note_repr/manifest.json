@@ -1,0 +1,1130 @@
+{
+  "train": [
+    {
+      "line_index": 134,
+      "sample_id": "samples/6182149/p1-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 367,
+      "sample_id": "samples/6772652/p6-s2",
+      "features": [
+        "backup",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 664,
+      "sample_id": "samples/5986085/p3-s2",
+      "features": [
+        "backup",
+        "chord",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 802,
+      "sample_id": "samples/6207085/p2-s5",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 901,
+      "sample_id": "samples/5133773/p3-s4",
+      "features": [
+        "backup",
+        "rest_measure",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 932,
+      "sample_id": "samples/6147489/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 949,
+      "sample_id": "samples/6903757/p7-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 983,
+      "sample_id": "samples/5061932/p2-s4",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 1057,
+      "sample_id": "samples/6682890/p5-s1",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 1135,
+      "sample_id": "samples/7074684/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 1141,
+      "sample_id": "samples/6202466/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 1301,
+      "sample_id": "samples/6764874/p4-s2",
+      "features": [
+        "backup",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 1332,
+      "sample_id": "samples/5032950/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 1403,
+      "sample_id": "samples/5025040/p2-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 1477,
+      "sample_id": "samples/5004731/p2-s2",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 1553,
+      "sample_id": "samples/5660558/p1-s1",
+      "features": [
+        "backup",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 1700,
+      "sample_id": "samples/4919879/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 1768,
+      "sample_id": "samples/6974646/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 1826,
+      "sample_id": "samples/6997609/p1-s3",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 1836,
+      "sample_id": "samples/5660581/p1-s1",
+      "features": [
+        "backup",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 1946,
+      "sample_id": "samples/5105152/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 2136,
+      "sample_id": "samples/4985946/p3-s3",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 2142,
+      "sample_id": "samples/5024834/p5-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 2363,
+      "sample_id": "samples/5098659/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 2416,
+      "sample_id": "samples/6093956/p2-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 2448,
+      "sample_id": "samples/5016466/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 2566,
+      "sample_id": "samples/6245971/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 2650,
+      "sample_id": "samples/4986000/p5-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 2770,
+      "sample_id": "samples/5987806/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 2776,
+      "sample_id": "samples/5979580/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 2779,
+      "sample_id": "samples/5989772/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 2797,
+      "sample_id": "samples/6925763/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 2811,
+      "sample_id": "samples/6810938/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 2924,
+      "sample_id": "samples/5612951/p4-s3",
+      "features": [
+        "backup",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 3065,
+      "sample_id": "samples/6471199/p3-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 3103,
+      "sample_id": "samples/6903757/p7-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 3272,
+      "sample_id": "samples/6507219/p5-s2",
+      "features": [
+        "backup",
+        "chord",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 3320,
+      "sample_id": "samples/5906774/p2-s2",
+      "features": [
+        "backup"
+      ]
+    },
+    {
+      "line_index": 3332,
+      "sample_id": "samples/6164234/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 3591,
+      "sample_id": "samples/5046362/p1-s2",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 3846,
+      "sample_id": "samples/6474604/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 3992,
+      "sample_id": "samples/5060961/p5-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "rest_measure",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4085,
+      "sample_id": "samples/6293357/p6-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 4157,
+      "sample_id": "samples/6615501/p2-s3",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 4168,
+      "sample_id": "samples/5098705/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4264,
+      "sample_id": "samples/6577199/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 4343,
+      "sample_id": "samples/6262515/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4368,
+      "sample_id": "samples/6588520/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 4401,
+      "sample_id": "samples/6479829/p4-s5",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 4479,
+      "sample_id": "samples/6772652/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 4531,
+      "sample_id": "samples/4987677/p1-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4576,
+      "sample_id": "samples/5873379/p7-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 4578,
+      "sample_id": "samples/6638810/p1-s3",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 4668,
+      "sample_id": "samples/6190351/p3-s5",
+      "features": [
+        "backup",
+        "chord",
+        "forward",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4796,
+      "sample_id": "samples/6606200/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 4889,
+      "sample_id": "samples/6211559/p5-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4923,
+      "sample_id": "samples/5904752/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 4944,
+      "sample_id": "samples/4987672/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 4950,
+      "sample_id": "samples/5079487/p6-s5",
+      "features": [
+        "backup",
+        "chord",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 5037,
+      "sample_id": "samples/6654371/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 5131,
+      "sample_id": "samples/4985985/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 5207,
+      "sample_id": "samples/6486395/p2-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 5286,
+      "sample_id": "samples/6157283/p4-s4",
+      "features": [
+        "backup",
+        "chord",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 5322,
+      "sample_id": "samples/6169445/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 5365,
+      "sample_id": "samples/6761202/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 5379,
+      "sample_id": "samples/6564767/p3-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 5526,
+      "sample_id": "samples/5988382/p3-s1",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 5574,
+      "sample_id": "samples/6583966/p3-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 5655,
+      "sample_id": "samples/6469541/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward",
+        "rest_measure",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 5690,
+      "sample_id": "samples/5823419/p2-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 5819,
+      "sample_id": "samples/5925389/p3-s1",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 5927,
+      "sample_id": "samples/5998497/p3-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 5949,
+      "sample_id": "samples/5093748/p2-s5",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 6197,
+      "sample_id": "samples/6451773/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 6253,
+      "sample_id": "samples/6164234/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 6414,
+      "sample_id": "samples/6130647/p3-s2",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 6507,
+      "sample_id": "samples/5818033/p4-s2",
+      "features": [
+        "backup",
+        "chord",
+        "grace",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 6582,
+      "sample_id": "samples/5001648/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 6623,
+      "sample_id": "samples/6806109/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 6703,
+      "sample_id": "samples/5060972/p2-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 6732,
+      "sample_id": "samples/6648595/p5-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 6886,
+      "sample_id": "samples/5027811/p4-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 6916,
+      "sample_id": "samples/5987667/p5-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 6945,
+      "sample_id": "samples/5043618/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 7085,
+      "sample_id": "samples/6582062/p2-s3",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 7171,
+      "sample_id": "samples/6221611/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "forward",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 7384,
+      "sample_id": "samples/6965894/p1-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 7452,
+      "sample_id": "samples/6586675/p5-s3",
+      "features": [
+        "backup",
+        "chord"
+      ]
+    },
+    {
+      "line_index": 7545,
+      "sample_id": "samples/5975897/p3-s2",
+      "features": [
+        "backup",
+        "chord",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 7618,
+      "sample_id": "samples/6484095/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 7690,
+      "sample_id": "samples/5846184/p3-s3",
+      "features": [
+        "backup",
+        "chord",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 7692,
+      "sample_id": "samples/6788555/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 7934,
+      "sample_id": "samples/6207054/p3-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 7937,
+      "sample_id": "samples/6447758/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 7960,
+      "sample_id": "samples/5106861/p4-s1",
+      "features": [
+        "backup",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 7962,
+      "sample_id": "samples/5002052/p1-s1",
+      "features": [
+        "backup"
+      ]
+    },
+    {
+      "line_index": 8004,
+      "sample_id": "samples/6230258/p3-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 8028,
+      "sample_id": "samples/6150402/p2-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 8047,
+      "sample_id": "samples/6688176/p9-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 8048,
+      "sample_id": "samples/5669853/p3-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    }
+  ],
+  "dev": [
+    {
+      "line_index": 16,
+      "sample_id": "samples/6425381/p1-s2",
+      "features": [
+        "backup",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 38,
+      "sample_id": "samples/6230261/p4-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 39,
+      "sample_id": "samples/6412767/p5-s1",
+      "features": [
+        "backup",
+        "chord",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 43,
+      "sample_id": "samples/6230261/p3-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 45,
+      "sample_id": "samples/6189628/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 49,
+      "sample_id": "samples/6757520/p4-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 55,
+      "sample_id": "samples/6196782/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 56,
+      "sample_id": "samples/5071629/p1-s4",
+      "features": [
+        "backup",
+        "chord",
+        "forward"
+      ]
+    },
+    {
+      "line_index": 61,
+      "sample_id": "samples/5987851/p3-s2",
+      "features": [
+        "backup",
+        "chord",
+        "forward",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 67,
+      "sample_id": "samples/5067692/p2-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 72,
+      "sample_id": "samples/5986599/p4-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 88,
+      "sample_id": "samples/5862368/p6-s4",
+      "features": [
+        "backup",
+        "chord",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 93,
+      "sample_id": "samples/6425381/p4-s3",
+      "features": [
+        "backup",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 119,
+      "sample_id": "samples/6007571/p2-s4",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 122,
+      "sample_id": "samples/6007571/p4-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "grace"
+      ]
+    },
+    {
+      "line_index": 165,
+      "sample_id": "samples/6415075/p4-s1",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward",
+        "grace",
+        "rest_measure"
+      ]
+    },
+    {
+      "line_index": 179,
+      "sample_id": "samples/5661740/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "time_mod"
+      ]
+    },
+    {
+      "line_index": 183,
+      "sample_id": "samples/5079391/p6-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 189,
+      "sample_id": "samples/6598624/p1-s2",
+      "features": [
+        "backup",
+        "chord",
+        "dot"
+      ]
+    },
+    {
+      "line_index": 190,
+      "sample_id": "samples/6259566/p1-s3",
+      "features": [
+        "backup",
+        "chord",
+        "dot",
+        "forward",
+        "rest_measure"
+      ]
+    }
+  ]
+}

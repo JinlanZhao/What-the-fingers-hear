@@ -1,0 +1,23 @@
+{
+  "finding_count": 0,
+  "findings": [],
+  "font_policy": {
+    "checked_text_script_count": 185,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Helvetica Neue"
+    ],
+    "observed_font_use_counts": {
+      "Helvetica Neue": 185
+    },
+    "passed": true,
+    "performed": true
+  },
+  "slide_count": 13,
+  "slide_size_in": [
+    13.3333,
+    7.5
+  ],
+  "warning_count": 0,
+  "warnings": []
+}

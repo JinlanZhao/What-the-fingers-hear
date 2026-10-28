@@ -1,0 +1,127 @@
+[
+  {
+    "slide": 1,
+    "title": "What the Fingers Hear",
+    "script": "Hi everyone. I'm Jinlan Zhao, and I study Electronic Production and Design at Berklee. My project, What the Fingers Hear, explores audio navigation from a physical Braille music score. A reader selects a measure with their finger and uses an explicit command to hear the music. I'm interested in how music technology can support that connection between touch and listening. In my last report, the camera and gesture playback path worked, while voice-selected instruments were still planned. Today I'll focus on the physical controls and voice interaction I have added since then, the changes that helped, and what I still need to test.",
+    "sources": [
+      "demo/Videos/Add-LLM-Parser.MOV",
+      "Documentation/Proposal/README.md"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "Since the last report",
+    "script": "This table shows the change since Progress Report One. The prepared score, page map, camera tracking and Max playback were already connected, so I'm treating them as the starting point. The main new work is voice-selected playback, three physical controls, and spoken clarification. Feedback is still partial. The system can ask which instrument part I mean, but it does not yet provide all the measure and score information discussed last time. I have also drafted a research protocol. That is preparation for evaluation, rather than a completed user study.",
+    "sources": [
+      "/Users/zhaojinlan/Documents/DocumentMe/Berklee Study/7th Semester/MTEC-498/Progress Report 1/What_the_Fingers_Hear_Progress_Report_1 .pptx",
+      "Documentation/Process-Report/Voice-MVP-Report.md",
+      "Documentation/Process-Report/LLM-Parser-Report.md",
+      "Research Study/Research Protocol.docx"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Physical controls",
+    "script": "The last demonstration raised a problem with repeated or unclear gesture activation. I added physical buttons as another input method to test. RECORD works as push-to-talk. I hold it while speaking, and releasing it submits the request. PLAY starts the Full Mix from the selected measure. STOP stops playback and cancels recording or a pending request. The controls use a Teensy board with debounced button events. These buttons give me a more explicit control path for development. I still need to compare them with gestures before deciding which method works better for Braille music readers.",
+    "sources": [
+      "Hardware/Buttons/Buttons.ino",
+      "Documentation/Process-Report/Voice-MVP-Report.md",
+      "Documentation/Process-Report/Braille-Score-Design-Review1.md",
+      "demo/Videos/Hardware-testing.mov"
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Current system",
+    "script": "The prototype now connects position selection, speech and playback. OpenCV and ArUco establish page coordinates, while MediaPipe estimates the fingertip position. A prepared page map converts that position into a measure number. When RECORD begins, the controller freezes the selected measure for that request. Local Whisper transcribes the speech, and a local Qwen model interprets it. Python checks the command before sending OSC to Max. Max handles the audio and synchronization. Direct PLAY and gestures can bypass speech recognition. The current setup runs on my Mac, and the spoken responses use macOS speech output. I haven't validated portability or measured end-to-end latency yet.",
+    "sources": [
+      "camera/finger_measure_test.py",
+      "camera/shared_state.py",
+      "camera/voice_mvp.py",
+      "camera/llm_parser.py",
+      "Documentation/Process-Report/Max-Playback-Current-Architecture.md"
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Voice-selected playback",
+    "script": "Voice-selected playback was still future work in the previous report. It now supports a single instrument, several instruments, and an explicit measure range. For example, play violin one uses the measure captured when recording begins. Play flute one and cello from measure eight to twelve specifies both the instruments and the range. The screenshot shows Max receiving single-stem and multistem commands during development. Full Mix still uses its separate stereo player. Selected stems share a signal-rate playhead, which keeps them aligned. This currently works with the prepared sixteen-measure piece and its registered page map.",
+    "sources": [
+      "Documentation/Process-Report/LLM-Parser-Report.md",
+      "Documentation/Process-Report/Max-Playback-Current-Architecture.md",
+      "demo/OSC-message-in-max.png"
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "Parser revisions",
+    "script": "The first voice parser used regular expressions. It handled fixed phrases, but it struggled with natural variation and corrections. I then tried a language model. A rules-only prompt still produced missing fields and unnecessary clarification. The current prompt uses ordered decision steps and thirty-four examples. I also found that the model did not reliably remove an earlier instrument after a self-correction, so Python now handles corrections and exclusions. I moved from the planned API path to local Ollama inference after hitting development rate limits. The deterministic parser remains an error fallback. These changes helped the recorded development cases, but they still need broader testing.",
+    "sources": [
+      "Documentation/Process-Report/LLM-Parser-Report.md",
+      "camera/llm_parser.py",
+      "camera/voice_parser.py"
+    ]
+  },
+  {
+    "slide": 7,
+    "title": "Spoken clarification",
+    "script": "This is a supported example of the clarification flow. If I select measure two and say play flute, the system asks whether I mean flute one, flute two, or both. I can hold RECORD again and answer flute one. The controller keeps the original measure while it waits for that answer, so moving my finger during the conversation does not change this request. STOP clears the pending question. At present, spoken feedback is mainly for clarification and some errors. Successful playback requests print feedback in the terminal, so a complete nonvisual confirmation interface is still unfinished.",
+    "sources": [
+      "Documentation/Process-Report/LLM-Parser-Report.md",
+      "camera/voice_mvp.py"
+    ]
+  },
+  {
+    "slide": 8,
+    "title": "Recorded demonstration",
+    "script": "I'll now show a recording of the current prototype. It brings together the prepared Braille score, the physical controls, voice requests and Max playback. Please listen for how the requested instruments change, and watch the button interaction alongside the score. This is a developer demonstration of the implemented pipeline. The earlier Wizard of Oz video explored proposed behavior, so I am keeping that separate from this recording. [Click the video and let it play. Resume on the next slide.]",
+    "sources": [
+      "demo/Videos/Add-LLM-Parser.MOV",
+      "Documentation/Process-Report/LLM-Parser-Report.md"
+    ]
+  },
+  {
+    "slide": 9,
+    "title": "Current evidence",
+    "script": "The October twelfth development report records thirty-one parser cases as passing. Those cases use transcript inputs, so this number does not measure speech recognition accuracy or usability with readers. The report also documents hardware tests with the buttons and then the connected camera anchor. There are still known errors. Whisper can hear full mix as four mix. After Python corrects an instrument selection, the terminal feedback can still name the earlier instrument even when playback uses the corrected track. I also still need measurements of measure-selection accuracy, response time and interaction errors. I do not yet have a formal reader evaluation.",
+    "sources": [
+      "Documentation/Process-Report/LLM-Parser-Report.md",
+      "camera/test_llm_parser.py"
+    ]
+  },
+  {
+    "slide": 10,
+    "title": "Remaining work",
+    "script": "Three areas remain before a useful evaluation. First, the reader still needs more nonvisual information. Position queries, instrument information and silent-part feedback are unfinished. Second, I need repeated trials of measure selection and page placement, including recovery when the setup changes. Third, I need consistent study tasks and event logs. The protocol distinguishes live features from scripted demonstrations, and I will keep that distinction in the study records. Reading-behavior inference also remains outside the current implementation. My immediate focus is the interaction and the evidence needed to evaluate it.",
+    "sources": [
+      "Documentation/Process-Report/Braille-Score-Design-Review1.md",
+      "Documentation/Process-Report/LLM-Parser-Report.md",
+      "Research Study/Research Protocol.docx"
+    ]
+  },
+  {
+    "slide": 11,
+    "title": "Study plan",
+    "script": "I drafted a protocol with three related studies. The first examines usability through touch and voice tasks. The second compares buttons and gestures for equivalent Play and Stop operations. The third examines fixed interaction defaults and user customization. The controlled comparisons are planned within participants, with counterbalanced order. I want to collect task outcomes, errors, interruptions, recovery behavior and participant feedback. I will only compare autonomous system performance when both conditions are implemented and checked. Proposed behaviors shown through a script will be labeled and analyzed separately. These studies are planned, and participant data collection has not started.",
+    "sources": [
+      "Research Study/Research Protocol.docx"
+    ]
+  },
+  {
+    "slide": 12,
+    "title": "Next steps",
+    "script": "My next steps are the IRB application, a controlled study, and collecting more data. First, I need to finalize the research protocol and consent materials and submit them for review. Recruitment and participant data collection will begin after written IRB approval. Then I plan to compare buttons and gestures under equivalent tasks, followed by comparisons of interaction defaults and customization. I also want more repeated trials, system logs and reader feedback. That evidence should help me decide what to keep, what needs revision, and whether later work on reading behavior is justified.",
+    "sources": [
+      "Research Study/Research Protocol.docx"
+    ]
+  },
+  {
+    "slide": 13,
+    "title": "Questions for discussion",
+    "script": "I would appreciate feedback on two questions. First, what would make the comparison between buttons and gestures fair? I want both methods to have equivalent tasks, enough practice and comparable feedback. Second, which nonvisual information should I finish before reader testing? The selected measure, available instrument parts and a warning about silence are all possible priorities. I would like to understand which would most help a reader complete the tasks and recover from errors. Thank you. I'm happy to discuss the current prototype or the study plan.",
+    "sources": [
+      "Research Study/Research Protocol.docx",
+      "Documentation/Process-Report/Braille-Score-Design-Review1.md"
+    ]
+  }
+]
