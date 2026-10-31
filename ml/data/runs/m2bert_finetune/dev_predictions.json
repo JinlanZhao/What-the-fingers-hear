@@ -2,14 +2,14 @@
   {
     "sample_id": "samples/6404150/p8-s2",
     "target_token": "G3",
-    "predicted_token": "E4",
-    "correct": false,
+    "predicted_token": "G3",
+    "correct": true,
     "top5_candidates": [
-      "E4",
-      "B3",
       "G3",
-      "A3",
-      "C4"
+      "B3",
+      "E4",
+      "C4",
+      "A3"
     ]
   },
   {
@@ -21,8 +21,8 @@
       "B3",
       "D4",
       "C4",
-      "A3",
-      "A4"
+      "D3",
+      "A3"
     ]
   },
   {
@@ -32,10 +32,10 @@
     "correct": false,
     "top5_candidates": [
       "F5",
-      "A5",
       "G5",
-      "B5",
-      "F6"
+      "A5",
+      "D6",
+      "C6"
     ]
   },
   {
@@ -46,9 +46,9 @@
     "top5_candidates": [
       "E4",
       "F4",
-      "G3",
-      "G4",
-      "E3"
+      "E3",
+      "D4",
+      "G4"
     ]
   },
   {
@@ -58,10 +58,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "B5",
       "A3",
-      "D4",
-      "G3"
+      "B4",
+      "B5",
+      "C4"
     ]
   },
   {
@@ -72,9 +72,9 @@
     "top5_candidates": [
       "B3",
       "C4",
-      "G4",
+      "D4",
       "A3",
-      "E4"
+      "G4"
     ]
   },
   {
@@ -85,8 +85,8 @@
     "top5_candidates": [
       "A4",
       "B4",
-      "F4",
       "C5",
+      "F4",
       "G4"
     ]
   },
@@ -99,8 +99,8 @@
       "B2",
       "A2",
       "D2",
-      "B1",
-      "C3"
+      "C3",
+      "F2"
     ]
   },
   {
@@ -112,8 +112,8 @@
       "E4",
       "F4",
       "G4",
-      "A4",
-      "E3"
+      "E3",
+      "A3"
     ]
   },
   {
@@ -124,9 +124,9 @@
     "top5_candidates": [
       "D2",
       "A2",
-      "G2",
       "D3",
-      "A3"
+      "G2",
+      "F2"
     ]
   },
   {
@@ -136,10 +136,10 @@
     "correct": true,
     "top5_candidates": [
       "C5",
-      "C4",
       "D5",
-      "C6",
-      "E5"
+      "F5",
+      "D3",
+      "D2"
     ]
   },
   {
@@ -151,8 +151,8 @@
       "B3",
       "C4",
       "D4",
-      "G3",
-      "E4"
+      "G4",
+      "A3"
     ]
   },
   {
@@ -162,8 +162,8 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "G4",
       "F4",
+      "G4",
       "E5",
       "D4"
     ]
@@ -171,27 +171,27 @@
   {
     "sample_id": "samples/6491377/p1-s2",
     "target_token": "F4",
-    "predicted_token": "G4",
+    "predicted_token": "B4",
     "correct": false,
     "top5_candidates": [
-      "G4",
-      "F4",
       "B4",
-      "E4",
-      "E5"
+      "F4",
+      "G4",
+      "A4",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/6421815/p6-s3",
     "target_token": "D3",
-    "predicted_token": "D2",
-    "correct": false,
+    "predicted_token": "D3",
+    "correct": true,
     "top5_candidates": [
-      "D2",
+      "D3",
       "C3",
+      "G2",
       "A2",
-      "A3",
-      "D3"
+      "D2"
     ]
   },
   {
@@ -202,35 +202,35 @@
     "top5_candidates": [
       "F3",
       "G3",
-      "A3",
       "E3",
-      "G2"
+      "A3",
+      "B3"
     ]
   },
   {
     "sample_id": "samples/6425381/p1-s2",
     "target_token": "A3",
-    "predicted_token": "E4",
+    "predicted_token": "C4",
     "correct": false,
     "top5_candidates": [
-      "E4",
-      "G3",
-      "G4",
       "C4",
-      "E5"
+      "A3",
+      "G3",
+      "E5",
+      "B3"
     ]
   },
   {
     "sample_id": "samples/5661740/p6-s2",
     "target_token": "A4",
-    "predicted_token": "B5",
+    "predicted_token": "B4",
     "correct": false,
     "top5_candidates": [
+      "B4",
+      "G4",
+      "G5",
       "B5",
-      "B3",
-      "A5",
-      "C6",
-      "A2"
+      "F4"
     ]
   },
   {
@@ -240,10 +240,10 @@
     "correct": true,
     "top5_candidates": [
       "E3",
-      "G3",
       "F3",
       "D3",
-      "A3"
+      "G3",
+      "B2"
     ]
   },
   {
@@ -253,10 +253,10 @@
     "correct": false,
     "top5_candidates": [
       "D3",
-      "E3",
       "D2",
-      "E2",
-      "D1"
+      "D1",
+      "C3",
+      "E3"
     ]
   },
   {
@@ -266,10 +266,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "A3",
-      "D4",
       "B4",
-      "B5"
+      "C4",
+      "B5",
+      "G3"
     ]
   },
   {
@@ -280,9 +280,9 @@
     "top5_candidates": [
       "E4",
       "D4",
-      "G4",
-      "B3",
-      "E5"
+      "E3",
+      "D5",
+      "B3"
     ]
   },
   {
@@ -292,23 +292,23 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "A3",
       "C4",
+      "A3",
       "G3",
-      "F3"
+      "E3"
     ]
   },
   {
     "sample_id": "samples/6412767/p3-s2",
     "target_token": "G4",
-    "predicted_token": "E4",
+    "predicted_token": "A2",
     "correct": false,
     "top5_candidates": [
-      "E4",
-      "D4",
-      "E5",
-      "D5",
-      "F4"
+      "A2",
+      "E3",
+      "B2",
+      "F3",
+      "D3"
     ]
   },
   {
@@ -319,7 +319,7 @@
     "top5_candidates": [
       "A3",
       "E3",
-      "G3",
+      "F3",
       "C4",
       "A2"
     ]
@@ -331,10 +331,10 @@
     "correct": false,
     "top5_candidates": [
       "B3",
-      "F3",
       "A3",
-      "G3",
-      "B2"
+      "F3",
+      "C4",
+      "G3"
     ]
   },
   {
@@ -344,10 +344,10 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "C4",
+      "F4",
+      "F3",
       "D3",
-      "B3",
-      "E4"
+      "B3"
     ]
   },
   {
@@ -357,23 +357,23 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "E4",
+      "C4",
+      "A3",
       "A4",
-      "B4",
-      "A3"
+      "G3"
     ]
   },
   {
     "sample_id": "samples/5098715/p5-s5",
     "target_token": "G4",
-    "predicted_token": "E5",
-    "correct": false,
+    "predicted_token": "G4",
+    "correct": true,
     "top5_candidates": [
+      "G4",
       "E5",
       "B4",
-      "D5",
-      "G4",
-      "A4"
+      "A4",
+      "E4"
     ]
   },
   {
@@ -383,10 +383,10 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "E4",
       "D4",
-      "F4",
-      "C6"
+      "B3",
+      "A3",
+      "E4"
     ]
   },
   {
@@ -397,9 +397,9 @@
     "top5_candidates": [
       "C5",
       "D5",
-      "C4",
-      "A4",
-      "A5"
+      "C2",
+      "B4",
+      "C4"
     ]
   },
   {
@@ -410,9 +410,9 @@
     "top5_candidates": [
       "A3",
       "B3",
-      "C4",
       "F3",
-      "G3"
+      "G3",
+      "C4"
     ]
   },
   {
@@ -422,10 +422,10 @@
     "correct": false,
     "top5_candidates": [
       "C5",
-      "B4",
       "B3",
-      "D5",
-      "A3"
+      "C4",
+      "B4",
+      "A4"
     ]
   },
   {
@@ -437,8 +437,8 @@
       "E2",
       "F2",
       "D2",
-      "G2",
-      "A2"
+      "E3",
+      "G2"
     ]
   },
   {
@@ -449,22 +449,22 @@
     "top5_candidates": [
       "B2",
       "C3",
-      "A2",
-      "B5",
-      "B3"
+      "B3",
+      "D2",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6421815/p5-s3",
     "target_token": "A4",
-    "predicted_token": "A4",
-    "correct": true,
+    "predicted_token": "B4",
+    "correct": false,
     "top5_candidates": [
-      "A4",
       "B4",
       "G4",
-      "A2",
-      "C5"
+      "C5",
+      "A4",
+      "A2"
     ]
   },
   {
@@ -474,10 +474,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "A4",
       "F4",
-      "E5",
-      "F5"
+      "A4",
+      "B2",
+      "C5"
     ]
   },
   {
@@ -488,9 +488,9 @@
     "top5_candidates": [
       "E4",
       "F4",
+      "C4",
       "D4",
-      "G4",
-      "C4"
+      "G4"
     ]
   },
   {
@@ -502,8 +502,8 @@
       "G4",
       "B4",
       "F4",
-      "E5",
-      "A4"
+      "A4",
+      "C5"
     ]
   },
   {
@@ -514,9 +514,9 @@
     "top5_candidates": [
       "A4",
       "B4",
-      "C5",
       "G4",
-      "A2"
+      "C5",
+      "D5"
     ]
   },
   {
@@ -528,8 +528,8 @@
       "E3",
       "C3",
       "B2",
-      "A3",
-      "F3"
+      "F3",
+      "D3"
     ]
   },
   {
@@ -539,10 +539,10 @@
     "correct": true,
     "top5_candidates": [
       "C5",
-      "D5",
       "B4",
-      "E5",
-      "F5"
+      "D5",
+      "F5",
+      "A4"
     ]
   },
   {
@@ -552,10 +552,10 @@
     "correct": false,
     "top5_candidates": [
       "C6",
-      "D6",
+      "A5",
+      "F5",
       "E6",
-      "B5",
-      "G5"
+      "C5"
     ]
   },
   {
@@ -567,8 +567,8 @@
       "F4",
       "B4",
       "G4",
-      "E4",
-      "A4"
+      "A4",
+      "E4"
     ]
   },
   {
@@ -578,10 +578,10 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "G4",
+      "D4",
+      "A3",
       "E4",
-      "C5",
-      "A3"
+      "B3"
     ]
   },
   {
@@ -592,9 +592,9 @@
     "top5_candidates": [
       "A2",
       "E2",
-      "D3",
-      "G2",
-      "A3"
+      "C3",
+      "F2",
+      "E3"
     ]
   },
   {
@@ -604,10 +604,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
+      "C4",
       "D4",
-      "G3",
-      "E5",
-      "C4"
+      "A3",
+      "D3"
     ]
   },
   {
@@ -617,10 +617,10 @@
     "correct": true,
     "top5_candidates": [
       "D5",
-      "F5",
-      "E5",
       "D6",
-      "G5"
+      "E5",
+      "F5",
+      "C5"
     ]
   },
   {
@@ -630,10 +630,10 @@
     "correct": false,
     "top5_candidates": [
       "B4",
-      "C5",
       "A4",
-      "D5",
-      "E4"
+      "C5",
+      "G4",
+      "D5"
     ]
   },
   {
@@ -643,23 +643,23 @@
     "correct": false,
     "top5_candidates": [
       "A3",
-      "C4",
-      "G3",
-      "D4",
-      "B4"
+      "F4",
+      "F3",
+      "B3",
+      "G3"
     ]
   },
   {
     "sample_id": "samples/5187781/p3-s4",
     "target_token": "E3",
-    "predicted_token": "E4",
-    "correct": false,
+    "predicted_token": "E3",
+    "correct": true,
     "top5_candidates": [
-      "E4",
       "E3",
-      "G3",
+      "E4",
+      "F3",
       "C4",
-      "B2"
+      "D4"
     ]
   },
   {
@@ -669,10 +669,10 @@
     "correct": false,
     "top5_candidates": [
       "E4",
-      "E3",
+      "D4",
       "G3",
-      "G4",
-      "D4"
+      "B3",
+      "E3"
     ]
   },
   {
@@ -684,8 +684,8 @@
       "B3",
       "C4",
       "A3",
-      "D4",
-      "G3"
+      "G3",
+      "D4"
     ]
   },
   {
@@ -695,10 +695,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "G4",
-      "B3",
       "C4",
-      "D4"
+      "D4",
+      "F4",
+      "G4"
     ]
   },
   {
@@ -708,49 +708,49 @@
     "correct": true,
     "top5_candidates": [
       "C5",
-      "E5",
       "D5",
       "A4",
-      "C6"
+      "E5",
+      "F5"
     ]
   },
   {
     "sample_id": "samples/6196782/p1-s2",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "F4",
+    "correct": false,
     "top5_candidates": [
-      "E4",
       "F4",
+      "E4",
       "G4",
-      "C4",
-      "D4"
+      "D4",
+      "E3"
     ]
   },
   {
     "sample_id": "samples/5071629/p1-s4",
     "target_token": "A4",
-    "predicted_token": "A4",
-    "correct": true,
+    "predicted_token": "A3",
+    "correct": false,
     "top5_candidates": [
-      "A4",
-      "E4",
-      "G4",
       "A3",
-      "C5"
+      "A4",
+      "C5",
+      "G4",
+      "C4"
     ]
   },
   {
     "sample_id": "samples/5187781/p3-s3",
     "target_token": "D4",
-    "predicted_token": "E4",
+    "predicted_token": "C4",
     "correct": false,
     "top5_candidates": [
-      "E4",
-      "F4",
-      "G4",
       "C4",
-      "D4"
+      "E4",
+      "D4",
+      "A3",
+      "F4"
     ]
   },
   {
@@ -760,23 +760,23 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "B3",
       "A3",
       "D4",
+      "B3",
       "C3"
     ]
   },
   {
     "sample_id": "samples/6210961/p2-s1",
     "target_token": "G3",
-    "predicted_token": "B3",
-    "correct": false,
+    "predicted_token": "G3",
+    "correct": true,
     "top5_candidates": [
-      "B3",
       "G3",
+      "B3",
       "A3",
-      "G4",
-      "C4"
+      "C4",
+      "G4"
     ]
   },
   {
@@ -787,9 +787,9 @@
     "top5_candidates": [
       "G4",
       "B4",
-      "A4",
-      "E4",
-      "E5"
+      "G3",
+      "F4",
+      "C5"
     ]
   },
   {
@@ -799,10 +799,10 @@
     "correct": false,
     "top5_candidates": [
       "B3",
-      "A3",
       "F3",
-      "D2",
-      "C3"
+      "C4",
+      "A3",
+      "E3"
     ]
   },
   {
@@ -813,22 +813,22 @@
     "top5_candidates": [
       "C4",
       "B3",
-      "G4",
-      "E4",
-      "A3"
+      "A3",
+      "D4",
+      "G3"
     ]
   },
   {
     "sample_id": "samples/6581327/p1-s4",
     "target_token": "B4",
-    "predicted_token": "A4",
+    "predicted_token": "G4",
     "correct": false,
     "top5_candidates": [
-      "A4",
       "G4",
+      "A4",
       "B4",
       "C5",
-      "E4"
+      "D5"
     ]
   },
   {
@@ -838,23 +838,23 @@
     "correct": true,
     "top5_candidates": [
       "F2",
-      "D2",
-      "G2",
+      "F3",
       "A2",
-      "D3"
+      "C3",
+      "F1"
     ]
   },
   {
     "sample_id": "samples/6189628/p3-s2",
     "target_token": "F1",
-    "predicted_token": "F1",
-    "correct": true,
+    "predicted_token": "C2",
+    "correct": false,
     "top5_candidates": [
-      "F1",
       "C2",
-      "A2",
-      "A1",
-      "F6"
+      "F1",
+      "C5",
+      "D2",
+      "E2"
     ]
   },
   {
@@ -865,22 +865,22 @@
     "top5_candidates": [
       "D5",
       "E5",
-      "C5",
       "F5",
+      "C5",
       "B4"
     ]
   },
   {
     "sample_id": "samples/5067692/p2-s3",
     "target_token": "B5",
-    "predicted_token": "B5",
-    "correct": true,
+    "predicted_token": "A5",
+    "correct": false,
     "top5_candidates": [
-      "B5",
       "A5",
       "F5",
-      "G5",
-      "B4"
+      "B4",
+      "B5",
+      "G5"
     ]
   },
   {
@@ -890,23 +890,23 @@
     "correct": true,
     "top5_candidates": [
       "F4",
+      "F3",
       "D4",
       "E4",
-      "A3",
-      "F5"
+      "G4"
     ]
   },
   {
     "sample_id": "samples/6409323/p4-s4",
     "target_token": "G3",
-    "predicted_token": "A3",
+    "predicted_token": "F3",
     "correct": false,
     "top5_candidates": [
+      "F3",
       "A3",
       "B3",
-      "E3",
-      "C4",
-      "G3"
+      "G3",
+      "C3"
     ]
   },
   {
@@ -916,10 +916,10 @@
     "correct": true,
     "top5_candidates": [
       "F4",
-      "B4",
       "G4",
+      "B4",
       "E4",
-      "F5"
+      "A4"
     ]
   },
   {
@@ -929,10 +929,10 @@
     "correct": true,
     "top5_candidates": [
       "B4",
-      "B1",
-      "C5",
+      "G4",
       "A4",
-      "B5"
+      "F4",
+      "B3"
     ]
   },
   {
@@ -955,10 +955,10 @@
     "correct": false,
     "top5_candidates": [
       "A3",
+      "G3",
       "F3",
-      "A4",
       "B3",
-      "G3"
+      "A4"
     ]
   },
   {
@@ -969,9 +969,9 @@
     "top5_candidates": [
       "E4",
       "F4",
-      "G4",
+      "E3",
       "D4",
-      "E5"
+      "G4"
     ]
   },
   {
@@ -982,9 +982,9 @@
     "top5_candidates": [
       "A3",
       "B3",
-      "A2",
-      "A4",
-      "A5"
+      "F2",
+      "C4",
+      "A2"
     ]
   },
   {
@@ -994,23 +994,23 @@
     "correct": true,
     "top5_candidates": [
       "B5",
-      "B2",
-      "G5",
-      "D2",
-      "A5"
+      "B3",
+      "B4",
+      "A5",
+      "G5"
     ]
   },
   {
     "sample_id": "samples/6581327/p5-s2",
     "target_token": "F1",
-    "predicted_token": "B2",
+    "predicted_token": "E3",
     "correct": false,
     "top5_candidates": [
-      "B2",
+      "E3",
       "D2",
-      "C3",
-      "F3",
-      "B1"
+      "G2",
+      "B2",
+      "A2"
     ]
   },
   {
@@ -1034,9 +1034,9 @@
     "top5_candidates": [
       "G4",
       "E4",
-      "D4",
       "F4",
-      "E5"
+      "B4",
+      "G5"
     ]
   },
   {
@@ -1046,10 +1046,10 @@
     "correct": false,
     "top5_candidates": [
       "E3",
+      "A2",
       "F3",
-      "C3",
-      "B2",
-      "A3"
+      "A3",
+      "B2"
     ]
   },
   {
@@ -1059,23 +1059,23 @@
     "correct": false,
     "top5_candidates": [
       "G3",
-      "B3",
-      "A3",
       "E3",
-      "F3"
+      "B3",
+      "F3",
+      "B2"
     ]
   },
   {
     "sample_id": "samples/6197282/p2-s3",
     "target_token": "G4",
-    "predicted_token": "G4",
-    "correct": true,
+    "predicted_token": "F4",
+    "correct": false,
     "top5_candidates": [
-      "G4",
       "F4",
+      "G4",
       "A4",
       "B4",
-      "D3"
+      "E4"
     ]
   },
   {
@@ -1086,9 +1086,9 @@
     "top5_candidates": [
       "B3",
       "D4",
-      "G4",
-      "B5",
-      "F4"
+      "F4",
+      "C4",
+      "G4"
     ]
   },
   {
@@ -1100,8 +1100,8 @@
       "A3",
       "G3",
       "F3",
-      "A1",
-      "E3"
+      "C5",
+      "D3"
     ]
   },
   {
@@ -1112,9 +1112,9 @@
     "top5_candidates": [
       "B3",
       "C4",
-      "A3",
       "B5",
-      "F5"
+      "A3",
+      "B4"
     ]
   },
   {
@@ -1125,9 +1125,9 @@
     "top5_candidates": [
       "E4",
       "F4",
-      "G4",
       "D4",
-      "E5"
+      "C4",
+      "G4"
     ]
   },
   {
@@ -1138,9 +1138,9 @@
     "top5_candidates": [
       "G4",
       "D4",
-      "E4",
       "F4",
-      "E5"
+      "B3",
+      "E4"
     ]
   },
   {
@@ -1151,9 +1151,9 @@
     "top5_candidates": [
       "B3",
       "A3",
-      "B5",
       "D3",
-      "G4"
+      "G4",
+      "C4"
     ]
   },
   {
@@ -1163,10 +1163,10 @@
     "correct": false,
     "top5_candidates": [
       "D4",
-      "E4",
       "C4",
       "B3",
-      "F4"
+      "E4",
+      "D3"
     ]
   },
   {
@@ -1178,21 +1178,21 @@
       "E3",
       "F3",
       "D3",
-      "C3",
-      "B2"
+      "G2",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/5652250/p1-s3",
     "target_token": "F3",
-    "predicted_token": "F3",
-    "correct": true,
+    "predicted_token": "D3",
+    "correct": false,
     "top5_candidates": [
+      "D3",
+      "C3",
       "F3",
       "E3",
-      "D3",
-      "G3",
-      "A3"
+      "B2"
     ]
   },
   {
@@ -1203,22 +1203,22 @@
     "top5_candidates": [
       "B4",
       "A4",
-      "B5",
-      "G4",
-      "D5"
+      "D5",
+      "B3",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/6425381/p4-s3",
     "target_token": "D5",
-    "predicted_token": "G4",
+    "predicted_token": "E5",
     "correct": false,
     "top5_candidates": [
-      "G4",
       "E5",
-      "E4",
+      "G4",
       "G5",
-      "A4"
+      "C5",
+      "B4"
     ]
   },
   {
@@ -1228,10 +1228,10 @@
     "correct": false,
     "top5_candidates": [
       "B2",
+      "C3",
       "A2",
-      "D2",
-      "C4",
-      "D3"
+      "D3",
+      "E3"
     ]
   },
   {
@@ -1242,9 +1242,9 @@
     "top5_candidates": [
       "G2",
       "D2",
-      "D3",
-      "E2",
-      "A4"
+      "C2",
+      "G4",
+      "F2"
     ]
   },
   {
@@ -1255,9 +1255,9 @@
     "top5_candidates": [
       "G4",
       "C5",
+      "A4",
       "D5",
-      "F4",
-      "A4"
+      "B4"
     ]
   },
   {
@@ -1268,9 +1268,9 @@
     "top5_candidates": [
       "D4",
       "C4",
-      "D6",
       "B3",
-      "B5"
+      "E4",
+      "F2"
     ]
   },
   {
@@ -1280,10 +1280,10 @@
     "correct": true,
     "top5_candidates": [
       "F5",
-      "F6",
-      "D5",
+      "C5",
+      "E5",
       "G5",
-      "A5"
+      "D5"
     ]
   },
   {
@@ -1293,10 +1293,10 @@
     "correct": true,
     "top5_candidates": [
       "B4",
-      "B5",
+      "F4",
       "A4",
       "C5",
-      "B3"
+      "B5"
     ]
   },
   {
@@ -1306,10 +1306,10 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "A4",
-      "B4",
       "G3",
-      "C5"
+      "B4",
+      "A4",
+      "C3"
     ]
   },
   {
@@ -1319,10 +1319,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "G4",
       "F4",
-      "G3",
-      "C2"
+      "E3",
+      "C4",
+      "G4"
     ]
   },
   {
@@ -1333,9 +1333,9 @@
     "top5_candidates": [
       "C4",
       "D4",
-      "E4",
-      "G4",
-      "B3"
+      "A3",
+      "B3",
+      "E4"
     ]
   },
   {
@@ -1346,9 +1346,9 @@
     "top5_candidates": [
       "A3",
       "F3",
-      "E3",
-      "G3",
-      "C4"
+      "B3",
+      "C4",
+      "G3"
     ]
   },
   {
@@ -1358,8 +1358,8 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "C4",
       "E3",
+      "D3",
       "G3",
       "F3"
     ]
@@ -1372,9 +1372,9 @@
     "top5_candidates": [
       "D4",
       "C4",
+      "D3",
       "B3",
-      "G3",
-      "A3"
+      "D6"
     ]
   },
   {
@@ -1384,9 +1384,9 @@
     "correct": false,
     "top5_candidates": [
       "G3",
+      "B4",
       "A3",
       "B3",
-      "B4",
       "F3"
     ]
   },
@@ -1397,23 +1397,23 @@
     "correct": true,
     "top5_candidates": [
       "B4",
+      "A4",
       "D5",
-      "E4",
-      "B3",
-      "A4"
+      "F4",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/5098728/p1-s4",
     "target_token": "A3",
-    "predicted_token": "A3",
-    "correct": true,
+    "predicted_token": "G3",
+    "correct": false,
     "top5_candidates": [
-      "A3",
       "G3",
-      "B3",
+      "A3",
       "F3",
-      "C4"
+      "B3",
+      "E3"
     ]
   },
   {
@@ -1425,8 +1425,8 @@
       "F4",
       "G4",
       "E4",
-      "D4",
-      "C5"
+      "F3",
+      "F5"
     ]
   },
   {
@@ -1437,8 +1437,8 @@
     "top5_candidates": [
       "G4",
       "F4",
-      "E4",
       "D4",
+      "E4",
       "A4"
     ]
   },
@@ -1450,9 +1450,9 @@
     "top5_candidates": [
       "G4",
       "B4",
-      "E5",
-      "C5",
-      "A4"
+      "A4",
+      "F4",
+      "C5"
     ]
   },
   {
@@ -1463,9 +1463,9 @@
     "top5_candidates": [
       "E3",
       "G3",
+      "D3",
       "A2",
-      "F3",
-      "D3"
+      "F3"
     ]
   },
   {
@@ -1477,8 +1477,8 @@
       "A2",
       "E2",
       "D2",
-      "A1",
-      "E1"
+      "F2",
+      "A1"
     ]
   },
   {
@@ -1488,10 +1488,10 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "F4",
       "G3",
+      "F4",
       "D4",
-      "D3"
+      "B3"
     ]
   },
   {
@@ -1501,10 +1501,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "B4",
       "G4",
-      "A2",
-      "C5"
+      "C5",
+      "D5",
+      "B4"
     ]
   },
   {
@@ -1515,9 +1515,9 @@
     "top5_candidates": [
       "A4",
       "G4",
-      "B4",
       "F4",
-      "C5"
+      "C5",
+      "B4"
     ]
   },
   {
@@ -1527,10 +1527,10 @@
     "correct": false,
     "top5_candidates": [
       "G4",
+      "F4",
       "B4",
-      "E4",
-      "A4",
-      "F4"
+      "C5",
+      "E4"
     ]
   },
   {
@@ -1543,7 +1543,7 @@
       "E3",
       "A4",
       "F4",
-      "A3"
+      "C4"
     ]
   },
   {
@@ -1553,20 +1553,20 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "D4",
-      "G4",
+      "D5",
       "C4",
-      "B3"
+      "D4",
+      "B1"
     ]
   },
   {
     "sample_id": "samples/6236150/p2-s4",
     "target_token": "B3",
-    "predicted_token": "C4",
-    "correct": false,
+    "predicted_token": "B3",
+    "correct": true,
     "top5_candidates": [
-      "C4",
       "B3",
+      "C4",
       "A3",
       "D4",
       "E4"
@@ -1579,23 +1579,23 @@
     "correct": false,
     "top5_candidates": [
       "G4",
-      "E4",
-      "A4",
       "C4",
-      "G3"
+      "A4",
+      "E4",
+      "B3"
     ]
   },
   {
     "sample_id": "samples/6007571/p4-s2",
     "target_token": "D2",
-    "predicted_token": "A3",
-    "correct": false,
+    "predicted_token": "D2",
+    "correct": true,
     "top5_candidates": [
-      "A3",
       "D2",
       "A2",
-      "B3",
-      "F2"
+      "F2",
+      "E2",
+      "G2"
     ]
   },
   {
@@ -1605,10 +1605,10 @@
     "correct": false,
     "top5_candidates": [
       "F4",
-      "E4",
-      "G4",
       "B4",
-      "B3"
+      "G4",
+      "E4",
+      "A4"
     ]
   },
   {
@@ -1618,10 +1618,10 @@
     "correct": true,
     "top5_candidates": [
       "A2",
-      "D2",
-      "D3",
       "B2",
-      "A3"
+      "D3",
+      "A3",
+      "A5"
     ]
   },
   {
@@ -1632,9 +1632,9 @@
     "top5_candidates": [
       "B3",
       "A3",
-      "B2",
-      "F3",
-      "B5"
+      "G3",
+      "B4",
+      "G4"
     ]
   },
   {
@@ -1646,21 +1646,21 @@
       "G4",
       "F4",
       "B4",
-      "E4",
-      "A4"
+      "A4",
+      "E4"
     ]
   },
   {
     "sample_id": "samples/5987851/p4-s2",
     "target_token": "F4",
-    "predicted_token": "E4",
+    "predicted_token": "F3",
     "correct": false,
     "top5_candidates": [
-      "E4",
       "F3",
-      "G3",
-      "D4",
-      "C4"
+      "F4",
+      "B3",
+      "E4",
+      "G3"
     ]
   },
   {
@@ -1671,9 +1671,9 @@
     "top5_candidates": [
       "F3",
       "G3",
-      "D3",
-      "F5",
-      "A3"
+      "F4",
+      "B3",
+      "E3"
     ]
   },
   {
@@ -1684,8 +1684,8 @@
     "top5_candidates": [
       "C5",
       "D5",
-      "B4",
-      "E5",
+      "F5",
+      "A4",
       "C6"
     ]
   },
@@ -1697,21 +1697,21 @@
     "top5_candidates": [
       "E2",
       "D2",
-      "F2",
       "A2",
-      "G2"
+      "G2",
+      "F2"
     ]
   },
   {
     "sample_id": "samples/6581327/p7-s4",
     "target_token": "A2",
-    "predicted_token": "A2",
-    "correct": true,
+    "predicted_token": "C3",
+    "correct": false,
     "top5_candidates": [
-      "A2",
       "C3",
-      "C6",
-      "A4",
+      "E3",
+      "D3",
+      "F3",
       "A3"
     ]
   },
@@ -1723,9 +1723,9 @@
     "top5_candidates": [
       "G4",
       "F4",
-      "E4",
-      "G3",
-      "D3"
+      "A4",
+      "D5",
+      "B4"
     ]
   },
   {
@@ -1735,10 +1735,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "D4",
       "F4",
+      "D4",
       "C4",
-      "B2"
+      "E3"
     ]
   },
   {
@@ -1748,10 +1748,10 @@
     "correct": true,
     "top5_candidates": [
       "F4",
-      "F5",
-      "E4",
       "D4",
-      "G4"
+      "F5",
+      "F3",
+      "A5"
     ]
   },
   {
@@ -1761,22 +1761,22 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "D4",
       "C4",
+      "D4",
       "E4",
-      "E3"
+      "C5"
     ]
   },
   {
     "sample_id": "samples/4976604/p2-s4",
     "target_token": "F2",
-    "predicted_token": "E3",
+    "predicted_token": "D3",
     "correct": false,
     "top5_candidates": [
-      "E3",
+      "D3",
       "G3",
-      "A3",
       "B3",
+      "B2",
       "F3"
     ]
   },
@@ -1788,9 +1788,9 @@
     "top5_candidates": [
       "C2",
       "C3",
-      "A2",
-      "C6",
-      "E3"
+      "G2",
+      "B2",
+      "G1"
     ]
   },
   {
@@ -1801,9 +1801,9 @@
     "top5_candidates": [
       "A4",
       "G4",
-      "A2",
-      "E4",
-      "B4"
+      "B4",
+      "C2",
+      "A5"
     ]
   },
   {
@@ -1814,32 +1814,32 @@
     "top5_candidates": [
       "A3",
       "G3",
+      "A5",
       "A4",
-      "E3",
-      "F3"
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6910703/p1-s3",
     "target_token": "E4",
-    "predicted_token": "C4",
+    "predicted_token": "D4",
     "correct": false,
     "top5_candidates": [
-      "C4",
       "D4",
-      "E4",
+      "C4",
       "B3",
-      "A3"
+      "A3",
+      "E4"
     ]
   },
   {
     "sample_id": "samples/6801790/p1-s3",
     "target_token": "F3",
-    "predicted_token": "E3",
+    "predicted_token": "C3",
     "correct": false,
     "top5_candidates": [
-      "E3",
       "C3",
+      "E3",
       "F3",
       "A3",
       "D3"
@@ -1852,10 +1852,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "G4",
       "C5",
+      "G4",
       "B4",
-      "C4"
+      "D5"
     ]
   },
   {
@@ -1866,9 +1866,9 @@
     "top5_candidates": [
       "F4",
       "G4",
-      "E4",
-      "D3",
-      "B3"
+      "F3",
+      "E3",
+      "D3"
     ]
   },
   {
@@ -1878,10 +1878,10 @@
     "correct": false,
     "top5_candidates": [
       "A3",
-      "B3",
       "G3",
       "C4",
-      "F3"
+      "C5",
+      "D2"
     ]
   },
   {
@@ -1891,23 +1891,23 @@
     "correct": true,
     "top5_candidates": [
       "A2",
-      "A5",
       "D3",
-      "E3",
-      "C3"
+      "C3",
+      "B2",
+      "E3"
     ]
   },
   {
     "sample_id": "samples/6636042/p1-s1",
     "target_token": "B5",
-    "predicted_token": "B5",
-    "correct": true,
+    "predicted_token": "A5",
+    "correct": false,
     "top5_candidates": [
-      "B5",
-      "G5",
+      "A5",
       "C6",
-      "F6",
-      "A5"
+      "G5",
+      "B5",
+      "F5"
     ]
   },
   {
@@ -1919,8 +1919,8 @@
       "A3",
       "F3",
       "G3",
-      "B3",
-      "E3"
+      "E3",
+      "C3"
     ]
   },
   {
@@ -1930,10 +1930,10 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "G3",
-      "A3",
       "B3",
-      "E4"
+      "A3",
+      "G3",
+      "D4"
     ]
   },
   {
@@ -1945,8 +1945,8 @@
       "F4",
       "G4",
       "A4",
-      "E4",
-      "C5"
+      "B4",
+      "E4"
     ]
   },
   {
@@ -1956,10 +1956,10 @@
     "correct": false,
     "top5_candidates": [
       "D3",
-      "G4",
-      "C3",
+      "B2",
+      "F2",
       "F4",
-      "A3"
+      "B3"
     ]
   },
   {
@@ -1969,10 +1969,10 @@
     "correct": true,
     "top5_candidates": [
       "E3",
-      "C3",
-      "A1",
-      "A3",
-      "D2"
+      "A2",
+      "F3",
+      "F2",
+      "G2"
     ]
   },
   {
@@ -1982,10 +1982,10 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "E4",
-      "C4",
+      "D3",
+      "B3",
       "D5",
-      "B3"
+      "A4"
     ]
   },
   {
@@ -1996,9 +1996,9 @@
     "top5_candidates": [
       "A1",
       "A2",
-      "A6",
-      "A5",
-      "F6"
+      "D2",
+      "D3",
+      "C2"
     ]
   },
   {
@@ -2008,10 +2008,10 @@
     "correct": true,
     "top5_candidates": [
       "D2",
+      "F2",
       "A2",
-      "B3",
       "C2",
-      "B1"
+      "G2"
     ]
   },
   {
@@ -2021,10 +2021,10 @@
     "correct": true,
     "top5_candidates": [
       "F4",
+      "G4",
       "B4",
       "A4",
-      "E4",
-      "D5"
+      "C5"
     ]
   },
   {
@@ -2034,8 +2034,8 @@
     "correct": false,
     "top5_candidates": [
       "A5",
-      "B5",
       "G5",
+      "B5",
       "F5",
       "C6"
     ]
@@ -2048,9 +2048,9 @@
     "top5_candidates": [
       "F3",
       "D3",
-      "B3",
       "G3",
-      "C3"
+      "C3",
+      "B3"
     ]
   },
   {
@@ -2061,9 +2061,9 @@
     "top5_candidates": [
       "A2",
       "A3",
-      "C4",
-      "B2",
-      "E3"
+      "C3",
+      "B3",
+      "C4"
     ]
   },
   {
@@ -2076,7 +2076,7 @@
       "E4",
       "G4",
       "D4",
-      "E5"
+      "F3"
     ]
   },
   {
@@ -2086,36 +2086,36 @@
     "correct": false,
     "top5_candidates": [
       "E4",
-      "A4",
-      "G4",
       "F4",
-      "B4"
+      "C4",
+      "A4",
+      "E3"
     ]
   },
   {
     "sample_id": "samples/6801790/p5-s4",
     "target_token": "D4",
-    "predicted_token": "D4",
-    "correct": true,
+    "predicted_token": "G4",
+    "correct": false,
     "top5_candidates": [
-      "D4",
-      "E4",
       "G4",
+      "A4",
+      "E4",
       "F4",
-      "A4"
+      "D4"
     ]
   },
   {
     "sample_id": "samples/5077917/p3-s4",
     "target_token": "A4",
-    "predicted_token": "A4",
-    "correct": true,
+    "predicted_token": "G4",
+    "correct": false,
     "top5_candidates": [
-      "A4",
       "G4",
-      "C5",
+      "A4",
       "B4",
-      "C6"
+      "C5",
+      "B3"
     ]
   },
   {
@@ -2125,36 +2125,36 @@
     "correct": true,
     "top5_candidates": [
       "F4",
-      "D4",
-      "E4",
       "G4",
-      "F5"
+      "D4",
+      "A4",
+      "E4"
     ]
   },
   {
     "sample_id": "samples/5989993/p3-s3",
     "target_token": "D2",
-    "predicted_token": "A2",
-    "correct": false,
+    "predicted_token": "D2",
+    "correct": true,
     "top5_candidates": [
-      "A2",
       "D2",
-      "E3",
       "F3",
-      "A3"
+      "C3",
+      "D3",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6415075/p4-s1",
     "target_token": "A3",
-    "predicted_token": "F3",
+    "predicted_token": "B3",
     "correct": false,
     "top5_candidates": [
-      "F3",
-      "A3",
-      "C4",
       "B3",
-      "D3"
+      "C4",
+      "A3",
+      "F3",
+      "G3"
     ]
   },
   {
@@ -2164,10 +2164,10 @@
     "correct": true,
     "top5_candidates": [
       "G5",
-      "A5",
-      "F5",
       "G4",
-      "D6"
+      "G2",
+      "A5",
+      "F5"
     ]
   },
   {
@@ -2178,9 +2178,9 @@
     "top5_candidates": [
       "G2",
       "D2",
-      "A2",
+      "F2",
       "D3",
-      "B2"
+      "A2"
     ]
   },
   {
@@ -2190,10 +2190,10 @@
     "correct": false,
     "top5_candidates": [
       "G3",
-      "G4",
-      "C4",
       "A3",
-      "F3"
+      "G4",
+      "F3",
+      "C4"
     ]
   },
   {
@@ -2204,22 +2204,22 @@
     "top5_candidates": [
       "E4",
       "F4",
+      "C4",
       "D4",
-      "E5",
-      "C4"
+      "E3"
     ]
   },
   {
     "sample_id": "samples/6197282/p4-s4",
     "target_token": "D5",
-    "predicted_token": "D5",
-    "correct": true,
+    "predicted_token": "F5",
+    "correct": false,
     "top5_candidates": [
-      "D5",
-      "F6",
       "F5",
       "G5",
-      "C6"
+      "D5",
+      "C5",
+      "A4"
     ]
   },
   {
@@ -2230,22 +2230,22 @@
     "top5_candidates": [
       "G2",
       "A2",
+      "G5",
       "D2",
-      "G1",
       "G3"
     ]
   },
   {
     "sample_id": "samples/6010916/p2-s1",
     "target_token": "G5",
-    "predicted_token": "E5",
+    "predicted_token": "E4",
     "correct": false,
     "top5_candidates": [
-      "E5",
       "E4",
-      "C6",
-      "G5",
-      "F5"
+      "E5",
+      "D5",
+      "B5",
+      "A4"
     ]
   },
   {
@@ -2255,10 +2255,10 @@
     "correct": true,
     "top5_candidates": [
       "A2",
+      "C3",
       "F2",
-      "C2",
-      "C6",
-      "C3"
+      "E3",
+      "C6"
     ]
   },
   {
@@ -2269,9 +2269,9 @@
     "top5_candidates": [
       "B2",
       "D3",
-      "F3",
       "C3",
-      "D2"
+      "F2",
+      "G2"
     ]
   },
   {
@@ -2283,34 +2283,34 @@
       "C4",
       "D4",
       "B3",
-      "E4",
-      "G4"
+      "G4",
+      "A4"
     ]
   },
   {
     "sample_id": "samples/6641170/p3-s2",
     "target_token": "C4",
-    "predicted_token": "G4",
+    "predicted_token": "G3",
     "correct": false,
     "top5_candidates": [
-      "G4",
-      "E4",
-      "A4",
       "G3",
+      "F3",
+      "A3",
+      "E4",
       "B3"
     ]
   },
   {
     "sample_id": "samples/6491377/p2-s3",
     "target_token": "G3",
-    "predicted_token": "G3",
-    "correct": true,
+    "predicted_token": "E3",
+    "correct": false,
     "top5_candidates": [
-      "G3",
       "E3",
-      "A2",
-      "D3",
-      "E2"
+      "B2",
+      "E2",
+      "G3",
+      "D3"
     ]
   },
   {
@@ -2320,23 +2320,23 @@
     "correct": false,
     "top5_candidates": [
       "B3",
-      "B2",
-      "B5",
       "B4",
+      "G4",
+      "D4",
       "D5"
     ]
   },
   {
     "sample_id": "samples/5661740/p1-s3",
     "target_token": "A2",
-    "predicted_token": "D2",
+    "predicted_token": "G2",
     "correct": false,
     "top5_candidates": [
-      "D2",
-      "A1",
       "G2",
-      "A2",
-      "F4"
+      "F4",
+      "D3",
+      "C3",
+      "E3"
     ]
   },
   {
@@ -2346,10 +2346,10 @@
     "correct": false,
     "top5_candidates": [
       "E3",
+      "D3",
       "B2",
       "F3",
-      "A2",
-      "D3"
+      "A2"
     ]
   },
   {
@@ -2359,10 +2359,10 @@
     "correct": false,
     "top5_candidates": [
       "D3",
-      "D4",
-      "D2",
-      "F3",
-      "D5"
+      "G2",
+      "G3",
+      "C5",
+      "F3"
     ]
   },
   {
@@ -2373,9 +2373,9 @@
     "top5_candidates": [
       "B4",
       "C5",
-      "E4",
       "A4",
-      "D5"
+      "F4",
+      "G4"
     ]
   },
   {
@@ -2386,9 +2386,9 @@
     "top5_candidates": [
       "E4",
       "D4",
-      "C4",
       "F4",
-      "D5"
+      "E3",
+      "C4"
     ]
   },
   {
@@ -2398,23 +2398,23 @@
     "correct": true,
     "top5_candidates": [
       "G3",
-      "G4",
       "A3",
-      "D3",
-      "E3"
+      "F3",
+      "E3",
+      "G2"
     ]
   },
   {
     "sample_id": "samples/5077917/p2-s2",
     "target_token": "A4",
-    "predicted_token": "F5",
-    "correct": false,
+    "predicted_token": "A4",
+    "correct": true,
     "top5_candidates": [
+      "A4",
+      "B4",
       "F5",
       "E5",
-      "D5",
-      "A4",
-      "G5"
+      "D5"
     ]
   },
   {
@@ -2425,32 +2425,32 @@
     "top5_candidates": [
       "A3",
       "F3",
-      "E3",
       "G3",
-      "C3"
+      "E3",
+      "A5"
     ]
   },
   {
     "sample_id": "samples/6210961/p1-s1",
     "target_token": "B4",
-    "predicted_token": "G4",
+    "predicted_token": "A4",
     "correct": false,
     "top5_candidates": [
+      "A4",
       "G4",
       "B4",
-      "A4",
       "E4",
-      "D5"
+      "C5"
     ]
   },
   {
     "sample_id": "samples/6415075/p4-s2",
     "target_token": "D6",
-    "predicted_token": "A5",
+    "predicted_token": "F5",
     "correct": false,
     "top5_candidates": [
-      "A5",
       "F5",
+      "A5",
       "G5",
       "C6",
       "D6"
@@ -2463,23 +2463,23 @@
     "correct": true,
     "top5_candidates": [
       "C3",
+      "B2",
       "A2",
-      "C2",
-      "E2",
-      "B2"
+      "F2",
+      "C2"
     ]
   },
   {
     "sample_id": "samples/6259566/p1-s3",
     "target_token": "B4",
-    "predicted_token": "D5",
+    "predicted_token": "F5",
     "correct": false,
     "top5_candidates": [
-      "D5",
-      "B4",
-      "C5",
       "F5",
-      "B5"
+      "B4",
+      "D5",
+      "C5",
+      "E5"
     ]
   },
   {
@@ -2490,9 +2490,9 @@
     "top5_candidates": [
       "F3",
       "G3",
-      "D2",
       "B2",
-      "F4"
+      "E3",
+      "G1"
     ]
   },
   {
@@ -2502,10 +2502,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "C4",
       "D4",
-      "A4",
-      "B4"
+      "F4",
+      "B2",
+      "A4"
     ]
   },
   {
@@ -2515,10 +2515,10 @@
     "correct": true,
     "top5_candidates": [
       "G3",
-      "A3",
       "F3",
+      "A3",
       "E3",
-      "E4"
+      "G5"
     ]
   },
   {
@@ -2528,36 +2528,36 @@
     "correct": false,
     "top5_candidates": [
       "A5",
-      "C6",
-      "D6",
       "G5",
-      "B5"
+      "F5",
+      "A4",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/6151337/p2-s5",
     "target_token": "G3",
-    "predicted_token": "G3",
-    "correct": true,
+    "predicted_token": "A3",
+    "correct": false,
     "top5_candidates": [
-      "G3",
       "A3",
       "F3",
-      "E3",
-      "B3"
+      "B3",
+      "G3",
+      "E3"
     ]
   },
   {
     "sample_id": "samples/6629643/p1-s2",
     "target_token": "A3",
-    "predicted_token": "A3",
-    "correct": true,
+    "predicted_token": "B3",
+    "correct": false,
     "top5_candidates": [
-      "A3",
       "B3",
       "C4",
-      "G3",
-      "E4"
+      "A3",
+      "D4",
+      "A4"
     ]
   },
   {
@@ -2568,22 +2568,22 @@
     "top5_candidates": [
       "E4",
       "G3",
-      "F4",
       "G4",
-      "B3"
+      "B3",
+      "D4"
     ]
   },
   {
     "sample_id": "samples/6151337/p2-s1",
     "target_token": "F3",
-    "predicted_token": "C3",
-    "correct": false,
+    "predicted_token": "F3",
+    "correct": true,
     "top5_candidates": [
-      "C3",
       "F3",
-      "A3",
       "D3",
-      "C4"
+      "C3",
+      "C4",
+      "B2"
     ]
   },
   {
@@ -2593,23 +2593,23 @@
     "correct": true,
     "top5_candidates": [
       "E3",
-      "A3",
       "F3",
       "C3",
-      "B3"
+      "D3",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6264558/p5-s4",
     "target_token": "D3",
-    "predicted_token": "G3",
-    "correct": false,
+    "predicted_token": "D3",
+    "correct": true,
     "top5_candidates": [
-      "G3",
-      "B4",
+      "D3",
       "D2",
-      "D5",
-      "E4"
+      "B4",
+      "F4",
+      "A2"
     ]
   },
   {
@@ -2621,8 +2621,8 @@
       "G4",
       "A4",
       "B4",
-      "E4",
-      "F4"
+      "E5",
+      "G3"
     ]
   },
   {
@@ -2633,9 +2633,9 @@
     "top5_candidates": [
       "A3",
       "C4",
-      "G5",
-      "B3",
-      "C5"
+      "A5",
+      "C5",
+      "D4"
     ]
   },
   {
@@ -2648,33 +2648,33 @@
       "C5",
       "A4",
       "G4",
-      "B5"
+      "B3"
     ]
   },
   {
     "sample_id": "samples/6259568/p3-s2",
     "target_token": "C5",
-    "predicted_token": "E4",
+    "predicted_token": "B4",
     "correct": false,
     "top5_candidates": [
+      "B4",
       "E4",
       "E5",
-      "B4",
       "C5",
-      "D5"
+      "A4"
     ]
   },
   {
     "sample_id": "samples/6572043/p1-s2",
     "target_token": "E2",
-    "predicted_token": "B2",
+    "predicted_token": "A2",
     "correct": false,
     "top5_candidates": [
+      "A2",
       "B2",
-      "A3",
-      "G3",
-      "F3",
-      "C3"
+      "D3",
+      "C3",
+      "F3"
     ]
   },
   {
@@ -2684,10 +2684,10 @@
     "correct": true,
     "top5_candidates": [
       "F5",
-      "G5",
+      "C5",
+      "A4",
       "D5",
-      "A5",
-      "D6"
+      "A5"
     ]
   },
   {
@@ -2699,8 +2699,8 @@
       "F4",
       "G4",
       "E4",
-      "B4",
-      "A4"
+      "A4",
+      "B4"
     ]
   },
   {
@@ -2711,9 +2711,9 @@
     "top5_candidates": [
       "E5",
       "C5",
-      "D5",
       "F5",
-      "C6"
+      "C6",
+      "G5"
     ]
   },
   {
@@ -2724,22 +2724,22 @@
     "top5_candidates": [
       "E5",
       "F5",
-      "E6",
-      "C6",
-      "A6"
+      "G5",
+      "A5",
+      "E6"
     ]
   },
   {
     "sample_id": "samples/6472842/p1-s5",
     "target_token": "F4",
-    "predicted_token": "E4",
+    "predicted_token": "B3",
     "correct": false,
     "top5_candidates": [
-      "E4",
       "B3",
       "D4",
-      "F4",
-      "G5"
+      "G3",
+      "A3",
+      "F4"
     ]
   },
   {
@@ -2749,10 +2749,10 @@
     "correct": true,
     "top5_candidates": [
       "F4",
-      "D4",
-      "E4",
       "G4",
-      "A3"
+      "E4",
+      "F3",
+      "B4"
     ]
   },
   {
@@ -2763,9 +2763,9 @@
     "top5_candidates": [
       "F5",
       "F2",
-      "G5",
       "C6",
-      "D5"
+      "A5",
+      "G5"
     ]
   },
   {
@@ -2776,9 +2776,9 @@
     "top5_candidates": [
       "B4",
       "A4",
-      "C5",
+      "F4",
       "G4",
-      "F4"
+      "C5"
     ]
   },
   {
@@ -2790,7 +2790,7 @@
       "G4",
       "B4",
       "F4",
-      "E4",
+      "C5",
       "A4"
     ]
   },
@@ -2801,8 +2801,8 @@
     "correct": false,
     "top5_candidates": [
       "D5",
-      "B4",
       "E5",
+      "B4",
       "A4",
       "C5"
     ]
@@ -2815,7 +2815,7 @@
     "top5_candidates": [
       "E3",
       "C3",
-      "C4",
+      "F3",
       "A3",
       "A2"
     ]
@@ -2828,9 +2828,9 @@
     "top5_candidates": [
       "F2",
       "F5",
-      "F4",
+      "F3",
       "G2",
-      "F3"
+      "F4"
     ]
   },
   {
@@ -2840,23 +2840,23 @@
     "correct": false,
     "top5_candidates": [
       "D3",
-      "F3",
       "E3",
-      "C3",
+      "F3",
+      "B2",
       "D4"
     ]
   },
   {
     "sample_id": "samples/6757520/p7-s2",
     "target_token": "A2",
-    "predicted_token": "E2",
-    "correct": false,
+    "predicted_token": "A2",
+    "correct": true,
     "top5_candidates": [
-      "E2",
       "A2",
-      "D2",
-      "B3",
-      "B2"
+      "E2",
+      "E3",
+      "B2",
+      "D3"
     ]
   },
   {
@@ -2867,22 +2867,22 @@
     "top5_candidates": [
       "C5",
       "D5",
-      "E4",
+      "F5",
       "E5",
-      "A4"
+      "F4"
     ]
   },
   {
     "sample_id": "samples/6581327/p3-s2",
     "target_token": "F3",
-    "predicted_token": "A3",
-    "correct": false,
+    "predicted_token": "F3",
+    "correct": true,
     "top5_candidates": [
-      "A3",
       "F3",
-      "E3",
-      "C3",
-      "G3"
+      "A3",
+      "G3",
+      "C4",
+      "F5"
     ]
   },
   {
@@ -2894,8 +2894,8 @@
       "C4",
       "D4",
       "E4",
-      "C5",
-      "B3"
+      "C6",
+      "A3"
     ]
   },
   {
@@ -2906,8 +2906,8 @@
     "top5_candidates": [
       "C5",
       "B4",
-      "E5",
-      "E4",
+      "G4",
+      "A4",
       "D5"
     ]
   },
@@ -2918,10 +2918,10 @@
     "correct": true,
     "top5_candidates": [
       "B2",
-      "B3",
+      "A2",
+      "D2",
       "C3",
-      "A3",
-      "A2"
+      "A3"
     ]
   },
   {
@@ -2932,8 +2932,8 @@
     "top5_candidates": [
       "A2",
       "C3",
+      "E3",
       "D3",
-      "C4",
       "B2"
     ]
   },
@@ -2945,9 +2945,9 @@
     "top5_candidates": [
       "C5",
       "D5",
-      "E5",
-      "B4",
-      "E4"
+      "A4",
+      "E4",
+      "E5"
     ]
   },
   {
@@ -2957,23 +2957,23 @@
     "correct": true,
     "top5_candidates": [
       "F4",
+      "F3",
+      "G4",
       "E4",
-      "D4",
-      "A3",
-      "G4"
+      "D4"
     ]
   },
   {
     "sample_id": "samples/4978397/p2-s2",
     "target_token": "C5",
-    "predicted_token": "A4",
+    "predicted_token": "B4",
     "correct": false,
     "top5_candidates": [
-      "A4",
-      "E4",
-      "D5",
+      "B4",
       "C5",
-      "B4"
+      "D5",
+      "A4",
+      "F5"
     ]
   },
   {
@@ -2983,23 +2983,23 @@
     "correct": true,
     "top5_candidates": [
       "C5",
-      "D5",
       "E5",
-      "A4",
-      "B4"
+      "D5",
+      "G4",
+      "B5"
     ]
   },
   {
     "sample_id": "samples/6757520/p1-s2",
     "target_token": "G3",
-    "predicted_token": "G3",
-    "correct": true,
+    "predicted_token": "F3",
+    "correct": false,
     "top5_candidates": [
+      "F3",
       "G3",
       "A3",
-      "B3",
-      "E3",
-      "F3"
+      "F2",
+      "B3"
     ]
   },
   {
@@ -3009,10 +3009,10 @@
     "correct": false,
     "top5_candidates": [
       "C4",
-      "D4",
       "B3",
-      "E4",
-      "B5"
+      "D4",
+      "B5",
+      "A3"
     ]
   },
   {
@@ -3022,10 +3022,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "A3",
-      "D4",
       "C4",
-      "G3"
+      "A3",
+      "G3",
+      "D4"
     ]
   },
   {
@@ -3035,20 +3035,20 @@
     "correct": true,
     "top5_candidates": [
       "F4",
-      "E4",
+      "F3",
       "F2",
-      "C4",
-      "B4"
+      "A2",
+      "E4"
     ]
   },
   {
     "sample_id": "samples/6151982/p1-s4",
     "target_token": "C5",
-    "predicted_token": "C5",
-    "correct": true,
+    "predicted_token": "B4",
+    "correct": false,
     "top5_candidates": [
-      "C5",
       "B4",
+      "C5",
       "D5",
       "E5",
       "B5"
@@ -3061,10 +3061,10 @@
     "correct": true,
     "top5_candidates": [
       "G3",
-      "A3",
       "F3",
-      "G4",
-      "E3"
+      "A3",
+      "B3",
+      "G5"
     ]
   },
   {
@@ -3074,23 +3074,23 @@
     "correct": true,
     "top5_candidates": [
       "F3",
-      "A3",
       "E3",
       "D3",
-      "F5"
+      "F2",
+      "F4"
     ]
   },
   {
     "sample_id": "samples/6581327/p1-s3",
     "target_token": "A3",
-    "predicted_token": "A2",
+    "predicted_token": "E2",
     "correct": false,
     "top5_candidates": [
-      "A2",
-      "B2",
       "E2",
+      "A2",
       "D2",
-      "E4"
+      "G2",
+      "B1"
     ]
   },
   {
@@ -3101,9 +3101,9 @@
     "top5_candidates": [
       "A3",
       "C4",
+      "B3",
       "D4",
-      "G3",
-      "B3"
+      "F3"
     ]
   },
   {
@@ -3114,35 +3114,35 @@
     "top5_candidates": [
       "F5",
       "G5",
+      "F3",
       "F2",
-      "F6",
-      "B5"
+      "F6"
     ]
   },
   {
     "sample_id": "samples/4978393/p1-s4",
     "target_token": "D4",
-    "predicted_token": "C4",
-    "correct": false,
+    "predicted_token": "D4",
+    "correct": true,
     "top5_candidates": [
-      "C4",
-      "A3",
-      "D3",
       "D4",
-      "C3"
+      "C4",
+      "B3",
+      "D3",
+      "A3"
     ]
   },
   {
     "sample_id": "samples/5935864/p5-s2",
     "target_token": "E5",
-    "predicted_token": "F5",
-    "correct": false,
+    "predicted_token": "E5",
+    "correct": true,
     "top5_candidates": [
-      "F5",
       "E5",
-      "A5",
-      "G5",
-      "E6"
+      "F5",
+      "E6",
+      "A4",
+      "A5"
     ]
   },
   {
@@ -3152,10 +3152,10 @@
     "correct": true,
     "top5_candidates": [
       "F3",
-      "D3",
-      "G3",
       "E3",
-      "F4"
+      "D3",
+      "B3",
+      "G3"
     ]
   },
   {
@@ -3165,10 +3165,10 @@
     "correct": true,
     "top5_candidates": [
       "D3",
-      "D2",
       "C3",
-      "G3",
-      "F3"
+      "D2",
+      "F3",
+      "G3"
     ]
   },
   {
@@ -3179,9 +3179,9 @@
     "top5_candidates": [
       "G2",
       "G3",
-      "G1",
+      "F2",
       "A2",
-      "F2"
+      "D3"
     ]
   },
   {
@@ -3193,21 +3193,21 @@
       "E4",
       "F4",
       "D4",
-      "G4",
-      "C4"
+      "E3",
+      "G4"
     ]
   },
   {
     "sample_id": "samples/6474469/p2-s1",
     "target_token": "A2",
-    "predicted_token": "A1",
-    "correct": false,
+    "predicted_token": "A2",
+    "correct": true,
     "top5_candidates": [
-      "A1",
       "A2",
-      "G1",
-      "F1",
-      "C2"
+      "A1",
+      "D2",
+      "F2",
+      "E2"
     ]
   },
   {
@@ -3217,10 +3217,10 @@
     "correct": true,
     "top5_candidates": [
       "F2",
-      "F5",
       "D2",
       "F1",
-      "G2"
+      "G2",
+      "A1"
     ]
   },
   {
@@ -3230,23 +3230,23 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "D4",
-      "C5",
       "A3",
-      "B3"
+      "C6",
+      "D4",
+      "G6"
     ]
   },
   {
     "sample_id": "samples/5986599/p2-s3",
     "target_token": "B4",
-    "predicted_token": "G4",
+    "predicted_token": "E4",
     "correct": false,
     "top5_candidates": [
-      "G4",
       "E4",
+      "G4",
+      "F4",
       "A4",
-      "C5",
-      "E5"
+      "C5"
     ]
   },
   {
@@ -3257,9 +3257,9 @@
     "top5_candidates": [
       "F3",
       "A3",
-      "B3",
-      "G3",
-      "F4"
+      "E3",
+      "F4",
+      "D3"
     ]
   },
   {
@@ -3272,20 +3272,20 @@
       "E5",
       "F5",
       "C5",
-      "A5"
+      "B4"
     ]
   },
   {
     "sample_id": "samples/6632270/p3-s3",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "G3",
+    "correct": false,
     "top5_candidates": [
+      "G3",
       "E4",
+      "A3",
       "D4",
-      "C4",
-      "B3",
-      "G3"
+      "C4"
     ]
   },
   {
@@ -3295,10 +3295,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "B4",
       "C5",
       "D5",
-      "E5"
+      "B4",
+      "A2"
     ]
   },
   {
@@ -3310,21 +3310,21 @@
       "A4",
       "G4",
       "B4",
-      "A3",
+      "C5",
       "F4"
     ]
   },
   {
     "sample_id": "samples/6259568/p2-s4",
     "target_token": "C5",
-    "predicted_token": "E4",
+    "predicted_token": "F3",
     "correct": false,
     "top5_candidates": [
-      "E4",
-      "F4",
       "F3",
-      "C4",
-      "F5"
+      "F4",
+      "F2",
+      "A3",
+      "G4"
     ]
   },
   {
@@ -3335,8 +3335,8 @@
     "top5_candidates": [
       "A4",
       "E4",
-      "G4",
-      "B4",
+      "D5",
+      "E3",
       "E5"
     ]
   },
@@ -3349,21 +3349,21 @@
       "F3",
       "G3",
       "A3",
-      "D3",
-      "E3"
+      "E3",
+      "B3"
     ]
   },
   {
     "sample_id": "samples/6230261/p4-s3",
     "target_token": "F3",
-    "predicted_token": "C2",
+    "predicted_token": "D3",
     "correct": false,
     "top5_candidates": [
-      "C2",
+      "D3",
       "G1",
-      "A1",
-      "B1",
-      "F3"
+      "F3",
+      "C2",
+      "A2"
     ]
   },
   {
@@ -3375,8 +3375,8 @@
       "E5",
       "F5",
       "G5",
-      "D5",
-      "A5"
+      "A5",
+      "D5"
     ]
   },
   {
@@ -3386,10 +3386,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "F4",
       "C4",
-      "B4",
-      "D5"
+      "D4",
+      "F4",
+      "E3"
     ]
   },
   {
@@ -3399,10 +3399,10 @@
     "correct": true,
     "top5_candidates": [
       "E3",
-      "D3",
       "C3",
-      "A3",
-      "F3"
+      "C2",
+      "F3",
+      "B2"
     ]
   },
   {
@@ -3414,21 +3414,21 @@
       "B2",
       "A2",
       "C3",
-      "D2",
-      "D3"
+      "D3",
+      "F2"
     ]
   },
   {
     "sample_id": "samples/6472842/p8-s1",
     "target_token": "D5",
-    "predicted_token": "E4",
-    "correct": false,
+    "predicted_token": "D5",
+    "correct": true,
     "top5_candidates": [
-      "E4",
       "D5",
-      "B4",
-      "A4",
-      "D4"
+      "G4",
+      "C5",
+      "F4",
+      "A4"
     ]
   },
   {
@@ -3438,10 +3438,10 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "E4",
       "D4",
-      "F4",
-      "A3"
+      "E4",
+      "C3",
+      "F4"
     ]
   },
   {
@@ -3452,9 +3452,9 @@
     "top5_candidates": [
       "G4",
       "A4",
-      "E4",
-      "C4",
-      "B4"
+      "D4",
+      "F4",
+      "C4"
     ]
   },
   {
@@ -3465,22 +3465,22 @@
     "top5_candidates": [
       "F4",
       "E4",
-      "G4",
+      "F3",
       "B4",
-      "D4"
+      "G4"
     ]
   },
   {
     "sample_id": "samples/6472842/p7-s4",
     "target_token": "E4",
-    "predicted_token": "E5",
-    "correct": false,
+    "predicted_token": "E4",
+    "correct": true,
     "top5_candidates": [
-      "E5",
       "E4",
-      "E3",
-      "F4",
-      "A5"
+      "E5",
+      "G5",
+      "A4",
+      "F4"
     ]
   },
   {
@@ -3491,9 +3491,9 @@
     "top5_candidates": [
       "A3",
       "E3",
-      "G3",
+      "F3",
       "D3",
-      "F3"
+      "C3"
     ]
   },
   {
@@ -3503,10 +3503,10 @@
     "correct": true,
     "top5_candidates": [
       "E5",
-      "A4",
-      "A5",
       "G5",
-      "D5"
+      "A5",
+      "F5",
+      "B4"
     ]
   },
   {
@@ -3518,8 +3518,8 @@
       "B2",
       "A2",
       "C3",
-      "B3",
-      "B5"
+      "B1",
+      "B3"
     ]
   },
   {
@@ -3529,10 +3529,10 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "D5",
-      "G3",
       "D3",
-      "B3"
+      "D5",
+      "B3",
+      "C4"
     ]
   },
   {
@@ -3542,23 +3542,23 @@
     "correct": true,
     "top5_candidates": [
       "F4",
-      "F3",
-      "D5",
+      "B4",
+      "B1",
       "G4",
-      "A4"
+      "F3"
     ]
   },
   {
     "sample_id": "samples/6421815/p1-s2",
     "target_token": "D4",
-    "predicted_token": "G4",
+    "predicted_token": "A3",
     "correct": false,
     "top5_candidates": [
+      "A3",
+      "A4",
       "G4",
       "B3",
-      "E4",
-      "A3",
-      "G3"
+      "D4"
     ]
   },
   {
@@ -3570,8 +3570,8 @@
       "B3",
       "A3",
       "C4",
-      "G3",
-      "G4"
+      "D4",
+      "G3"
     ]
   },
   {
@@ -3582,9 +3582,9 @@
     "top5_candidates": [
       "G4",
       "E4",
-      "F4",
       "G5",
-      "E5"
+      "F4",
+      "D4"
     ]
   },
   {
@@ -3594,10 +3594,10 @@
     "correct": true,
     "top5_candidates": [
       "D5",
-      "F5",
       "E5",
+      "G5",
       "B4",
-      "C5"
+      "D6"
     ]
   },
   {
@@ -3607,49 +3607,49 @@
     "correct": true,
     "top5_candidates": [
       "E4",
+      "C4",
+      "D4",
       "F4",
-      "A4",
-      "G4",
-      "D4"
+      "E3"
     ]
   },
   {
     "sample_id": "samples/6505088/p4-s1",
     "target_token": "F4",
-    "predicted_token": "F4",
-    "correct": true,
+    "predicted_token": "E4",
+    "correct": false,
     "top5_candidates": [
-      "F4",
-      "G4",
       "E4",
-      "A4",
-      "D4"
+      "F4",
+      "F3",
+      "G4",
+      "A4"
     ]
   },
   {
     "sample_id": "samples/6230261/p1-s3",
     "target_token": "G5",
-    "predicted_token": "C6",
+    "predicted_token": "C5",
     "correct": false,
     "top5_candidates": [
-      "C6",
+      "C5",
       "G5",
       "F5",
-      "C5",
-      "B5"
+      "A5",
+      "C6"
     ]
   },
   {
     "sample_id": "samples/5079391/p1-s3",
     "target_token": "B2",
-    "predicted_token": "B3",
+    "predicted_token": "D4",
     "correct": false,
     "top5_candidates": [
-      "B3",
-      "B1",
-      "C4",
-      "A3",
-      "E2"
+      "D4",
+      "F3",
+      "F4",
+      "B2",
+      "B3"
     ]
   },
   {
@@ -3659,23 +3659,23 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "E4",
       "C4",
-      "A3",
-      "B3"
+      "E4",
+      "B3",
+      "A3"
     ]
   },
   {
     "sample_id": "samples/6757520/p3-s2",
     "target_token": "E4",
-    "predicted_token": "G4",
+    "predicted_token": "A4",
     "correct": false,
     "top5_candidates": [
-      "G4",
-      "F4",
-      "E4",
+      "A4",
       "B4",
-      "A4"
+      "E4",
+      "F4",
+      "G4"
     ]
   },
   {
@@ -3687,8 +3687,8 @@
       "B4",
       "C5",
       "D5",
-      "A4",
-      "B5"
+      "E6",
+      "F4"
     ]
   },
   {
@@ -3701,33 +3701,33 @@
       "G4",
       "E4",
       "D4",
-      "A3"
+      "A4"
     ]
   },
   {
     "sample_id": "samples/5026077/p3-s1",
     "target_token": "B4",
-    "predicted_token": "B4",
-    "correct": true,
+    "predicted_token": "C5",
+    "correct": false,
     "top5_candidates": [
-      "B4",
-      "A4",
-      "D5",
       "C5",
-      "E5"
+      "D5",
+      "A4",
+      "B4",
+      "F5"
     ]
   },
   {
     "sample_id": "samples/5935864/p5-s1",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "C4",
+    "correct": false,
     "top5_candidates": [
-      "E4",
       "C4",
+      "E4",
       "F4",
       "D4",
-      "A5"
+      "B3"
     ]
   },
   {
@@ -3738,8 +3738,8 @@
     "top5_candidates": [
       "G3",
       "F3",
-      "E3",
       "A3",
+      "E3",
       "B3"
     ]
   },
@@ -3750,10 +3750,10 @@
     "correct": true,
     "top5_candidates": [
       "F5",
-      "G5",
       "F4",
-      "B5",
-      "F3"
+      "G5",
+      "G4",
+      "B4"
     ]
   },
   {
@@ -3763,36 +3763,36 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "B4",
-      "C5",
       "G4",
-      "A2"
+      "C5",
+      "A3",
+      "B4"
     ]
   },
   {
     "sample_id": "samples/5071629/p2-s1",
     "target_token": "G3",
-    "predicted_token": "E4",
+    "predicted_token": "D4",
     "correct": false,
     "top5_candidates": [
-      "E4",
       "D4",
       "B3",
       "C4",
+      "E4",
       "A3"
     ]
   },
   {
     "sample_id": "samples/4985990/p2-s5",
     "target_token": "B2",
-    "predicted_token": "F3",
+    "predicted_token": "F2",
     "correct": false,
     "top5_candidates": [
-      "F3",
       "F2",
+      "F3",
       "G2",
-      "B3",
-      "A3"
+      "D3",
+      "D2"
     ]
   },
   {
@@ -3802,10 +3802,10 @@
     "correct": false,
     "top5_candidates": [
       "D5",
-      "G4",
       "C5",
-      "D4",
-      "A4"
+      "G4",
+      "A4",
+      "G3"
     ]
   },
   {
@@ -3816,8 +3816,8 @@
     "top5_candidates": [
       "D5",
       "A4",
-      "F5",
       "D2",
+      "D4",
       "E5"
     ]
   },
@@ -3829,9 +3829,9 @@
     "top5_candidates": [
       "A4",
       "B4",
-      "C5",
       "G4",
-      "D5"
+      "C5",
+      "C2"
     ]
   },
   {
@@ -3841,10 +3841,10 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "B3",
-      "A2",
+      "F3",
       "C4",
-      "F3"
+      "B3",
+      "E3"
     ]
   },
   {
@@ -3854,22 +3854,22 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "A4",
       "B4",
-      "C5",
-      "F4"
+      "A4",
+      "F4",
+      "E5"
     ]
   },
   {
     "sample_id": "samples/6636042/p4-s2",
     "target_token": "B4",
-    "predicted_token": "D4",
+    "predicted_token": "C5",
     "correct": false,
     "top5_candidates": [
+      "C5",
+      "B3",
       "D4",
-      "E4",
-      "F4",
-      "G4",
+      "A3",
       "C4"
     ]
   },
@@ -3880,23 +3880,23 @@
     "correct": true,
     "top5_candidates": [
       "D5",
-      "A4",
       "D4",
-      "B4",
-      "E5"
+      "A4",
+      "C5",
+      "B4"
     ]
   },
   {
     "sample_id": "samples/6989465/p1-s2",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "A4",
+    "correct": false,
     "top5_candidates": [
-      "E4",
-      "G4",
-      "F4",
       "A4",
-      "B4"
+      "E4",
+      "F4",
+      "G4",
+      "A3"
     ]
   },
   {
@@ -3906,36 +3906,36 @@
     "correct": true,
     "top5_candidates": [
       "D5",
+      "A4",
       "C5",
       "E5",
-      "A4",
-      "B4"
+      "D6"
     ]
   },
   {
     "sample_id": "samples/6245974/p2-s2",
     "target_token": "B3",
-    "predicted_token": "E4",
+    "predicted_token": "E3",
     "correct": false,
     "top5_candidates": [
-      "E4",
-      "C4",
-      "E5",
       "E3",
-      "C5"
+      "C3",
+      "A2",
+      "B2",
+      "A3"
     ]
   },
   {
     "sample_id": "samples/6165152/p2-s1",
     "target_token": "F5",
-    "predicted_token": "E5",
-    "correct": false,
+    "predicted_token": "F5",
+    "correct": true,
     "top5_candidates": [
-      "E5",
       "F5",
+      "E5",
       "G5",
       "A5",
-      "F4"
+      "C6"
     ]
   },
   {
@@ -3946,9 +3946,9 @@
     "top5_candidates": [
       "D4",
       "B3",
-      "E4",
-      "C4",
-      "G3"
+      "D3",
+      "F2",
+      "D5"
     ]
   },
   {
@@ -3958,36 +3958,36 @@
     "correct": false,
     "top5_candidates": [
       "E2",
-      "B2",
-      "A2",
       "D3",
+      "G3",
+      "F3",
       "B3"
     ]
   },
   {
     "sample_id": "samples/6456450/p2-s2",
     "target_token": "E5",
-    "predicted_token": "D5",
+    "predicted_token": "B4",
     "correct": false,
     "top5_candidates": [
-      "D5",
+      "B4",
+      "E4",
       "E5",
-      "F5",
-      "F4",
-      "G4"
+      "D5",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/5058194/p3-s3",
     "target_token": "C2",
-    "predicted_token": "A2",
+    "predicted_token": "B2",
     "correct": false,
     "top5_candidates": [
-      "A2",
-      "E2",
-      "G2",
+      "B2",
+      "C3",
+      "F2",
       "G3",
-      "C3"
+      "D3"
     ]
   },
   {
@@ -3997,10 +3997,10 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "G3",
-      "A4",
       "C4",
-      "E4"
+      "G3",
+      "E3",
+      "F3"
     ]
   },
   {
@@ -4011,9 +4011,9 @@
     "top5_candidates": [
       "D4",
       "C4",
+      "D3",
       "B3",
-      "E4",
-      "D6"
+      "E4"
     ]
   },
   {
@@ -4023,10 +4023,10 @@
     "correct": true,
     "top5_candidates": [
       "E5",
-      "C5",
       "D5",
+      "C5",
       "F5",
-      "B4"
+      "G5"
     ]
   },
   {
@@ -4036,10 +4036,10 @@
     "correct": true,
     "top5_candidates": [
       "G3",
-      "F3",
       "A3",
-      "E3",
-      "G4"
+      "F3",
+      "B3",
+      "C4"
     ]
   },
   {
@@ -4049,10 +4049,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "C5",
       "G4",
+      "C5",
       "B4",
-      "A2"
+      "A1"
     ]
   },
   {
@@ -4063,9 +4063,9 @@
     "top5_candidates": [
       "B2",
       "C3",
+      "D2",
       "A2",
-      "D4",
-      "D2"
+      "D4"
     ]
   },
   {
@@ -4075,23 +4075,23 @@
     "correct": true,
     "top5_candidates": [
       "D2",
-      "A2",
-      "B1",
+      "G2",
+      "G1",
       "C2",
-      "G2"
+      "G3"
     ]
   },
   {
     "sample_id": "samples/6652787/p4-s1",
     "target_token": "D5",
-    "predicted_token": "B4",
+    "predicted_token": "A4",
     "correct": false,
     "top5_candidates": [
-      "B4",
       "A4",
+      "B4",
       "D5",
-      "C5",
-      "B5"
+      "F4",
+      "G4"
     ]
   },
   {
@@ -4102,9 +4102,9 @@
     "top5_candidates": [
       "A3",
       "B3",
-      "E4",
-      "D4",
-      "C4"
+      "C4",
+      "F4",
+      "D2"
     ]
   },
   {
@@ -4114,10 +4114,10 @@
     "correct": false,
     "top5_candidates": [
       "G4",
-      "D4",
       "E4",
       "B3",
-      "F4"
+      "B4",
+      "D4"
     ]
   },
   {
@@ -4128,9 +4128,9 @@
     "top5_candidates": [
       "G4",
       "A4",
-      "B4",
       "C5",
-      "E5"
+      "B4",
+      "D5"
     ]
   },
   {
@@ -4141,7 +4141,7 @@
     "top5_candidates": [
       "C3",
       "B2",
-      "C4",
+      "D3",
       "E3",
       "A2"
     ]
@@ -4149,14 +4149,14 @@
   {
     "sample_id": "samples/5987851/p1-s2",
     "target_token": "C5",
-    "predicted_token": "G4",
-    "correct": false,
+    "predicted_token": "C5",
+    "correct": true,
     "top5_candidates": [
-      "G4",
-      "A4",
+      "C5",
       "B4",
-      "E4",
-      "E5"
+      "G4",
+      "G3",
+      "D5"
     ]
   },
   {
@@ -4167,9 +4167,9 @@
     "top5_candidates": [
       "A4",
       "B4",
-      "F4",
+      "C5",
       "D5",
-      "C5"
+      "G4"
     ]
   },
   {
@@ -4179,10 +4179,10 @@
     "correct": true,
     "top5_candidates": [
       "E5",
-      "E6",
       "E4",
-      "D5",
-      "A4"
+      "B4",
+      "G5",
+      "E6"
     ]
   },
   {
@@ -4192,36 +4192,36 @@
     "correct": true,
     "top5_candidates": [
       "F3",
-      "A3",
       "G3",
-      "D3",
-      "E3"
+      "A3",
+      "B3",
+      "B1"
     ]
   },
   {
     "sample_id": "samples/6230261/p3-s3",
     "target_token": "B4",
-    "predicted_token": "G4",
+    "predicted_token": "D4",
     "correct": false,
     "top5_candidates": [
-      "G4",
       "D4",
       "F4",
-      "B5",
+      "B2",
+      "G4",
       "E4"
     ]
   },
   {
     "sample_id": "samples/6404150/p2-s3",
     "target_token": "D5",
-    "predicted_token": "D2",
+    "predicted_token": "B4",
     "correct": false,
     "top5_candidates": [
-      "D2",
-      "G5",
-      "D5",
       "B4",
-      "B2"
+      "A4",
+      "C5",
+      "D5",
+      "G4"
     ]
   },
   {
@@ -4231,10 +4231,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
+      "G4",
       "C5",
       "B4",
-      "G4",
-      "C4"
+      "F4"
     ]
   },
   {
@@ -4244,9 +4244,9 @@
     "correct": true,
     "top5_candidates": [
       "D5",
-      "C5",
       "E5",
-      "A4",
+      "F5",
+      "C5",
       "G5"
     ]
   },
@@ -4258,9 +4258,9 @@
     "top5_candidates": [
       "A1",
       "D2",
+      "F1",
       "A6",
-      "A2",
-      "C5"
+      "C2"
     ]
   },
   {
@@ -4270,10 +4270,10 @@
     "correct": false,
     "top5_candidates": [
       "A2",
-      "A3",
+      "C2",
       "A1",
-      "F3",
-      "E3"
+      "C3",
+      "F3"
     ]
   },
   {
@@ -4283,10 +4283,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "B4",
-      "C5",
       "G4",
-      "D5"
+      "C5",
+      "B4",
+      "C2"
     ]
   },
   {
@@ -4296,10 +4296,10 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "A4",
       "B4",
-      "E5",
-      "C5"
+      "G3",
+      "A4",
+      "E4"
     ]
   },
   {
@@ -4309,8 +4309,8 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "G4",
       "E4",
+      "G4",
       "F4",
       "B4"
     ]
@@ -4323,9 +4323,9 @@
     "top5_candidates": [
       "E3",
       "F3",
-      "A2",
+      "C3",
       "B2",
-      "D3"
+      "A3"
     ]
   },
   {
@@ -4336,8 +4336,8 @@
     "top5_candidates": [
       "C4",
       "C5",
-      "B3",
       "A3",
+      "D4",
       "E4"
     ]
   },
@@ -4348,10 +4348,10 @@
     "correct": true,
     "top5_candidates": [
       "F2",
-      "F5",
       "G2",
-      "F1",
-      "C3"
+      "F5",
+      "C3",
+      "D2"
     ]
   },
   {
@@ -4362,22 +4362,22 @@
     "top5_candidates": [
       "F5",
       "A5",
+      "F4",
       "G5",
-      "E5",
-      "D5"
+      "F3"
     ]
   },
   {
     "sample_id": "samples/5013969/p1-s2",
     "target_token": "B3",
-    "predicted_token": "B3",
-    "correct": true,
+    "predicted_token": "C4",
+    "correct": false,
     "top5_candidates": [
-      "B3",
       "C4",
+      "B3",
       "A3",
-      "E4",
-      "G3"
+      "G3",
+      "E3"
     ]
   },
   {
@@ -4388,9 +4388,9 @@
     "top5_candidates": [
       "A5",
       "C6",
-      "B5",
-      "F4",
-      "A4"
+      "F5",
+      "G5",
+      "B5"
     ]
   },
   {
@@ -4400,9 +4400,9 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "A3",
       "C4",
-      "D4",
+      "G4",
+      "A3",
       "B5"
     ]
   },
@@ -4413,23 +4413,23 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "G4",
       "F4",
-      "A4",
-      "C2"
+      "E3",
+      "G4",
+      "E1"
     ]
   },
   {
     "sample_id": "samples/6001354/p4-s1",
     "target_token": "F4",
-    "predicted_token": "B3",
-    "correct": false,
+    "predicted_token": "F4",
+    "correct": true,
     "top5_candidates": [
-      "B3",
-      "E4",
+      "F4",
       "G4",
-      "B4",
-      "G3"
+      "G3",
+      "F3",
+      "E4"
     ]
   },
   {
@@ -4439,23 +4439,23 @@
     "correct": false,
     "top5_candidates": [
       "A3",
-      "A4",
       "C4",
+      "A4",
       "G4",
-      "G3"
+      "C5"
     ]
   },
   {
     "sample_id": "samples/5058194/p1-s1",
     "target_token": "B3",
-    "predicted_token": "A3",
+    "predicted_token": "F3",
     "correct": false,
     "top5_candidates": [
-      "A3",
       "F3",
       "E3",
+      "A3",
       "C4",
-      "G3"
+      "B3"
     ]
   },
   {
@@ -4467,8 +4467,8 @@
       "D4",
       "C4",
       "B3",
-      "D5",
-      "G4"
+      "A3",
+      "D3"
     ]
   },
   {
@@ -4478,10 +4478,10 @@
     "correct": true,
     "top5_candidates": [
       "B4",
-      "G4",
       "C5",
-      "A4",
-      "E4"
+      "G4",
+      "G3",
+      "A4"
     ]
   },
   {
@@ -4491,10 +4491,10 @@
     "correct": false,
     "top5_candidates": [
       "D5",
+      "C5",
       "F5",
       "G5",
-      "E5",
-      "C5"
+      "A4"
     ]
   },
   {
@@ -4507,7 +4507,7 @@
       "G4",
       "D4",
       "F4",
-      "G3"
+      "E3"
     ]
   },
   {
@@ -4517,10 +4517,10 @@
     "correct": true,
     "top5_candidates": [
       "C4",
-      "E4",
-      "B3",
       "D4",
-      "G4"
+      "A3",
+      "E4",
+      "E3"
     ]
   },
   {
@@ -4530,10 +4530,10 @@
     "correct": true,
     "top5_candidates": [
       "A3",
+      "A5",
       "C4",
-      "B3",
-      "D4",
-      "G3"
+      "A2",
+      "C5"
     ]
   },
   {
@@ -4543,10 +4543,10 @@
     "correct": false,
     "top5_candidates": [
       "C5",
+      "D5",
       "E5",
       "C4",
-      "F5",
-      "C6"
+      "G4"
     ]
   },
   {
@@ -4556,9 +4556,9 @@
     "correct": true,
     "top5_candidates": [
       "C6",
+      "A5",
+      "G5",
       "B5",
-      "E6",
-      "F6",
       "C7"
     ]
   },
@@ -4570,22 +4570,22 @@
     "top5_candidates": [
       "B3",
       "C4",
-      "D3",
-      "B2",
-      "A3"
+      "A3",
+      "D4",
+      "D2"
     ]
   },
   {
     "sample_id": "samples/6654137/p3-s4",
     "target_token": "E3",
-    "predicted_token": "E3",
-    "correct": true,
+    "predicted_token": "D3",
+    "correct": false,
     "top5_candidates": [
+      "D3",
       "E3",
       "C3",
-      "F3",
-      "D3",
-      "A3"
+      "A2",
+      "B2"
     ]
   },
   {
@@ -4596,9 +4596,9 @@
     "top5_candidates": [
       "A3",
       "F3",
-      "E3",
+      "C3",
       "B3",
-      "C4"
+      "D3"
     ]
   },
   {
@@ -4609,9 +4609,9 @@
     "top5_candidates": [
       "B4",
       "G4",
-      "A4",
       "C5",
-      "G5"
+      "A3",
+      "G3"
     ]
   },
   {
@@ -4621,10 +4621,10 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "F4",
+      "F3",
       "E3",
-      "E4",
-      "G3"
+      "G3",
+      "C5"
     ]
   },
   {
@@ -4635,9 +4635,9 @@
     "top5_candidates": [
       "B1",
       "B2",
-      "D2",
-      "E2",
-      "F2"
+      "F2",
+      "A2",
+      "D2"
     ]
   },
   {
@@ -4647,23 +4647,23 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "D5",
       "C4",
-      "E4",
-      "D6"
+      "D3",
+      "D5",
+      "B3"
     ]
   },
   {
     "sample_id": "samples/5987851/p4-s3",
     "target_token": "F2",
-    "predicted_token": "D4",
+    "predicted_token": "C4",
     "correct": false,
     "top5_candidates": [
-      "D4",
       "C4",
-      "B3",
-      "C3",
-      "E4"
+      "G4",
+      "F3",
+      "E4",
+      "G3"
     ]
   },
   {
@@ -4673,9 +4673,9 @@
     "correct": false,
     "top5_candidates": [
       "B3",
-      "G4",
       "G3",
       "D4",
+      "A3",
       "C4"
     ]
   },
@@ -4687,9 +4687,9 @@
     "top5_candidates": [
       "C5",
       "A4",
-      "C6",
-      "G5",
-      "E5"
+      "C2",
+      "A6",
+      "A3"
     ]
   },
   {
@@ -4700,9 +4700,9 @@
     "top5_candidates": [
       "A2",
       "A3",
-      "C4",
       "F2",
-      "E3"
+      "G2",
+      "F3"
     ]
   },
   {
@@ -4712,10 +4712,10 @@
     "correct": true,
     "top5_candidates": [
       "G2",
-      "G5",
       "A2",
-      "D3",
-      "G1"
+      "F2",
+      "E2",
+      "D3"
     ]
   },
   {
@@ -4726,9 +4726,9 @@
     "top5_candidates": [
       "C5",
       "D5",
+      "F4",
       "F5",
-      "C4",
-      "E5"
+      "A5"
     ]
   },
   {
@@ -4741,46 +4741,46 @@
       "C5",
       "G4",
       "B4",
-      "D5"
+      "G5"
     ]
   },
   {
     "sample_id": "samples/5026077/p2-s2",
     "target_token": "G4",
-    "predicted_token": "E4",
-    "correct": false,
+    "predicted_token": "G4",
+    "correct": true,
     "top5_candidates": [
-      "E4",
-      "A4",
       "G4",
+      "E4",
+      "C4",
       "F4",
-      "C4"
+      "G5"
     ]
   },
   {
     "sample_id": "samples/6757520/p1-s1",
     "target_token": "D6",
-    "predicted_token": "C6",
+    "predicted_token": "G5",
     "correct": false,
     "top5_candidates": [
-      "C6",
       "G5",
+      "A5",
+      "C6",
       "D6",
-      "F5",
-      "B5"
+      "A6"
     ]
   },
   {
     "sample_id": "samples/5187781/p1-s1",
     "target_token": "C4",
-    "predicted_token": "B3",
-    "correct": false,
+    "predicted_token": "C4",
+    "correct": true,
     "top5_candidates": [
-      "B3",
       "C4",
+      "B3",
       "D4",
       "A3",
-      "B5"
+      "F3"
     ]
   },
   {
@@ -4790,23 +4790,23 @@
     "correct": true,
     "top5_candidates": [
       "A3",
+      "E3",
       "C4",
       "G3",
-      "E3",
-      "E4"
+      "F3"
     ]
   },
   {
     "sample_id": "samples/6404150/p5-s4",
     "target_token": "F3",
-    "predicted_token": "F3",
-    "correct": true,
+    "predicted_token": "A3",
+    "correct": false,
     "top5_candidates": [
-      "F3",
       "A3",
-      "D3",
-      "F4",
-      "B3"
+      "F3",
+      "B3",
+      "E3",
+      "A2"
     ]
   },
   {
@@ -4816,10 +4816,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "E5",
-      "D5",
       "D4",
-      "G4"
+      "D5",
+      "C4",
+      "B3"
     ]
   },
   {
@@ -4829,8 +4829,8 @@
     "correct": false,
     "top5_candidates": [
       "A4",
-      "G4",
       "C5",
+      "G4",
       "D5",
       "B4"
     ]
@@ -4844,21 +4844,21 @@
       "B3",
       "A3",
       "G3",
-      "G4",
-      "A4"
+      "C4",
+      "G4"
     ]
   },
   {
     "sample_id": "samples/5935864/p1-s4",
     "target_token": "A4",
-    "predicted_token": "A4",
-    "correct": true,
+    "predicted_token": "B4",
+    "correct": false,
     "top5_candidates": [
-      "A4",
       "B4",
+      "A4",
       "C5",
       "G4",
-      "D5"
+      "F4"
     ]
   },
   {
@@ -4868,22 +4868,22 @@
     "correct": false,
     "top5_candidates": [
       "A4",
-      "F4",
       "G4",
+      "C5",
       "A2",
-      "C5"
+      "C3"
     ]
   },
   {
     "sample_id": "samples/6141796/p1-s2",
     "target_token": "C4",
-    "predicted_token": "D4",
-    "correct": false,
+    "predicted_token": "C4",
+    "correct": true,
     "top5_candidates": [
-      "D4",
-      "G4",
       "C4",
+      "D4",
       "E4",
+      "G4",
       "F4"
     ]
   },
@@ -4895,22 +4895,22 @@
     "top5_candidates": [
       "G3",
       "A3",
+      "B3",
       "F3",
-      "C4",
       "C3"
     ]
   },
   {
     "sample_id": "samples/6989465/p3-s4",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "G3",
+    "correct": false,
     "top5_candidates": [
-      "E4",
-      "G4",
       "G3",
-      "F4",
-      "D4"
+      "E4",
+      "A3",
+      "B3",
+      "C4"
     ]
   },
   {
@@ -4922,47 +4922,47 @@
       "G5",
       "A5",
       "F5",
-      "F6",
-      "C6"
+      "C5",
+      "G6"
     ]
   },
   {
     "sample_id": "samples/5079391/p1-s2",
     "target_token": "B4",
-    "predicted_token": "B4",
-    "correct": true,
+    "predicted_token": "A4",
+    "correct": false,
     "top5_candidates": [
-      "B4",
       "A4",
       "G4",
+      "B4",
       "C5",
-      "D5"
+      "C2"
     ]
   },
   {
     "sample_id": "samples/6645396/p3-s1",
     "target_token": "G4",
-    "predicted_token": "G4",
-    "correct": true,
+    "predicted_token": "B3",
+    "correct": false,
     "top5_candidates": [
-      "G4",
-      "D4",
-      "E4",
       "B3",
-      "D5"
+      "B4",
+      "G4",
+      "A4",
+      "D4"
     ]
   },
   {
     "sample_id": "samples/6001354/p5-s1",
     "target_token": "E4",
-    "predicted_token": "G4",
+    "predicted_token": "G3",
     "correct": false,
     "top5_candidates": [
-      "G4",
-      "E4",
-      "B3",
+      "G3",
       "A3",
-      "G3"
+      "B3",
+      "C5",
+      "C4"
     ]
   },
   {
@@ -4972,36 +4972,36 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "E4",
       "D3",
-      "D6",
-      "G3"
+      "B3",
+      "F2",
+      "F4"
     ]
   },
   {
     "sample_id": "samples/6085883/p2-s3",
     "target_token": "D3",
-    "predicted_token": "A3",
-    "correct": false,
+    "predicted_token": "D3",
+    "correct": true,
     "top5_candidates": [
+      "D3",
       "A3",
       "D4",
-      "D3",
       "E3",
-      "B3"
+      "D2"
     ]
   },
   {
     "sample_id": "samples/6488630/p1-s1",
     "target_token": "A3",
-    "predicted_token": "E3",
+    "predicted_token": "A2",
     "correct": false,
     "top5_candidates": [
+      "A2",
       "E3",
       "A3",
-      "G3",
-      "A2",
-      "B3"
+      "F3",
+      "B2"
     ]
   },
   {
@@ -5011,10 +5011,10 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "E4",
-      "E5",
       "G3",
-      "B4"
+      "G5",
+      "B4",
+      "E4"
     ]
   },
   {
@@ -5025,22 +5025,22 @@
     "top5_candidates": [
       "A3",
       "G3",
+      "A5",
       "C4",
-      "G5",
-      "A4"
+      "F2"
     ]
   },
   {
     "sample_id": "samples/5986599/p4-s2",
     "target_token": "E5",
-    "predicted_token": "E5",
-    "correct": true,
+    "predicted_token": "F5",
+    "correct": false,
     "top5_candidates": [
-      "E5",
       "F5",
-      "A5",
+      "E5",
       "D5",
-      "G5"
+      "A4",
+      "A5"
     ]
   },
   {
@@ -5050,10 +5050,10 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "E3",
       "F3",
-      "C4",
-      "A2"
+      "E3",
+      "A2",
+      "G3"
     ]
   },
   {
@@ -5064,22 +5064,22 @@
     "top5_candidates": [
       "D4",
       "E4",
-      "C4",
       "B3",
-      "F4"
+      "F4",
+      "C4"
     ]
   },
   {
     "sample_id": "samples/6581327/p2-s4",
     "target_token": "G3",
-    "predicted_token": "G3",
-    "correct": true,
+    "predicted_token": "C4",
+    "correct": false,
     "top5_candidates": [
-      "G3",
-      "B3",
-      "G4",
       "C4",
-      "A3"
+      "C3",
+      "E3",
+      "G3",
+      "B3"
     ]
   },
   {
@@ -5089,10 +5089,10 @@
     "correct": false,
     "top5_candidates": [
       "A4",
-      "B4",
       "C5",
+      "F4",
       "E4",
-      "G4"
+      "B4"
     ]
   },
   {
@@ -5102,9 +5102,9 @@
     "correct": false,
     "top5_candidates": [
       "D4",
+      "D3",
       "A3",
       "C4",
-      "D5",
       "F3"
     ]
   },
@@ -5115,10 +5115,10 @@
     "correct": false,
     "top5_candidates": [
       "A4",
-      "A5",
       "F4",
-      "C6",
-      "G4"
+      "A5",
+      "E4",
+      "D6"
     ]
   },
   {
@@ -5128,10 +5128,10 @@
     "correct": true,
     "top5_candidates": [
       "F2",
+      "C3",
       "A2",
       "D2",
-      "C3",
-      "E2"
+      "G2"
     ]
   },
   {
@@ -5142,9 +5142,9 @@
     "top5_candidates": [
       "F3",
       "E3",
+      "D3",
       "G3",
-      "F1",
-      "A3"
+      "F4"
     ]
   },
   {
@@ -5154,10 +5154,10 @@
     "correct": true,
     "top5_candidates": [
       "E4",
-      "G4",
       "F4",
-      "E5",
-      "A4"
+      "D4",
+      "C4",
+      "G4"
     ]
   },
   {
@@ -5167,10 +5167,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "D4",
       "C4",
       "A3",
-      "E4"
+      "D4",
+      "G3"
     ]
   },
   {
@@ -5183,7 +5183,7 @@
       "B4",
       "G4",
       "F3",
-      "B1"
+      "F6"
     ]
   },
   {
@@ -5195,8 +5195,8 @@
       "A3",
       "B3",
       "C4",
-      "F3",
-      "G3"
+      "G3",
+      "F3"
     ]
   },
   {
@@ -5207,20 +5207,20 @@
     "top5_candidates": [
       "D4",
       "B3",
-      "C4",
+      "F4",
       "A4",
-      "A3"
+      "G4"
     ]
   },
   {
     "sample_id": "samples/6404150/p8-s1",
     "target_token": "G4",
-    "predicted_token": "A4",
-    "correct": false,
+    "predicted_token": "G4",
+    "correct": true,
     "top5_candidates": [
-      "A4",
       "G4",
       "B4",
+      "A4",
       "C5",
       "D5"
     ]
@@ -5228,14 +5228,14 @@
   {
     "sample_id": "samples/5862368/p7-s1",
     "target_token": "F6",
-    "predicted_token": "D6",
+    "predicted_token": "B5",
     "correct": false,
     "top5_candidates": [
-      "D6",
-      "A5",
-      "F6",
       "B5",
-      "G5"
+      "A5",
+      "D6",
+      "C6",
+      "A6"
     ]
   },
   {
@@ -5247,8 +5247,8 @@
       "A3",
       "G3",
       "B3",
-      "E3",
-      "F3"
+      "F3",
+      "E3"
     ]
   },
   {
@@ -5258,10 +5258,10 @@
     "correct": true,
     "top5_candidates": [
       "A2",
-      "A3",
-      "E3",
       "D3",
-      "A5"
+      "B2",
+      "E3",
+      "A3"
     ]
   },
   {
@@ -5271,9 +5271,9 @@
     "correct": false,
     "top5_candidates": [
       "B5",
-      "C6",
-      "A5",
       "E5",
+      "F5",
+      "A5",
       "D6"
     ]
   },
@@ -5284,10 +5284,10 @@
     "correct": true,
     "top5_candidates": [
       "D4",
-      "D6",
-      "D5",
       "C4",
-      "F5"
+      "D3",
+      "B3",
+      "F4"
     ]
   },
   {
@@ -5297,23 +5297,23 @@
     "correct": false,
     "top5_candidates": [
       "D5",
-      "E5",
       "F5",
-      "G5",
-      "D4"
+      "E5",
+      "D2",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/5935864/p1-s1",
     "target_token": "C4",
-    "predicted_token": "B3",
+    "predicted_token": "B1",
     "correct": false,
     "top5_candidates": [
-      "B3",
-      "B4",
-      "C4",
       "B1",
-      "E2"
+      "A1",
+      "G1",
+      "E1",
+      "C2"
     ]
   },
   {
@@ -5323,10 +5323,10 @@
     "correct": true,
     "top5_candidates": [
       "C5",
-      "A4",
-      "E5",
       "D5",
-      "C6"
+      "B4",
+      "A4",
+      "E5"
     ]
   },
   {
@@ -5337,9 +5337,9 @@
     "top5_candidates": [
       "F3",
       "E3",
-      "D3",
       "C3",
-      "G3"
+      "D3",
+      "B2"
     ]
   },
   {
@@ -5349,10 +5349,10 @@
     "correct": false,
     "top5_candidates": [
       "D3",
-      "G3",
-      "F3",
       "A3",
-      "B3"
+      "B3",
+      "D2",
+      "D4"
     ]
   },
   {
@@ -5365,7 +5365,7 @@
       "A3",
       "C4",
       "D4",
-      "G3"
+      "D2"
     ]
   },
   {
@@ -5375,10 +5375,10 @@
     "correct": true,
     "top5_candidates": [
       "A2",
+      "B2",
       "D3",
       "D2",
-      "A1",
-      "B2"
+      "E2"
     ]
   },
   {
@@ -5389,22 +5389,22 @@
     "top5_candidates": [
       "C2",
       "G1",
-      "B1",
-      "E2",
-      "C6"
+      "F2",
+      "F1",
+      "C5"
     ]
   },
   {
     "sample_id": "samples/5077917/p4-s4",
     "target_token": "G5",
-    "predicted_token": "A5",
+    "predicted_token": "F5",
     "correct": false,
     "top5_candidates": [
+      "F5",
       "A5",
-      "B5",
-      "D5",
-      "C6",
-      "F5"
+      "A4",
+      "C5",
+      "D5"
     ]
   },
   {
@@ -5417,20 +5417,20 @@
       "F4",
       "G3",
       "E4",
-      "E5"
+      "C5"
     ]
   },
   {
     "sample_id": "samples/6011095/p6-s5",
     "target_token": "D1",
-    "predicted_token": "D6",
+    "predicted_token": "D2",
     "correct": false,
     "top5_candidates": [
+      "D2",
       "D6",
-      "F6",
-      "D4",
       "D1",
-      "D7"
+      "F1",
+      "D3"
     ]
   },
   {
@@ -5441,8 +5441,8 @@
     "top5_candidates": [
       "C2",
       "G1",
-      "A1",
-      "E1",
+      "C5",
+      "C4",
       "C7"
     ]
   },
@@ -5453,23 +5453,23 @@
     "correct": true,
     "top5_candidates": [
       "A3",
-      "G3",
       "F3",
       "C4",
+      "G3",
       "E3"
     ]
   },
   {
     "sample_id": "samples/6415075/p4-s4",
     "target_token": "F4",
-    "predicted_token": "D5",
+    "predicted_token": "G4",
     "correct": false,
     "top5_candidates": [
-      "D5",
+      "G4",
       "F4",
       "B4",
-      "A4",
-      "G4"
+      "D5",
+      "A4"
     ]
   },
   {
@@ -5480,9 +5480,9 @@
     "top5_candidates": [
       "G5",
       "G4",
-      "B5",
       "A5",
-      "C6"
+      "B5",
+      "G6"
     ]
   },
   {
@@ -5492,10 +5492,10 @@
     "correct": true,
     "top5_candidates": [
       "B4",
+      "B3",
+      "F4",
       "A4",
-      "G4",
-      "C5",
-      "B5"
+      "G4"
     ]
   },
   {
@@ -5508,7 +5508,7 @@
       "C4",
       "A3",
       "B3",
-      "D6"
+      "D3"
     ]
   },
   {
@@ -5520,7 +5520,7 @@
       "G4",
       "F4",
       "E4",
-      "A4",
+      "G5",
       "G3"
     ]
   },
@@ -5533,8 +5533,8 @@
       "E4",
       "F4",
       "D4",
-      "G4",
-      "B3"
+      "B2",
+      "G4"
     ]
   },
   {
@@ -5544,10 +5544,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "E4",
       "A3",
-      "G3",
-      "D4"
+      "C4",
+      "D4",
+      "B5"
     ]
   },
   {
@@ -5558,9 +5558,9 @@
     "top5_candidates": [
       "A4",
       "G4",
+      "C5",
       "B4",
-      "A2",
-      "C5"
+      "A1"
     ]
   },
   {
@@ -5571,22 +5571,22 @@
     "top5_candidates": [
       "A1",
       "A6",
-      "A2",
       "D2",
-      "C7"
+      "C2",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6236150/p2-s2",
     "target_token": "B4",
-    "predicted_token": "A4",
-    "correct": false,
+    "predicted_token": "B4",
+    "correct": true,
     "top5_candidates": [
-      "A4",
-      "E4",
-      "G4",
       "B4",
-      "C5"
+      "A4",
+      "G4",
+      "C5",
+      "F4"
     ]
   },
   {
@@ -5597,9 +5597,9 @@
     "top5_candidates": [
       "A3",
       "C4",
-      "E4",
       "G3",
-      "E3"
+      "E4",
+      "B3"
     ]
   },
   {
@@ -5610,9 +5610,9 @@
     "top5_candidates": [
       "C5",
       "C4",
-      "D4",
-      "E4",
-      "G5"
+      "G3",
+      "D5",
+      "A3"
     ]
   },
   {
@@ -5623,22 +5623,22 @@
     "top5_candidates": [
       "B4",
       "A4",
-      "E4",
       "G4",
-      "B5"
+      "F4",
+      "E5"
     ]
   },
   {
     "sample_id": "samples/5661740/p5-s2",
     "target_token": "C5",
-    "predicted_token": "B5",
+    "predicted_token": "E3",
     "correct": false,
     "top5_candidates": [
-      "B5",
-      "A5",
       "E3",
       "E6",
-      "C5"
+      "B4",
+      "A5",
+      "B1"
     ]
   },
   {
@@ -5648,9 +5648,9 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "A4",
       "B4",
       "F4",
+      "A4",
       "E4"
     ]
   },
@@ -5662,35 +5662,35 @@
     "top5_candidates": [
       "E4",
       "F4",
-      "D4",
-      "G4",
-      "C4"
+      "E3",
+      "C4",
+      "D4"
     ]
   },
   {
     "sample_id": "samples/5079442/p4-s3",
     "target_token": "F2",
-    "predicted_token": "A3",
-    "correct": false,
+    "predicted_token": "F2",
+    "correct": true,
     "top5_candidates": [
-      "A3",
       "F2",
-      "B3",
       "A2",
-      "C2"
+      "C2",
+      "A1",
+      "A3"
     ]
   },
   {
     "sample_id": "samples/5187781/p3-s2",
     "target_token": "E5",
-    "predicted_token": "E5",
-    "correct": true,
+    "predicted_token": "F5",
+    "correct": false,
     "top5_candidates": [
-      "E5",
       "F5",
+      "E5",
+      "C5",
       "D5",
-      "E6",
-      "B4"
+      "F2"
     ]
   },
   {
@@ -5709,27 +5709,27 @@
   {
     "sample_id": "samples/4945954/p3-s3",
     "target_token": "A3",
-    "predicted_token": "A3",
-    "correct": true,
+    "predicted_token": "A2",
+    "correct": false,
     "top5_candidates": [
-      "A3",
-      "E3",
-      "G3",
       "A2",
-      "E4"
+      "E3",
+      "A3",
+      "C3",
+      "F3"
     ]
   },
   {
     "sample_id": "samples/6581327/p5-s3",
     "target_token": "A5",
-    "predicted_token": "A5",
-    "correct": true,
+    "predicted_token": "B5",
+    "correct": false,
     "top5_candidates": [
-      "A5",
       "B5",
-      "C6",
+      "A5",
       "G5",
-      "D6"
+      "D6",
+      "F5"
     ]
   },
   {
@@ -5748,27 +5748,27 @@
   {
     "sample_id": "samples/6412767/p7-s2",
     "target_token": "G5",
-    "predicted_token": "B5",
+    "predicted_token": "F5",
     "correct": false,
     "top5_candidates": [
-      "B5",
-      "C6",
+      "F5",
       "A5",
       "G5",
-      "D6"
+      "D6",
+      "D5"
     ]
   },
   {
     "sample_id": "samples/6259568/p1-s2",
     "target_token": "B4",
-    "predicted_token": "E4",
-    "correct": false,
+    "predicted_token": "B4",
+    "correct": true,
     "top5_candidates": [
-      "E4",
       "B4",
-      "D5",
       "E5",
-      "C5"
+      "E4",
+      "C5",
+      "F4"
     ]
   },
   {
@@ -5780,8 +5780,8 @@
       "E2",
       "A2",
       "D2",
-      "F2",
-      "C3"
+      "E3",
+      "E5"
     ]
   },
   {
@@ -5792,9 +5792,9 @@
     "top5_candidates": [
       "E4",
       "E5",
-      "G4",
       "F4",
-      "E3"
+      "E3",
+      "G4"
     ]
   },
   {
@@ -5804,10 +5804,10 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "A5",
       "G4",
       "E4",
-      "A2"
+      "B4",
+      "F4"
     ]
   },
   {
@@ -5818,22 +5818,22 @@
     "top5_candidates": [
       "C4",
       "A3",
-      "G3",
       "C3",
-      "B3"
+      "B3",
+      "F3"
     ]
   },
   {
     "sample_id": "samples/6264558/p6-s3",
     "target_token": "D6",
-    "predicted_token": "B5",
+    "predicted_token": "F5",
     "correct": false,
     "top5_candidates": [
+      "F5",
+      "G2",
+      "G5",
       "B5",
-      "A5",
-      "D6",
-      "C6",
-      "F5"
+      "D6"
     ]
   },
   {
@@ -5843,10 +5843,10 @@
     "correct": false,
     "top5_candidates": [
       "E5",
-      "G5",
-      "D5",
       "C5",
-      "F5"
+      "A4",
+      "G5",
+      "B4"
     ]
   },
   {
@@ -5856,10 +5856,10 @@
     "correct": false,
     "top5_candidates": [
       "C6",
-      "F6",
-      "D6",
       "E6",
-      "C7"
+      "A5",
+      "A6",
+      "F6"
     ]
   },
   {
@@ -5870,9 +5870,9 @@
     "top5_candidates": [
       "F5",
       "A5",
-      "B5",
-      "G5",
-      "F6"
+      "F4",
+      "F6",
+      "C6"
     ]
   },
   {
@@ -5884,8 +5884,8 @@
       "G1",
       "C2",
       "A1",
-      "E1",
-      "G6"
+      "F1",
+      "B1"
     ]
   },
   {
@@ -5898,58 +5898,58 @@
       "A3",
       "D3",
       "F3",
-      "G3"
+      "C3"
     ]
   },
   {
     "sample_id": "samples/5071629/p2-s4",
     "target_token": "E2",
-    "predicted_token": "A2",
+    "predicted_token": "C3",
     "correct": false,
     "top5_candidates": [
-      "A2",
-      "C2",
-      "E3",
+      "C3",
       "F2",
-      "C3"
+      "C2",
+      "F3",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6654137/p1-s1",
     "target_token": "E3",
-    "predicted_token": "E3",
-    "correct": true,
+    "predicted_token": "B4",
+    "correct": false,
     "top5_candidates": [
+      "B4",
+      "C5",
       "E3",
-      "A3",
-      "G3",
-      "E2",
-      "E1"
+      "D5",
+      "B2"
     ]
   },
   {
     "sample_id": "samples/6412767/p8-s3",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "F4",
+    "correct": false,
     "top5_candidates": [
-      "E4",
-      "A3",
       "F4",
+      "E4",
       "G4",
-      "C3"
+      "D4",
+      "A3"
     ]
   },
   {
     "sample_id": "samples/6801790/p4-s3",
     "target_token": "C2",
-    "predicted_token": "C2",
-    "correct": true,
+    "predicted_token": "G3",
+    "correct": false,
     "top5_candidates": [
-      "C2",
       "G3",
+      "C2",
+      "B3",
       "A3",
-      "D2",
       "G2"
     ]
   },
@@ -5960,10 +5960,10 @@
     "correct": true,
     "top5_candidates": [
       "B2",
-      "C3",
-      "A2",
       "E3",
-      "F3"
+      "D3",
+      "C3",
+      "A2"
     ]
   },
   {
@@ -5975,20 +5975,20 @@
       "B2",
       "B1",
       "F2",
-      "E2",
-      "D2"
+      "D2",
+      "A2"
     ]
   },
   {
     "sample_id": "samples/6816059/p2-s2",
     "target_token": "A4",
-    "predicted_token": "A4",
-    "correct": true,
+    "predicted_token": "F4",
+    "correct": false,
     "top5_candidates": [
-      "A4",
-      "E4",
       "F4",
       "B4",
+      "E4",
+      "D5",
       "G4"
     ]
   },
@@ -5999,23 +5999,23 @@
     "correct": true,
     "top5_candidates": [
       "G4",
-      "B4",
-      "F4",
       "E4",
-      "E5"
+      "C3",
+      "F4",
+      "G3"
     ]
   },
   {
     "sample_id": "samples/6505088/p1-s1",
     "target_token": "F4",
-    "predicted_token": "E4",
-    "correct": false,
+    "predicted_token": "F4",
+    "correct": true,
     "top5_candidates": [
+      "F4",
+      "A4",
       "E4",
       "C5",
-      "D5",
-      "F4",
-      "B4"
+      "G4"
     ]
   },
   {
@@ -6028,20 +6028,20 @@
       "G4",
       "C5",
       "D5",
-      "B4"
+      "F4"
     ]
   },
   {
     "sample_id": "samples/6472842/p1-s2",
     "target_token": "F4",
-    "predicted_token": "G4",
-    "correct": false,
+    "predicted_token": "F4",
+    "correct": true,
     "top5_candidates": [
-      "G4",
       "F4",
+      "G4",
       "E4",
       "B4",
-      "D3"
+      "B3"
     ]
   },
   {
@@ -6054,7 +6054,7 @@
       "D5",
       "E5",
       "F5",
-      "B4"
+      "A3"
     ]
   },
   {
@@ -6064,23 +6064,23 @@
     "correct": true,
     "top5_candidates": [
       "C4",
+      "A3",
       "B3",
-      "G4",
-      "C5",
-      "A3"
+      "D4",
+      "C6"
     ]
   },
   {
     "sample_id": "samples/6421815/p6-s2",
     "target_token": "C3",
-    "predicted_token": "A2",
-    "correct": false,
+    "predicted_token": "C3",
+    "correct": true,
     "top5_candidates": [
-      "A2",
       "C3",
-      "E2",
+      "A2",
+      "B2",
       "D2",
-      "C4"
+      "G2"
     ]
   },
   {
@@ -6091,8 +6091,8 @@
     "top5_candidates": [
       "G3",
       "G4",
-      "F3",
       "D3",
+      "F3",
       "E3"
     ]
   },
@@ -6103,9 +6103,9 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "C5",
+      "B3",
+      "B4",
       "G4",
-      "D4",
       "D5"
     ]
   },
@@ -6116,23 +6116,23 @@
     "correct": true,
     "top5_candidates": [
       "B4",
-      "D5",
-      "E4",
+      "B3",
       "C5",
-      "B3"
+      "A3",
+      "G3"
     ]
   },
   {
     "sample_id": "samples/6910703/p1-s4",
     "target_token": "G3",
-    "predicted_token": "C4",
+    "predicted_token": "E3",
     "correct": false,
     "top5_candidates": [
-      "C4",
       "E3",
       "A3",
-      "G3",
-      "C3"
+      "C4",
+      "D3",
+      "G3"
     ]
   },
   {
@@ -6142,36 +6142,36 @@
     "correct": true,
     "top5_candidates": [
       "F4",
+      "G4",
       "D4",
-      "F3",
       "E4",
-      "F5"
+      "A4"
     ]
   },
   {
     "sample_id": "samples/6197282/p1-s2",
     "target_token": "B4",
-    "predicted_token": "C5",
-    "correct": false,
+    "predicted_token": "B4",
+    "correct": true,
     "top5_candidates": [
-      "C5",
       "B4",
+      "C5",
       "D5",
       "A4",
-      "E5"
+      "G4"
     ]
   },
   {
     "sample_id": "samples/6264558/p7-s3",
     "target_token": "C1",
-    "predicted_token": "B1",
+    "predicted_token": "C2",
     "correct": false,
     "top5_candidates": [
-      "B1",
       "C2",
-      "E1",
-      "E2",
-      "F1"
+      "C3",
+      "B1",
+      "F1",
+      "B2"
     ]
   },
   {
@@ -6181,10 +6181,10 @@
     "correct": false,
     "top5_candidates": [
       "A3",
-      "B3",
-      "A2",
       "C4",
-      "E2"
+      "B3",
+      "E3",
+      "A2"
     ]
   },
   {
@@ -6194,10 +6194,10 @@
     "correct": true,
     "top5_candidates": [
       "B3",
-      "A3",
       "C4",
+      "D3",
       "B5",
-      "D4"
+      "A3"
     ]
   },
   {
@@ -6207,10 +6207,10 @@
     "correct": true,
     "top5_candidates": [
       "F3",
-      "F2",
-      "F1",
-      "B1",
-      "D3"
+      "E3",
+      "G3",
+      "D3",
+      "F2"
     ]
   },
   {
@@ -6220,62 +6220,62 @@
     "correct": true,
     "top5_candidates": [
       "A4",
-      "B4",
       "G4",
       "C5",
-      "D5"
+      "D5",
+      "B4"
     ]
   },
   {
     "sample_id": "samples/5079391/p3-s4",
     "target_token": "B2",
-    "predicted_token": "E3",
-    "correct": false,
+    "predicted_token": "B2",
+    "correct": true,
     "top5_candidates": [
-      "E3",
       "B2",
       "C3",
+      "E3",
       "D3",
-      "A2"
+      "B3"
     ]
   },
   {
     "sample_id": "samples/5862368/p4-s1",
     "target_token": "B4",
-    "predicted_token": "B5",
+    "predicted_token": "D4",
     "correct": false,
     "top5_candidates": [
-      "B5",
       "D4",
-      "C6",
-      "A5",
-      "D5"
+      "C4",
+      "D5",
+      "E4",
+      "F5"
     ]
   },
   {
     "sample_id": "samples/5023603/p1-s2",
     "target_token": "E4",
-    "predicted_token": "E4",
-    "correct": true,
+    "predicted_token": "C5",
+    "correct": false,
     "top5_candidates": [
-      "E4",
       "C5",
       "G4",
+      "F4",
       "E5",
-      "C4"
+      "E4"
     ]
   },
   {
     "sample_id": "samples/5013969/p1-s4",
     "target_token": "E3",
-    "predicted_token": "A3",
-    "correct": false,
+    "predicted_token": "E3",
+    "correct": true,
     "top5_candidates": [
-      "A3",
       "E3",
       "G3",
       "C3",
-      "E2"
+      "A3",
+      "F3"
     ]
   },
   {
@@ -6286,22 +6286,22 @@
     "top5_candidates": [
       "D5",
       "C5",
-      "F5",
+      "D2",
       "E5",
-      "D2"
+      "F5"
     ]
   },
   {
     "sample_id": "samples/6632270/p2-s4",
     "target_token": "E2",
-    "predicted_token": "E2",
-    "correct": true,
+    "predicted_token": "G3",
+    "correct": false,
     "top5_candidates": [
+      "G3",
       "E2",
       "E3",
-      "A2",
-      "G3",
-      "B1"
+      "F3",
+      "C5"
     ]
   },
   {
@@ -6311,35 +6311,35 @@
     "correct": true,
     "top5_candidates": [
       "C5",
+      "A4",
       "D5",
-      "B4",
-      "F5",
-      "E5"
+      "A3",
+      "C3"
     ]
   },
   {
     "sample_id": "samples/6197282/p4-s1",
     "target_token": "F5",
-    "predicted_token": "A4",
+    "predicted_token": "E5",
     "correct": false,
     "top5_candidates": [
-      "A4",
+      "E5",
+      "G4",
       "G5",
-      "A5",
-      "C6",
-      "D5"
+      "A4",
+      "B4"
     ]
   },
   {
     "sample_id": "samples/6197282/p1-s3",
     "target_token": "G2",
-    "predicted_token": "D2",
+    "predicted_token": "B2",
     "correct": false,
     "top5_candidates": [
-      "D2",
       "B2",
-      "F3",
       "D3",
+      "A2",
+      "D2",
       "B1"
     ]
   },
@@ -6350,20 +6350,20 @@
     "correct": false,
     "top5_candidates": [
       "C5",
-      "D5",
-      "E5",
-      "C4",
+      "C2",
+      "A4",
+      "A2",
       "A1"
     ]
   },
   {
     "sample_id": "samples/5013969/p2-s1",
     "target_token": "B3",
-    "predicted_token": "A3",
-    "correct": false,
+    "predicted_token": "B3",
+    "correct": true,
     "top5_candidates": [
-      "A3",
       "B3",
+      "A3",
       "E3",
       "G3",
       "C4"
@@ -6372,13 +6372,13 @@
   {
     "sample_id": "samples/4945954/p3-s4",
     "target_token": "D4",
-    "predicted_token": "E4",
+    "predicted_token": "G4",
     "correct": false,
     "top5_candidates": [
-      "E4",
       "G4",
-      "C5",
       "D4",
+      "E4",
+      "C4",
       "F4"
     ]
   },
@@ -6390,9 +6390,9 @@
     "top5_candidates": [
       "G4",
       "F4",
-      "E4",
-      "G3",
-      "D4"
+      "D4",
+      "D3",
+      "F3"
     ]
   },
   {
@@ -6403,22 +6403,22 @@
     "top5_candidates": [
       "D4",
       "C4",
-      "E4",
-      "D5",
-      "B3"
+      "B3",
+      "D3",
+      "F2"
     ]
   },
   {
     "sample_id": "samples/6236150/p3-s3",
     "target_token": "C4",
-    "predicted_token": "E4",
+    "predicted_token": "A3",
     "correct": false,
     "top5_candidates": [
-      "E4",
-      "G4",
-      "G3",
+      "A3",
+      "D4",
       "C4",
-      "B3"
+      "B3",
+      "F3"
     ]
   },
   {
@@ -6431,7 +6431,7 @@
       "C5",
       "F5",
       "E5",
-      "E4"
+      "B4"
     ]
   },
   {
@@ -6444,7 +6444,7 @@
       "D4",
       "C4",
       "F4",
-      "B3"
+      "G4"
     ]
   },
   {
@@ -6454,10 +6454,10 @@
     "correct": true,
     "top5_candidates": [
       "D2",
-      "D1",
-      "E2",
+      "F2",
       "D3",
-      "F2"
+      "D5",
+      "D1"
     ]
   },
   {
@@ -6470,20 +6470,20 @@
       "B4",
       "G3",
       "G5",
-      "A4"
+      "G1"
     ]
   },
   {
     "sample_id": "samples/6645396/p5-s4",
     "target_token": "B4",
-    "predicted_token": "E5",
-    "correct": false,
+    "predicted_token": "B4",
+    "correct": true,
     "top5_candidates": [
-      "E5",
-      "E4",
-      "D5",
+      "B4",
       "C5",
-      "B4"
+      "D5",
+      "A4",
+      "G4"
     ]
   }
 ]

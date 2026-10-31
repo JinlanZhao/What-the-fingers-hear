@@ -1,0 +1,3994 @@
+[
+  {
+    "sample_id": "samples/6404150/p8-s2",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6456450/p6-s3",
+    "true_ql": "1/8",
+    "repl_ql": "3",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6202660/p2-s1",
+    "true_ql": "3/2",
+    "repl_ql": "1",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6141796/p2-s3",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5661740/p6-s4",
+    "true_ql": "2",
+    "repl_ql": "4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5026077/p1-s4",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4945954/p1-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p5-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6636042/p6-s1",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985973/p1-s2",
+    "true_ql": "1/8",
+    "repl_ql": "2",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p5-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p4-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6491377/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6421815/p6-s3",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p7-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6425381/p1-s2",
+    "true_ql": "3/4",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5661740/p6-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5187781/p1-s3",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p2-s3",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p3-s5",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079442/p4-s4",
+    "true_ql": "1/6",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/6412767/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6589315/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5661740/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p3-s4",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p5-s5",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077675/p1-s3",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6421815/p4-s2",
+    "true_ql": "3/2",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6085883/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p5-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985973/p1-s3",
+    "true_ql": "3/4",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6421815/p5-s3",
+    "true_ql": "3/2",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6629643/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6425381/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p4-s4",
+    "true_ql": "3",
+    "repl_ql": "1/2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p5-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p3-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5100073/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p4-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p3-s2",
+    "true_ql": "4",
+    "repl_ql": "3/4",
+    "note_type": "whole",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6196782/p3-s4",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6189628/p1-s2",
+    "true_ql": "3/4",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p1-s4",
+    "true_ql": "1/6",
+    "repl_ql": "1/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6629643/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5067692/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6757520/p4-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5187781/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p5-s5",
+    "true_ql": "1/3",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6581327/p6-s3",
+    "true_ql": "2",
+    "repl_ql": "4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6641170/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6196782/p1-s2",
+    "true_ql": "3/4",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5071629/p1-s4",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5187781/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6636042/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6210961/p2-s1",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987851/p2-s1",
+    "true_ql": "1/3",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/5987851/p3-s2",
+    "true_ql": "1/6",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/6753337/p3-s3",
+    "true_ql": "3/4",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "2in3"
+  },
+  {
+    "sample_id": "samples/6581327/p1-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p6-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6189628/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6589315/p2-s5",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5067692/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p5-s3",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p4-s4",
+    "true_ql": "1/3",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6629763/p2-s1",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5986599/p4-s3",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5015499/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098678/p1-s3",
+    "true_ql": "3/2",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6654137/p2-s4",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p5-s2",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": "2in1"
+  },
+  {
+    "sample_id": "samples/5069066/p1-s4",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p7-s2",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6085883/p1-s2",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5986599/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p5-s2",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6572043/p2-s3",
+    "true_ql": "3/2",
+    "repl_ql": "1",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6010916/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5015499/p2-s1",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098732/p1-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5862368/p6-s4",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6210961/p3-s4",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5652250/p1-s3",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6425381/p4-s3",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p9-s4",
+    "true_ql": "1/3",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5058194/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6505088/p4-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p5-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p6-s1",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p3-s4",
+    "true_ql": "1/3",
+    "repl_ql": "1/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6404150/p5-s2",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p5-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6583512/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p4-s2",
+    "true_ql": "3",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6589315/p2-s4",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5026077/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6491377/p1-s4",
+    "true_ql": "2",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987937/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098728/p1-s4",
+    "true_ql": "2",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6505088/p3-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4945954/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6636042/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5001716/p4-s4",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p1-s1",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5652250/p2-s4",
+    "true_ql": "2",
+    "repl_ql": "4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p10-s1",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5071629/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p2-s4",
+    "true_ql": "3/8",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6007571/p2-s4",
+    "true_ql": "3",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6236150/p2-s4",
+    "true_ql": "3/4",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6425381/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6007571/p4-s2",
+    "true_ql": "3",
+    "repl_ql": "2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p2-s3",
+    "true_ql": "1/3",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/4985990/p4-s1",
+    "true_ql": "1/3",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6010916/p4-s3",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987851/p4-s2",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5001716/p5-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p5-s1",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p7-s4",
+    "true_ql": "4",
+    "repl_ql": "3",
+    "note_type": "whole",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6499366/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079442/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4976604/p2-s4",
+    "true_ql": "4",
+    "repl_ql": "2",
+    "note_type": "whole",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p1-s1",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5001716/p3-s5",
+    "true_ql": "1/8",
+    "repl_ql": "3/2",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6910703/p1-s3",
+    "true_ql": "2",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p1-s3",
+    "true_ql": "1/6",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5989993/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p1-s4",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p2-s3",
+    "true_ql": "1/6",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6412767/p3-s4",
+    "true_ql": "3/2",
+    "repl_ql": "1",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6636042/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5026077/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p4-s4",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p4-s2",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p3-s5",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6421815/p2-s4",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p4-s4",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p4-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5058194/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6425381/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4978397/p2-s3",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6174661/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p5-s4",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6632270/p3-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079378/p4-s4",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6245974/p3-s3",
+    "true_ql": "1/3",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5058194/p1-s4",
+    "true_ql": "2",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5026077/p5-s4",
+    "true_ql": "4",
+    "repl_ql": "1/2",
+    "note_type": "whole",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p4-s4",
+    "true_ql": "3/2",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6652787/p7-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6010916/p2-s1",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p3-s4",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6196782/p2-s3",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p6-s1",
+    "true_ql": "3",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6641170/p3-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6491377/p2-s3",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6196782/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5661740/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098728/p2-s5",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987851/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p3-s3",
+    "true_ql": "1/3",
+    "repl_ql": "1/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5079391/p6-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6499366/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p1-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6210961/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p4-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6598624/p1-s2",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p1-s3",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6816059/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p7-s3",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5653497/p2-s1",
+    "true_ql": "1/3",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/6581327/p5-s4",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": "2in1"
+  },
+  {
+    "sample_id": "samples/6151337/p2-s5",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6629643/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098678/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6151337/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5001716/p4-s3",
+    "true_ql": "1/8",
+    "repl_ql": "4",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p5-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p5-s4",
+    "true_ql": "1/3",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6801790/p3-s1",
+    "true_ql": "1/12",
+    "repl_ql": "2",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/6245974/p2-s3",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259568/p3-s2",
+    "true_ql": "1/6",
+    "repl_ql": "1/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6572043/p1-s2",
+    "true_ql": "3/2",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p3-s1",
+    "true_ql": "1/6",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/4945954/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6652787/p3-s1",
+    "true_ql": "1/3",
+    "repl_ql": "1/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5935864/p1-s3",
+    "true_ql": "2/3",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6472842/p1-s5",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6151337/p1-s3",
+    "true_ql": "3/2",
+    "repl_ql": "1",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985973/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p5-s1",
+    "true_ql": "1/3",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6654137/p3-s3",
+    "true_ql": "3",
+    "repl_ql": "1/2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6165152/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6654137/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p3-s4",
+    "true_ql": "1/6",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6581327/p3-s4",
+    "true_ql": "1/6",
+    "repl_ql": "1/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6757520/p7-s2",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6196782/p2-s2",
+    "true_ql": "3/4",
+    "repl_ql": "1/2",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p3-s2",
+    "true_ql": "1/8",
+    "repl_ql": "1/2",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259568/p4-s4",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p4-s3",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": "2in1"
+  },
+  {
+    "sample_id": "samples/6404150/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5058194/p3-s4",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5652250/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6805149/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4978397/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6236150/p1-s1",
+    "true_ql": "3/2",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6757520/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p3-s3",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6218728/p1-s1",
+    "true_ql": "2",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6151982/p1-s4",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6141796/p1-s3",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5001716/p4-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4978393/p1-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p5-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6629763/p1-s1",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5069066/p1-s2",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474469/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p5-s1",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": "2in1"
+  },
+  {
+    "sample_id": "samples/5987851/p4-s1",
+    "true_ql": "1/6",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5986599/p2-s3",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p5-s4",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6632270/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987851/p2-s3",
+    "true_ql": "1/4",
+    "repl_ql": "3/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p6-s2",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259568/p2-s4",
+    "true_ql": "1/4",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6141796/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p4-s3",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5661740/p4-s2",
+    "true_ql": "2",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p5-s3",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p4-s2",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6598624/p2-s4",
+    "true_ql": "2",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p8-s1",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6753337/p2-s1",
+    "true_ql": "3/2",
+    "repl_ql": "1",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p2-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p2-s2",
+    "true_ql": "4",
+    "repl_ql": "3/2",
+    "note_type": "whole",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p7-s4",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p5-s2",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p3-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p2-s2",
+    "true_ql": "1/3",
+    "repl_ql": "1/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6264558/p4-s3",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079442/p1-s2",
+    "true_ql": "1/6",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6421815/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6236150/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p1-s3",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6505088/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p1-s3",
+    "true_ql": "3/4",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p5-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6757520/p3-s2",
+    "true_ql": "2",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5986599/p2-s1",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5026077/p3-s1",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p5-s1",
+    "true_ql": "2/3",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6474359/p8-s1",
+    "true_ql": "1/3",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/4978393/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6652787/p5-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5071629/p2-s1",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p2-s5",
+    "true_ql": "1/3",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6982743/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p4-s4",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p2-s4",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p1-s4",
+    "true_ql": "1/6",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5935864/p6-s3",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6636042/p4-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6249298/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p2-s3",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6245974/p2-s2",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6165152/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5015499/p2-s2",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098678/p4-s2",
+    "true_ql": "3",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6456450/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5058194/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p4-s2",
+    "true_ql": "1/6",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6632270/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5652250/p2-s2",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p3-s2",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p8-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6151337/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6652787/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5862368/p6-s3",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6245974/p2-s1",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098732/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6629763/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987851/p1-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5653497/p2-s3",
+    "true_ql": "1/3",
+    "repl_ql": "1/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/6389103/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6230261/p3-s3",
+    "true_ql": "3",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p2-s3",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5862368/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474469/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6589315/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6010916/p3-s3",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6177220/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p6-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6488630/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098732/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p5-s3",
+    "true_ql": "1/12",
+    "repl_ql": "2",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/5098715/p2-s5",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5013969/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259568/p4-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079378/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p4-s1",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5058194/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p6-s3",
+    "true_ql": "1/3",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6404150/p10-s2",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098678/p1-s2",
+    "true_ql": "1/4",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p1-s1",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p5-s1",
+    "true_ql": "1/12",
+    "repl_ql": "3/2",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/5026077/p1-s2",
+    "true_ql": "3/2",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6456450/p5-s3",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6982743/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6654137/p3-s4",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6218728/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474469/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6577688/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6010916/p1-s1",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6007571/p4-s1",
+    "true_ql": "3",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987851/p4-s3",
+    "true_ql": "1/6",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/6636042/p5-s1",
+    "true_ql": "3/4",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5661740/p5-s1",
+    "true_ql": "2",
+    "repl_ql": "3/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6389103/p2-s1",
+    "true_ql": "1/6",
+    "repl_ql": "1/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/5935864/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6151982/p1-s2",
+    "true_ql": "2",
+    "repl_ql": "3/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5026077/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6757520/p1-s1",
+    "true_ql": "3",
+    "repl_ql": "2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5187781/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6404150/p5-s4",
+    "true_ql": "1/4",
+    "repl_ql": "3",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6652787/p8-s1",
+    "true_ql": "3",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5058194/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098678/p2-s4",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p1-s4",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5067692/p1-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6141796/p1-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p2-s2",
+    "true_ql": "1/4",
+    "repl_ql": "3/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6989465/p3-s4",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p10-s3",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p3-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p5-s1",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p3-s1",
+    "true_ql": "1/3",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6085883/p2-s3",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6488630/p1-s1",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6598624/p2-s1",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p3-s4",
+    "true_ql": "1/3",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5986599/p4-s2",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p4-s3",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p2-s4",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6202660/p1-s3",
+    "true_ql": "3/4",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6641170/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5069066/p1-s3",
+    "true_ql": "1/3",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6202660/p2-s3",
+    "true_ql": "3/4",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6641170/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p1-s4",
+    "true_ql": "1/3",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6259566/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5098715/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p8-s4",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p8-s1",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5862368/p7-s1",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474469/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985990/p4-s2",
+    "true_ql": "1/3",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6456450/p2-s4",
+    "true_ql": "2",
+    "repl_ql": "1/2",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p9-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5935864/p1-s1",
+    "true_ql": "1/6",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6989465/p3-s1",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6404150/p9-s3",
+    "true_ql": "1/3",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6245974/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6499366/p2-s2",
+    "true_ql": "2",
+    "repl_ql": "1",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6757520/p5-s3",
+    "true_ql": "4",
+    "repl_ql": "1/4",
+    "note_type": "whole",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4985973/p1-s1",
+    "true_ql": "1/8",
+    "repl_ql": "1",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6641170/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p6-s5",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6572043/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6629763/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p4-s4",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6491377/p2-s5",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6910703/p2-s3",
+    "true_ql": "2",
+    "repl_ql": "4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p2-s4",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p3-s2",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6491377/p1-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p4-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6249298/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474469/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6236150/p2-s2",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6415075/p2-s2",
+    "true_ql": "1/6",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6421815/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6389103/p1-s4",
+    "true_ql": "1/6",
+    "repl_ql": "1/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "6in4"
+  },
+  {
+    "sample_id": "samples/5661740/p5-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077675/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6409323/p8-s2",
+    "true_ql": "1",
+    "repl_ql": "3/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079442/p4-s3",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5187781/p3-s2",
+    "true_ql": "3/2",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p3-s4",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4945954/p3-s3",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6581327/p5-s3",
+    "true_ql": "1/6",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6629643/p1-s3",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p7-s2",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259568/p1-s2",
+    "true_ql": "2",
+    "repl_ql": "4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6189628/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079442/p4-s1",
+    "true_ql": "1/3",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/6456450/p4-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6505088/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p6-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6141796/p2-s1",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p8-s4",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079378/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6757520/p5-s1",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p5-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5071629/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6654137/p1-s1",
+    "true_ql": "3",
+    "repl_ql": "2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p8-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6801790/p4-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259568/p2-s2",
+    "true_ql": "2",
+    "repl_ql": "3",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4978397/p1-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6816059/p2-s2",
+    "true_ql": "1/3",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5652250/p2-s3",
+    "true_ql": "3",
+    "repl_ql": "4",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6505088/p1-s1",
+    "true_ql": "3/2",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5987937/p2-s3",
+    "true_ql": "2",
+    "repl_ql": "1/4",
+    "note_type": "half",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6472842/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5862368/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077917/p4-s2",
+    "true_ql": "1/2",
+    "repl_ql": "2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6421815/p6-s2",
+    "true_ql": "3",
+    "repl_ql": "1/2",
+    "note_type": "half",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079378/p4-s2",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p3-s2",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p3-s1",
+    "true_ql": "1/4",
+    "repl_ql": "3/4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6910703/p1-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5077675/p3-s1",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p1-s2",
+    "true_ql": "1",
+    "repl_ql": "4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6264558/p7-s3",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6412767/p2-s1",
+    "true_ql": "1/2",
+    "repl_ql": "1/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p5-s2",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6474359/p2-s4",
+    "true_ql": "1/3",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": "3in2"
+  },
+  {
+    "sample_id": "samples/5079391/p6-s1",
+    "true_ql": "1",
+    "repl_ql": "3/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5079391/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5862368/p4-s1",
+    "true_ql": "1",
+    "repl_ql": "1/4",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5023603/p1-s2",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5013969/p1-s4",
+    "true_ql": "1/4",
+    "repl_ql": "3/2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6629643/p2-s3",
+    "true_ql": "1/2",
+    "repl_ql": "4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6632270/p2-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6598624/p2-s2",
+    "true_ql": "1/8",
+    "repl_ql": "3/4",
+    "note_type": "32nd",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p4-s1",
+    "true_ql": "1/2",
+    "repl_ql": "3/2",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6197282/p1-s3",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5013969/p1-s1",
+    "true_ql": "1/4",
+    "repl_ql": "4",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5013969/p2-s1",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/4945954/p3-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3/4",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6001354/p3-s2",
+    "true_ql": "1",
+    "repl_ql": "1/2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p4-s4",
+    "true_ql": "1/2",
+    "repl_ql": "1",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6236150/p3-s3",
+    "true_ql": "1/4",
+    "repl_ql": "1",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/5989993/p3-s4",
+    "true_ql": "1",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6259566/p3-s3",
+    "true_ql": "3/2",
+    "repl_ql": "3",
+    "note_type": "quarter",
+    "dots": 1,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6011095/p5-s4",
+    "true_ql": "1/2",
+    "repl_ql": "3",
+    "note_type": "eighth",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6491377/p3-s5",
+    "true_ql": "1/4",
+    "repl_ql": "2",
+    "note_type": "16th",
+    "dots": 0,
+    "tuplet": null
+  },
+  {
+    "sample_id": "samples/6645396/p5-s4",
+    "true_ql": "1",
+    "repl_ql": "2",
+    "note_type": "quarter",
+    "dots": 0,
+    "tuplet": null
+  }
+]

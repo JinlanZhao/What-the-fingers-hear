@@ -1,0 +1,20 @@
+{
+  "slideCount": 18,
+  "changedOriginalSlides": [
+    2,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "newSlides": {
+    "irb": 14,
+    "return": 15,
+    "silence": 16,
+    "compare": 17,
+    "later": 18
+  },
+  "speakerScriptWords": 1229,
+  "embeddedVideoPreserved": true
+}

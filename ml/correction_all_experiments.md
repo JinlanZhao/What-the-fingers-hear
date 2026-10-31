@@ -1,10 +1,10 @@
-# OLiMPiC Pitch Correction — Full Experiment Log
+# OLiMPiC Correction — Full Experiment Log
 
-**Date range**: 2026-10-27 (single day, multiple sessions)
-**Task**: Predict the correct pitch token given a corrupted LMX sequence (a random pitch substitution error).
+**Date range**: 2026-10-27 – 2026-10-30
+**Tasks**: Pitch correction (predict masked pitch) and duration correction (predict masked duration).
 **Dataset**: OLiMPiC-1.0-synthetic — 499-example fixed dev set, 9,998-example train set (10K era).
-**Output space**: 52 pitch classes (A0–C8, no accidentals).
-**Notebook**: `ml/correction_experiments.ipynb` (all work lives here after v3).
+**Output space**: Pitch = 52 classes (A0–C8, no accidentals); Duration = 28 classes (exact Fraction quarterLength).
+**Notebooks**: `ml/correction_experiments.ipynb` (custom Transformers), `ml/m2bert_finetune_comparison.ipynb` (M2BERT pitch + duration).
 
 ---
 
@@ -45,7 +45,9 @@ The dev set and train set are score-disjoint (no score appears in both).
 † Sanity check overfit 8 training examples to 100% as designed; not comparable.
 
 **Best custom Transformer: v5\_voice\_conditioned — 83/499 = 16.63% dev top-1.**
-**Best overall: M2BERT fine-tuned — 306/499 = 61.32% dev top-1 (3 epochs, 79s).**
+**Best pitch: M2BERT fine-tuned — 306/499 = 61.32% dev top-1 (3 epochs, 79s).**
+**Best duration: M2BERT duration R1 — 434/499 = 86.97% dev top-1 (3 epochs, 77s). See §3b.**
+**Joint model: pitch 310/499 (62.12%) + duration 438/499 (87.78%) from one checkpoint. See §3c.**
 
 ---
 
@@ -364,6 +366,82 @@ Training curve shows dev top-1 stabilized at epoch 10 while online train top-1 k
 
 ---
 
+## 3b. Duration Correction Experiments
+
+**Task**: Predict the correct duration (exact Fraction quarterLength) of a single corrupted note, given the surrounding musical context with the error note's duration masked.
+**Output space**: 28 duration classes derived from train set (e.g., 1/2, 1, 1/4, 2, 1/3, 3/2, …).
+**Data construction**: Same source samples and score-level split as pitch correction. For each sample, one pitched non-grace note selected deterministically (hash of sample_id). Duration tokens in LMX replaced with a different duration; LMX re-parsed to compute corrupted onsets for downstream notes. CP Duration attribute masked at error position; pitch left intact.
+**Exclusions**: Grace notes (3,368 train / 181 dev) and rests (53,322 train / 3,124 dev) excluded from candidate pool. Zero samples skipped; zero OOV durations in dev.
+**Notebook**: `ml/m2bert_finetune_comparison.ipynb` (cells 23–27).
+
+### Duration Summary Table
+
+| # | Run ID | Arch | Classes | Ckpt by | Dev top-1 | Dev top-3 | Best ep | Time |
+|---|--------|------|---------|---------|-----------|-----------|---------|------|
+| — | MFC baseline (10K) | — | — | — | 178/499 = 35.67% | — | — | — |
+| D1 | **M2BERT duration R1** | ModernBERT-12L + CP | 28 | top1 | **434/499 = 86.97%** | **481/499 = 96.39%** | 3 | 77s |
+
+**MFC**: Always predict '1/2' QL (eighth note), the most frequent duration in train (3,651/9,998 = 36.5%).
+
+### M2BERT Duration Fine-tuning (R1)
+
+**Architecture**: Same M2BERT backbone as pitch (ModernBERT-base, 12 layers, 768 hidden), loaded fresh from pretrained checkpoint. New Dropout(0.1) → Linear(768, 28) head. Freeze layers 0–9; train layers 10–11 + head. Trainable: 10,051,612 params.
+
+**Setup**: Adam lr=1e-4, batch=32, max 6 epochs, patience=2, budget=600s.
+
+| Epoch | Train loss | Dev top-1 | Dev top-3 | Dev CE | Elapsed |
+|-------|-----------|-----------|-----------|--------|---------|
+| 1 | 0.6673 | 425/499 = 85.17% | 95.39% | 0.487 | 26s |
+| 2 | 0.2603 | 431/499 = 86.37% | 96.39% | 0.469 | 52s |
+| **3** ← checkpoint | **0.0765** | **434/499 = 86.97%** | **96.39%** | 0.560 | 77s |
+| 4 | 0.0143 | 434/499 = 86.97% | 96.19% | 0.641 | 103s |
+| 5 | 0.0047 | 430/499 = 86.17% | 95.59% | 0.672 | 128s |
+
+Early stop at epoch 5 (2 epochs without improvement). Round 2 not triggered: R1 beats MFC by 51pp and no overfitting.
+
+**Duration class distribution** (top-5 in train): 1/2 QL = 36.5%, 1 QL = 21.8%, 1/4 QL = 16.4%, 2 QL = 6.0%, 1/3 QL = 5.6%.
+
+**Interpretation**: Duration correction is substantially easier than pitch correction (86.97% vs 62.53% best M2BERT pitch). The duration label space is smaller (28 vs 52 classes) and more concentrated (top-3 classes cover 74.7% of train). The model likely leverages strong rhythmic priors from pretraining — surrounding note durations tightly constrain the masked duration in most musical contexts.
+
+**Artifacts**: `ml/data/runs/m2bert_dur_20261030_211057/` (best\_checkpoint.pt, metrics.json, config.json, dur\_label\_map.json, train\_selection.json, dev\_selection.json, dev\_predictions.json, final\_dev\_metrics.json)
+
+---
+
+## 3c. Joint Pitch + Duration Correction
+
+**Task**: Simultaneously correct pitch and duration using a shared M2BERT backbone with two task-specific heads. Each sample masks only one attribute (pitch OR duration); the model is routed to the corresponding head via task ID.
+**Notebook**: `ml/m2bert_finetune_comparison.ipynb` (cells 28–31).
+
+### Joint Summary Table
+
+|  | Pitch top-1 | Pitch top-5 | Duration top-1 | Duration top-3 |
+|--|-------------|-------------|----------------|----------------|
+| Single-task pitch | 312/499 = 62.53% | 427/499 = 85.57% | — | — |
+| Single-task duration | — | — | 434/499 = 86.97% | 481/499 = 96.39% |
+| **Joint R1 (epoch 2)** | **310/499 = 62.12%** | **449/499 = 89.98%** | **438/499 = 87.78%** | **484/499 = 96.99%** |
+| Δ vs single-task | −2 (−0.41pp) | +22 (+4.41pp) | +4 (+0.81pp) | +3 (+0.60pp) |
+
+### M2BERT Joint Fine-tuning
+
+**Architecture**: `M2BERTJointCorrection` — shared ModernBERT-base backbone + `pitch_head` (Dropout(0.1) → Linear(768, 52)) + `dur_head` (Dropout(0.1) → Linear(768, 28)). Forward pass takes `task='pitch'` or `task='dur'` to route to the correct head. Freeze layers 0–9; train layers 10–11 + both heads. Trainable: 10,091,600 params.
+
+**Training**: 1:1 interleaved batches (alternate pitch → duration). Each batch uses its own mean CE loss; only the active task's head receives gradient. Adam lr=1e-4, batch=32, max 6 epochs, patience=2, budget=600s. Checkpoint selected by `mean(pitch_dev_top1, dur_dev_top1)`, tiebreaker by mean CE.
+
+| Epoch | Pitch loss | Dur loss | Pitch dev | Dur dev | Avg top-1 | Elapsed |
+|-------|-----------|---------|-----------|---------|-----------|---------|
+| 1 | 1.8877 | 0.6889 | 297/499 = 59.52% | 417/499 = 83.57% | 0.7154 | 52s |
+| **2** ← checkpoint | **0.9182** | **0.2794** | **310/499 = 62.12%** | **438/499 = 87.78%** | **0.7495** | 103s |
+| 3 | 0.3522 | 0.0992 | 298/499 = 59.72% | 440/499 = 88.18% | 0.7395 | 154s |
+| 4 | 0.0693 | 0.0234 | 303/499 = 60.72% | 439/499 = 87.98% | 0.7435 | 205s |
+
+Early stop at epoch 4 (2 epochs without improvement). Round 2 not triggered: neither task dropped >3pp from single-task baseline (pitch Δ = −0.41%, duration Δ = +0.81%).
+
+**Interpretation**: Joint training produces near-parity with single-task models from a single shared checkpoint. Pitch top-1 drops by only 2 examples (−0.41pp, within noise), while pitch top-5 improves by 22 examples (+4.41pp), suggesting the shared backbone learns better general pitch representations even if the argmax shifts slightly. Duration top-1 improves by 4 examples (+0.81pp), consistent with mild regularization from the multi-task objective. The model converges faster (best at epoch 2) than single-task pitch (epoch 5) or duration (epoch 3), likely because the doubled gradient signal per step accelerates backbone adaptation.
+
+**Artifacts**: `ml/data/runs/m2bert_joint_20261030_213214/` (best\_checkpoint.pt, config.json, pitch\_label\_map.json, dur\_label\_map.json, metrics.json, final\_dev\_metrics.json, pitch\_dev\_predictions.json, dur\_dev\_predictions.json)
+
+---
+
 ## 4. Open Questions (Testable Without New Training)
 
 The following hypotheses can be evaluated from existing artifacts (`dev_predictions.json`, `metrics.json`) without running any new inference or training:
@@ -411,7 +489,9 @@ ml/
 │       ├── v7_dynamic_mask/              10K, 128d, MASK, voice, dynamic pos, 55/499
 │       ├── v8_struct_features/           10K, 128d, MASK, voice, +struct, 59/499
 │       ├── context_baselines/            MFC + prev/next pitch rules vs v3
-│       └── m2bert_finetune/              M2BERT 3-epoch fine-tune, 306/499 ← BEST OVERALL
+│       ├── m2bert_finetune/              M2BERT 3-epoch fine-tune, 306/499 ← BEST PITCH
+│       ├── m2bert_dur_20261030_211057/  M2BERT duration fine-tune, 434/499 = 86.97%
+│       └── m2bert_joint_20261030_213214/ Joint pitch+dur, P=310 D=438 from 1 ckpt
 ├── data/pretrained/m2bert/
 │   ├── CP.pkl                            CP vocabulary (Bar/Position/Pitch/Duration)
 │   └── model_best.ckpt                  Pretrained M2BERT weights (61M params, 715MB)

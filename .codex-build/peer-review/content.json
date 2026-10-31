@@ -1,0 +1,132 @@
+{
+  "replacements": {
+    "2": {
+      "Clarification and some errors": "Clarification and error prompts",
+      "Reader evaluation": "Research preparation",
+      "Not yet validated": "Evaluation planned",
+      "Research protocol drafted": "Protocol drafted; CITI in progress",
+      "The score, page map, camera tracking and Max playback remain the starting point.": "Built on the connected score, page map, camera tracking and Max playback."
+    },
+    "9": {
+      "Current evidence": "Development results",
+      "development cases\nreported passing": "parser cases\npassed",
+      "October 12 report\nTranscript inputs, not reader trials": "Transcript-based tests\nOctober 12 report",
+      "Buttons, voice requests and the camera anchor\nwere connected in developer tests.": "Integrated buttons, voice requests\nand camera-based measure selection.",
+      "Remaining errors": "Next fixes",
+      "Whisper can hear “full mix” as “four mix”.\nTerminal feedback can disagree with corrected tracks.": "Resolve “full mix” / “four mix” recognition.\nMatch terminal feedback to corrected tracks.",
+      "Reader usability, selection accuracy and latency still need measurement.": "Next measurements: task success, measure-selection accuracy and response time."
+    },
+    "10": {
+      "Remaining work": "Development during IRB review",
+      "Nonvisual information": "Return to reading",
+      "Selected-measure queries, instrument information\nand silent-part feedback remain unfinished.": "Save the reading position and playback state.\nExplore another part, then return.",
+      "Tracking and setup": "Silence and entry",
+      "Measure selection and page-placement tolerance\nstill need repeated trials.": "Explain rests and the next instrument entry.\nGive distinct feedback for request or tracking errors.",
+      "Study readiness": "Compare parts",
+      "Finish task scripts and event logging.\nIdentify live features and scripted demonstrations.": "Keep one range while adding or removing parts.\nRestore the previous listening combination."
+    },
+    "11": {
+      "Study plan": "Three planned studies",
+      "Research protocol drafted on October 14": "Protocol drafted October 14 · Blind and low-vision Braille music readers",
+      "Usability": "1. Usability",
+      "Input methods": "2. Input methods",
+      "Interaction rules": "3. Interaction rules",
+      "Planned comparisons use the same participants with counterbalanced order.": "Studies 2 and 3 use comparisons within participants, with counterbalanced order."
+    },
+    "12": {
+      "IRB application": "Research preparation",
+      "Finalize the protocol\nand consent materials.\nSubmit for review.": "Complete CITI training.\nFinalize the application\nand consent materials.",
+      "Controlled study": "Interaction development",
+      "After approval, compare\nbuttons and gestures,\nthen interaction defaults.": "Prototype return, silence\nand entry feedback,\nand part comparison.",
+      "More data": "Three studies",
+      "Collect task logs,\nrepeated trials and\nreader feedback.": "Run usability tasks\nand controlled comparisons.\nCollect logs and feedback.",
+      "Participant recruitment and data collection will follow written IRB approval.": "Across development: repeat tracking trials, measure response time and log recovery."
+    },
+    "13": {
+      "What would make the input comparison fair?": "What would make returning to the score easier?",
+      "Equivalent tasks, enough practice and comparable feedback\nfor buttons and gestures.": "Which page and measure cues would help a reader\nfind the saved position on paper?",
+      "Which feedback is needed before reader testing?": "Which feedback would help ensemble listening most?",
+      "Selected measure, available parts or a warning about silence?": "Available instruments, rest and entry information, or saved part combinations?"
+    }
+  },
+  "order": [1,2,3,4,5,6,7,8,9,"irb",11,10,"return","silence","compare","later",12,13],
+  "notes": [
+    {
+      "title": "What the Fingers Hear",
+      "script": "I'm Jinlan Zhao, studying Electronic Production and Design at Berklee. **What the Fingers Hear connects a physical Braille music score with audio playback.** A reader selects a measure by touch and uses a command to hear it. Since the last report, I have added voice-selected instruments, physical controls and spoken clarification. Today I'll show the prototype, the IRB and study plan, and the next interactions for blind and low-vision musicians."
+    },
+    {
+      "title": "Since the last report",
+      "script": "The score, page map, camera tracking and Max playback form the foundation. **The new work connects voice-selected instruments, RECORD / PLAY / STOP buttons, and spoken clarification.** The system asks which instrument part the reader means and speaks selected error prompts. I have drafted the research protocol and am completing CITI training."
+    },
+    {
+      "title": "Physical controls",
+      "script": "I added physical buttons after repeated or unclear gesture activation in the earlier demo. **Hold RECORD to speak, then release it to submit. PLAY starts the Full Mix from the selected measure. STOP stops playback and cancels recording or a pending request.** A Teensy 4.0 handles the three buttons with debounced events. The input-method study will compare buttons and gestures on equivalent Play and Stop tasks."
+    },
+    {
+      "title": "Current system",
+      "script": "OpenCV and ArUco establish page coordinates. MediaPipe tracks the fingertip, and the page map converts its position into a measure. **Starting RECORD freezes that measure for the request.** Local Whisper transcribes speech, local Qwen2.5:7b parses the command, and Python validates it before sending OSC to Max/MSP. Max handles playback and synchronization. Direct PLAY and gestures send transport commands directly. The prototype runs on my Mac and uses macOS speech output."
+    },
+    {
+      "title": "Voice-selected playback",
+      "script": "**Voice requests now select one instrument, multiple instruments, or an explicit measure range.** “Play violin one” uses the measure captured when RECORD begins. “Play flute one and cello from measure eight to twelve” specifies the parts and range. Max plays selected stems on a shared signal-rate playhead to keep them aligned. Full Mix uses a separate stereo player. The prepared piece contains sixteen measures with a registered page map."
+    },
+    {
+      "title": "Parser revisions",
+      "script": "The regex parser handled fixed phrases but struggled with natural wording and corrections. A rules-only language-model prompt produced missing fields and incorrect clarification. **The current prompt uses ordered decision steps and 34 examples. Python handles self-corrections and exclusions.** The parser runs locally through Ollama with Qwen2.5:7b after API rate limits interrupted development. The deterministic parser remains the error fallback."
+    },
+    {
+      "title": "Spoken clarification",
+      "script": "At measure two, I say “Play flute.” The system asks “Flute one, flute two, or both?” I hold RECORD again and answer “Flute one.” **The conversation keeps the original measure even if my finger moves.** STOP clears the pending question. Spoken feedback currently covers clarification and selected errors. Successful playback requests also print a confirmation in the terminal."
+    },
+    {
+      "title": "Recorded demonstration",
+      "script": "This recording shows the prepared Braille score, physical controls, voice requests and Max playback working together. **Listen for the requested instrument changes and watch the button interaction.**\n\n[Play the embedded video. Continue on the next slide.]"
+    },
+    {
+      "title": "Development results",
+      "script": "**The October 12 report records 31 transcript-based parser cases passing.** Hardware tests connected the buttons, voice requests and camera anchor. Two fixes are next: Whisper sometimes transcribes “full mix” as “four mix,” and terminal feedback can name an earlier instrument after Python corrects the playback selection. I will also measure task success, measure-selection accuracy and end-to-end response time."
+    },
+    {
+      "title": "IRB progress",
+      "script": "**I am completing the CITI training course and preparing the IRB application.** The protocol drafted on October 14 covers three studies. I am preparing the consent materials, task scripts and data-collection plan for submission. Recruitment and participant data collection will begin after written IRB approval. **Because IRB review takes time, I will use that period to develop interactions that help musicians explore the ensemble and return to their reading.**",
+      "sources": ["User-provided current CITI and application status, October 28, 2026", "Research Study/Research Protocol.docx"]
+    },
+    {
+      "title": "Three planned studies",
+      "script": "**Study 1 examines usability through touch and voice tasks**, including success, errors and recovery. **Study 2 compares buttons and gestures** for equivalent Play and Stop tasks, including unintended activation, interruption, physical effort and preference. **Study 3 examines interaction rules and customization**, including understanding, settings use and perceived effort. Studies 2 and 3 compare conditions within participants and counterbalance their order. I will collect task logs and participant feedback."
+    },
+    {
+      "title": "Development during IRB review",
+      "script": "**My first development priorities are returning to a saved position, explaining silence and instrument entry, and comparing parts within one range.** Together, they form one scenario: read my part, ask which instruments are active here, listen to another part, compare combinations, then return to my original reading position. These interactions build directly on the existing page map, voice commands and multistem playback."
+    },
+    {
+      "title": "Returning to the reading position",
+      "script": "Imagine a violin reader at measure five who wants to hear the cello. “Remember here” saves the piece, part, page and measure, together with the playback range and selected parts. After exploring, “Go back” restores that state. **Restoring playback and helping a finger find the paper position are separate tasks.** I will begin with spoken page and measure cues, then explore optional audio navigation. The Page Map shows measure 1 across pages 2–3 and measure 16 across pages 17–18, so the bookmark also needs to preserve the relevant page continuation.",
+      "sources": ["User-provided interaction plan", "Documentation/Process-Report/Page-Map-Report.md", "data/page_map.json"]
+    },
+    {
+      "title": "Silence and instrument entry",
+      "script": "**Silence needs an explanation.** A part may be resting, a command may have failed, or the system may have lost the reading position. Each state needs distinct feedback and an action. In this proposed example: “Flute one rests here. Its next entry is measure eight. Would you like the two measures before it enters?” **Rest and entry information will come from MusicXML.** Command status and tracking status will explain system errors. Readers can ask which instruments play at the current measure, then listen to the lead-in or choose another part.",
+      "sources": ["User-provided interaction plan; dialogue and measure-eight entry are illustrative"]
+    },
+    {
+      "title": "Comparing parts in the same passage",
+      "script": "The system already supports multiple stems. **I want to keep the same range while the reader changes the listening combination.** “Play my part,” “Add cello,” “Play the Full Mix,” then “Restore the previous combination.” The reader can compare shared rhythms, musical responses and how the surrounding ensemble changes their melody. Saving the range and previous combination reduces repeated instrument and measure descriptions. This supports the project's use of a full orchestral score.",
+      "sources": ["User-provided interaction plan", "Documentation/Process-Report/Max-Playback-Current-Architecture.md"]
+    },
+    {
+      "title": "Further interaction directions",
+      "script": "Three further directions extend this workflow. **Practice:** lock the selection, pick up the instrument, hear a model, wait a user-set interval and repeat, with count-in and immediate Stop. The selection stays available when hands leave the page. Amber Sound Touch describes teaching through short demonstrations and repeated playing. **Annotations:** bind the original voice recording to the piece, part and measure, including teacher or conductor advice. Readers choose query, arrival or pre-practice review. **Independent setup:** announce page and tracking status, give an actionable recovery cue, and allow a spoken measure number. Clearly distinguish the current location from the last valid location. Voice, earcons and optional haptics can be compared.",
+      "sources": ["User-provided interaction plan", "https://soundtouch.ambertrust.org/services/instrumental-and-vocal-tuition/strategies/memorising-music/"]
+    },
+    {
+      "title": "Next steps",
+      "script": "**Research preparation and interaction development will move forward together.** I will complete CITI training and prepare the application and consent materials while prototyping the three priority interactions. Across development, I will repeat measure-selection and page-placement trials, measure response time, and add consistent task scripts and event logging. After approval, I plan to conduct all three studies and use task outcomes, recovery behavior and reader feedback to guide revisions."
+    },
+    {
+      "title": "Questions for discussion",
+      "script": "**What cues would help a reader return to the saved position on paper?** I am especially interested in page and measure feedback for a measure that continues across pages. **Which information would most help ensemble listening: active instruments, rest and entry information, or saved part combinations?** For the input-method study, I will keep tasks, practice and feedback comparable between buttons and gestures. Thank you."
+    }
+  ]
+}

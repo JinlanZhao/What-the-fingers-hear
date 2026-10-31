@@ -1,0 +1,14 @@
+{
+  "lr": 0.0001,
+  "batch_size": 32,
+  "max_epochs": 6,
+  "patience": 2,
+  "n_pitch_classes": 52,
+  "n_dur_classes": 28,
+  "trainable_layers": "10-11 + both heads",
+  "pitch_train_n": 9998,
+  "dur_train_n": 9998,
+  "pitch_dev_n": 499,
+  "dur_dev_n": 499,
+  "interleave": "1:1"
+}

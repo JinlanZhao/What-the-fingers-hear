@@ -1,0 +1,13 @@
+{
+  "n_classes": 28,
+  "lr": 0.0001,
+  "batch_size": 32,
+  "max_epochs": 6,
+  "patience": 2,
+  "frozen_layers": "0-9",
+  "trainable_layers": "10-11 + head",
+  "train_examples": 9998,
+  "dev_examples": 499,
+  "mfc_label": "1/2",
+  "mfc_dev_hits": 178
+}

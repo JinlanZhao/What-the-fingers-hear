@@ -1,0 +1,14 @@
+{"kind":"deck","id":"pr/u2qf7v","name":"Deck"}
+{"kind":"layout","id":"ly/juxkrid0","editable":false,"name":"Master","type":"master"}
+{"kind":"layout","id":"ly/zulorut4","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/ni9szed4","editable":false,"name":"Section Header","type":"sectionHeader","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/e54nqpsn","editable":false,"name":"Title and Body","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/xcn2x4j2","editable":false,"name":"Title and Two Column","type":"twoColTx","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/j6pkj6d4","editable":false,"name":"Title and One Column","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/hor2hk3i","editable":false,"name":"Blank","type":"blank"}
+{"kind":"slide","id":"sl/6s4hc5","slideIndex":0,"layout":{"id":"ly/hor2hk3i","name":"Blank"},"title":"Clarification keeps the selected measure.","textShapes":1,"backgroundColor":"rgba(255,255,255,1)"}
+{"kind":"textbox","id":"sh/7e10valg","slideIndex":0,"position":{"left":74,"top":600,"width":700,"height":76},"name":"clarification-summary","text":"Clarification keeps the selected measure.\n“Flute one, flute two, or both?”","geometry":"rect","lineWidth":0,"style":{"fontSize":24,"typeface":"Helvetica Neue","color":"#CFEA79","bold":true,"alignment":"left"}}
+{"kind":"notes","id":"nt/6s4hc5","slideIndex":0,"text":""}
+{"kind":"slide","id":"sl/dn1eo7","slideIndex":1,"layout":{"id":"ly/hor2hk3i","name":"Blank"},"title":"Measure tracking accuracy, response time and recovery.","textShapes":1,"backgroundColor":"rgba(255,255,255,1)"}
+{"kind":"textbox","id":"sh/svy1c3eh","slideIndex":1,"position":{"left":76,"top":609,"width":1124,"height":36},"name":"tracking-summary","text":"Measure tracking accuracy, response time and recovery.","geometry":"rect","lineWidth":0,"style":{"fontSize":24,"typeface":"Helvetica Neue","color":"#171A1D","bold":true,"alignment":"left"}}
+{"kind":"notes","id":"nt/dn1eo7","slideIndex":1,"text":""}

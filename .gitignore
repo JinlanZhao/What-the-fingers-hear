@@ -7,3 +7,6 @@
 *.mov
 *.ckpt
 *.pt
+*.pptx
+*.mid
+*.musicxml
