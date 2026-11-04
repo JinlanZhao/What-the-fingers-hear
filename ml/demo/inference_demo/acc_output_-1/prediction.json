@@ -1,0 +1,41 @@
+{
+  "input_file": "/Users/zhaojinlan/Desktop/Lann Projects/What-the-fingers-hear/ml/demo/inference_demo/acc_test_-1.musicxml",
+  "target_locator": {
+    "part_id": "P2",
+    "measure_index": 2,
+    "note_index": 12
+  },
+  "error_type": "accidental",
+  "current_value": "+0 (natural)",
+  "prediction": "-1 (flat)",
+  "candidates": [
+    {
+      "label": "-1 (flat)",
+      "prob": 0.993
+    },
+    {
+      "label": "+1 (sharp)",
+      "prob": 0.0024
+    },
+    {
+      "label": "+0 (natural)",
+      "prob": 0.0024
+    },
+    {
+      "label": "-2 (double-flat)",
+      "prob": 0.0018
+    },
+    {
+      "label": "+2 (double-sharp)",
+      "prob": 0.0004
+    }
+  ],
+  "xml_verified": true,
+  "midi_events": 38,
+  "checkpoint": "/Users/zhaojinlan/Desktop/Lann Projects/What-the-fingers-hear/ml/data/runs/m2bert_acc_20261102_112507/best_checkpoint.pt",
+  "context_notes": 45,
+  "elapsed_s": 0.016,
+  "warnings": [],
+  "output_xml": "/Users/zhaojinlan/Desktop/Lann Projects/What-the-fingers-hear/ml/demo/inference_demo/acc_output_-1/model_corrected.musicxml",
+  "output_midi": "/Users/zhaojinlan/Desktop/Lann Projects/What-the-fingers-hear/ml/demo/inference_demo/acc_output_-1/model_corrected.mid"
+}

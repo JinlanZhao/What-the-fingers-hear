@@ -1,0 +1,27 @@
+{
+  "current_value": "C4",
+  "prediction": "E4",
+  "candidates": [
+    {
+      "label": "E4",
+      "prob": 0.9999
+    },
+    {
+      "label": "D4",
+      "prob": 0.0
+    },
+    {
+      "label": "E5",
+      "prob": 0.0
+    },
+    {
+      "label": "F4",
+      "prob": 0.0
+    },
+    {
+      "label": "E3",
+      "prob": 0.0
+    }
+  ],
+  "context_notes": 57
+}

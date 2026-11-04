@@ -1,0 +1,27 @@
+{
+  "current_value": "D5",
+  "prediction": "A1",
+  "candidates": [
+    {
+      "label": "A1",
+      "prob": 0.994
+    },
+    {
+      "label": "G1",
+      "prob": 0.0016
+    },
+    {
+      "label": "D2",
+      "prob": 0.0015
+    },
+    {
+      "label": "F1",
+      "prob": 0.0004
+    },
+    {
+      "label": "D1",
+      "prob": 0.0003
+    }
+  ],
+  "context_notes": 80
+}

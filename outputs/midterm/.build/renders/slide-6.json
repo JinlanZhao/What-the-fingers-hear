@@ -1,0 +1,9 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/6754x4","index":5,"layout":{"id":"ly/zqtwfqho","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/g3ut4vqp","kind":"textbox","name":"Demo!","position":{"left":72,"top":45,"width":1136,"height":66},"text":"Demo!","style":{"fontSize":44,"typeface":"Arial","color":"#182A34","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/f2lsbq94","kind":"textbox","name":"Jinlan Zhao  /  MTEC-345","position":{"left":72,"top":675,"width":800,"height":22},"text":"Jinlan Zhao  /  MTEC-345","style":{"fontSize":16,"typeface":"Arial","color":"#53636B","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/u1cb2l8z","kind":"textbox","name":"06","position":{"left":1140,"top":675,"width":68,"height":22},"text":"06","style":{"fontSize":16,"typeface":"Arial","color":"#53636B","alignment":"right"},"geometry":"rect","lineWidth":0},
+{"id":"sh/t03a90re","kind":"shape","name":"DEMO_VIDEO_PLACEHOLDER","position":{"left":187,"top":132,"width":906,"height":510},"geometry":"rect","fillColor":"#F6F7F7","lineColor":"#B9C7CA","lineWidth":1.5},
+{"id":"sh/8zut0vqt","kind":"textbox","name":"Demo video","position":{"left":257,"top":300,"width":766,"height":70},"text":"Demo video","style":{"fontSize":44,"typeface":"Arial","color":"#53636B","bold":true,"alignment":"center"},"geometry":"rect","lineWidth":0},
+{"id":"sh/7yls7q98","kind":"textbox","name":"Pitch correction   /   Duration correction   /  ","position":{"left":237,"top":394,"width":806,"height":52},"text":"Pitch correction   /   Duration correction   /   Accidentals","style":{"fontSize":24,"typeface":"Arial","color":"#53636B","alignment":"center"},"geometry":"rect","lineWidth":0}
+]}

@@ -47,6 +47,7 @@ from osc_cmd import (
     send_play_stems, send_play_all, send_stop,
 )
 from llm_parser import parse_command as _llm_parse
+from voice_queries import answer_query, rest_feedback
 from pythonosc.udp_client import SimpleUDPClient
 
 SAMPLE_RATE = 16_000          # Hz — Whisper's expected input rate
@@ -60,7 +61,8 @@ _WHISPER_PROMPT = (
     "play oboe one, play horn one, play french horn two, play cello, "
     "play viola, play trombone one, play tuba, play bassoon one, "
     "play glockenspiel, play bass drum, play snare, play double bass, "
-    "play full mix, play measures five through eight, stop."
+    "play full mix, play measures five through eight, stop. "
+    "Questions: which measure am I pointing to, what instruments are available."
 )
 
 _SERIAL_BAUD_DEFAULT = 115200
@@ -218,6 +220,8 @@ class Controller:
         else:
             anchor = self._get_anchor()
         last_start = self._last_start
+        # Queries use the current selection even during a pending clarification.
+        query_anchor = self._get_anchor() if pending is not None else anchor
 
         # Stop any active playback before opening the microphone.
         try:
@@ -229,7 +233,7 @@ class Controller:
         print(f"\n  [REC ▶]  {label}anchor frozen = {anchor}")
         threading.Thread(
             target=self._run_recording,
-            args=(evt, anchor, rid, last_start),
+            args=(evt, anchor, rid, last_start, query_anchor),
             daemon=True,
             name=f"recording-{rid}",
         ).start()
@@ -294,7 +298,8 @@ class Controller:
 
     def _run_recording(self, stop_evt: threading.Event,
                        anchor: int | None, rid: int,
-                       last_start: int | None = None) -> None:
+                       last_start: int | None = None,
+                       query_anchor: int | None = None) -> None:
         """
         Record until stop_evt, then run ASR → parse → OSC dispatch.
         Checks request_id at every checkpoint; returns without dispatching
@@ -337,6 +342,18 @@ class Controller:
             pending = self._pending
 
         print(f"  Transcript: {text!r}")
+        answer = answer_query(text, query_anchor)
+        if answer is not None:
+            with self._lock:
+                if self._request_id != rid:
+                    return
+            print(f"  [Voice] {answer}")
+            _speak(answer)
+            with self._lock:
+                if self._request_id == rid:
+                    self._state = self.IDLE
+            return
+
         cmd, feedback = _llm_parse(
             text, anchor,
             last_start=last_start,
@@ -361,6 +378,14 @@ class Controller:
                 if self._request_id == rid:
                     self._state = self.IDLE
             return
+
+        notice = rest_feedback(cmd)
+        if notice:
+            with self._lock:
+                if self._request_id != rid:
+                    return
+            print(f"  [Voice] {notice}")
+            _speak(notice)
 
         # Final check before dispatch.
         with self._lock:

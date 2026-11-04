@@ -1,0 +1,32 @@
+{
+  "task": "accidental_correction_v2",
+  "source_checkpoint": "/Users/zhaojinlan/Desktop/Lann Projects/What-the-fingers-hear/ml/data/runs/m2bert_acc_20261102_112507/best_checkpoint.pt",
+  "n_classes": 5,
+  "label_map": {
+    "-2": 0,
+    "-1": 1,
+    "0": 2,
+    "1": 3,
+    "2": 4
+  },
+  "frozen_layers": 10,
+  "trained_layers": 2,
+  "lr": 4.000000000000001e-06,
+  "original_lr": 2e-05,
+  "batch_size": 16,
+  "max_epochs": 4,
+  "patience": 2,
+  "best_epoch": 1,
+  "best_dev_acc": 0.8768267223382046,
+  "macro_f1_5": 0.541875864817599,
+  "macro_f1_supported": 0.6773448310219987,
+  "baseline_dev_acc": 0.8830897703549061,
+  "baseline_macro_f1_5": 0.5122288981096977,
+  "original_train": 15012,
+  "new_double_acc": 400,
+  "augmented_train_total": 15412,
+  "new_alter_minus2": 200,
+  "new_alter_plus2": 200,
+  "training_time_s": 158,
+  "adopted": true
+}

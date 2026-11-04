@@ -1,0 +1,11 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/0p7t8q","index":6,"layout":{"id":"ly/zqtwfqho","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/y9k3m94j","kind":"textbox","name":"Results: Quantitative","position":{"left":72,"top":45,"width":1136,"height":66},"text":"Results: Quantitative","style":{"fontSize":44,"typeface":"Arial","color":"#182A34","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/lcbmx43a","kind":"textbox","name":"Jinlan Zhao  /  MTEC-345","position":{"left":72,"top":675,"width":800,"height":22},"text":"Jinlan Zhao  /  MTEC-345","style":{"fontSize":16,"typeface":"Arial","color":"#53636B","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/kb2lojmp","kind":"textbox","name":"07","position":{"left":1140,"top":675,"width":68,"height":22},"text":"07","style":{"fontSize":16,"typeface":"Arial","color":"#53636B","alignment":"right"},"geometry":"rect","lineWidth":0},
+{"id":"tb/2lojehs3","kind":"table","position":{"left":72,"top":169,"width":550,"height":326},"text":"Task / model\tTop-1\nPitch: custom Transformer\t16.63%\nPitch: M2BERT + context\t64.93%\nDuration: joint model\t87.78%\nAccidentals: v2\t87.68%","rows":5,"cols":2},
+{"id":"sh/md43q94v","kind":"textbox","name":"Pitch experiment progression","position":{"left":675,"top":145,"width":530,"height":42},"text":"Pitch experiment progression","style":{"fontSize":25,"typeface":"Arial","color":"#146C68","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"ch/50bmtcfq","kind":"chart","position":{"left":652,"top":199,"width":570,"height":325},"chartType":"bar"},
+{"id":"sh/8fmlsj2l","kind":"textbox","name":"Pitch top-5: 87.98%","position":{"left":72,"top":544,"width":1136,"height":48},"text":"Pitch top-5: 87.98%","style":{"fontSize":30,"typeface":"Arial","color":"#146C68","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/ni94nulw","kind":"textbox","name":"Validation: pitch / duration n = 499. Accidental","position":{"left":72,"top":610,"width":1136,"height":35},"text":"Validation: pitch / duration n = 499. Accidentals n = 1,437.","style":{"fontSize":22,"typeface":"Arial","color":"#53636B","alignment":"left"},"geometry":"rect","lineWidth":0}
+]}

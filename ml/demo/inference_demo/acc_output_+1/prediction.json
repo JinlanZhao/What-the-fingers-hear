@@ -1,0 +1,41 @@
+{
+  "input_file": "ml/demo/inference_demo/acc_test_+1.musicxml",
+  "target_locator": {
+    "part_id": "P2",
+    "measure_index": 1,
+    "note_index": 8
+  },
+  "error_type": "accidental",
+  "current_value": "-1 (flat)",
+  "prediction": "+1 (sharp)",
+  "candidates": [
+    {
+      "label": "+1 (sharp)",
+      "prob": 0.9989
+    },
+    {
+      "label": "+2 (double-sharp)",
+      "prob": 0.0009
+    },
+    {
+      "label": "-2 (double-flat)",
+      "prob": 0.0002
+    },
+    {
+      "label": "+0 (natural)",
+      "prob": 0.0
+    },
+    {
+      "label": "-1 (flat)",
+      "prob": 0.0
+    }
+  ],
+  "xml_verified": true,
+  "midi_events": 72,
+  "checkpoint": "ml/data/runs/m2bert_acc_v2_20261102_115241/best_checkpoint.pt",
+  "context_notes": 75,
+  "elapsed_s": 0.014,
+  "warnings": [],
+  "output_xml": "ml/demo/inference_demo/acc_output_+1/model_corrected.musicxml",
+  "output_midi": "ml/demo/inference_demo/acc_output_+1/model_corrected.mid"
+}

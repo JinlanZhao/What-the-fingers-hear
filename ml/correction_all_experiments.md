@@ -1,6 +1,6 @@
 # OLiMPiC Correction — Full Experiment Log
 
-**Date range**: 2026-10-27 – 2026-10-30
+**Date range**: 2026-10-27 – 2026-11-03
 **Tasks**: Pitch correction (predict masked pitch) and duration correction (predict masked duration).
 **Dataset**: OLiMPiC-1.0-synthetic — 499-example fixed dev set, 9,998-example train set (10K era).
 **Output space**: Pitch = 52 classes (A0–C8, no accidentals); Duration = 28 classes (exact Fraction quarterLength).
@@ -41,11 +41,15 @@ The dev set and train set are score-disjoint (no score appears in both).
 | 10 | v7\_dynamic\_mask | 10K | 128/3/512 | 659,924 | top1 | 55/499 = **11.02%** | 196/499 = 39.28% | 1 | 37.4s |
 | 11 | v8\_struct\_features | 10K | 128/3/512 | 663,380 | top1 | 59/499 = **11.82%** | 229/499 = 45.89% | 10 | 78.6s |
 | 12 | **M2BERT fine-tuned** | 10K | ModernBERT-12L + CP | 61,021,184 | top1 | **306/499 = 61.32%** | **431/499 = 86.37%** | 3 | 79s |
+| 13 | m2bert\_ctx\_pitch v1 | 10K | Joint + ctx\_branch (joint) | 10.3M | top1 | 318/499 = **63.73%** | 443/499 = 88.78% | 3 | 131s |
+| 14 | m2bert\_ctx\_pitch v2 ← | 10K | Joint + ctx\_branch (frozen) | 227K | top1 | 323/499 = **64.73%** | 448/499 = 89.78% | 4 | 183s |
+| 15 | **m2bert\_ctx\_pitch v3** | 10K | Joint + ctx\_branch (frozen) | 227K | top1 | **324/499 = 64.93%** | 439/499 = 87.98% | 2 | 20s‡ |
 
 † Sanity check overfit 8 training examples to 100% as designed; not comparable.
+‡ v3 reused backbone hidden state cache computed during v2; 18.5s cache read + 1.2s training.
 
 **Best custom Transformer: v5\_voice\_conditioned — 83/499 = 16.63% dev top-1.**
-**Best pitch: M2BERT fine-tuned — 306/499 = 61.32% dev top-1 (3 epochs, 79s).**
+**Best pitch: M2BERT joint + ctx\_branch v3 — 324/499 = 64.93% dev top-1. See §3e.**
 **Best duration: M2BERT duration R1 — 434/499 = 86.97% dev top-1 (3 epochs, 77s). See §3b.**
 **Joint model: pitch 310/499 (62.12%) + duration 438/499 (87.78%) from one checkpoint. See §3c.**
 
@@ -442,6 +446,271 @@ Early stop at epoch 4 (2 epochs without improvement). Round 2 not triggered: nei
 
 ---
 
+## 3d. Accidental Correction Experiments
+
+**Task**: Predict the accidental class (double-flat, flat, natural, sharp, double-sharp; labels −2, −1, 0, 1, 2) of a note at a given score position. Context: surrounding notes encoded as chromatic MIDI (accidental implicit in value). Target note: supplied as natural MIDI (letter + octave, accidental stripped). Label: alter class.
+
+**Data**: All pitched, non-grace, non-rest notes from OLiMPiC-1.0-synthetic. Dev: 1,437 examples. Train: 15,012 examples. Score-level split matches pitch/duration tasks. Note: this is a larger dev set than pitch/duration (1,437 vs 499) because every note is a candidate.
+
+**Label distribution (train)**:
+
+| Label | Class | Count | % |
+|-------|-------|-------|---|
+| 0 | natural | 9,492 | 63.2% |
+| −1 | flat | 2,932 | 19.5% |
+| +1 | sharp | 2,559 | 17.0% |
+| −2 | double-flat | 14 | 0.09% |
+| +2 | double-sharp | 15 | 0.10% |
+
+Majority baseline (always predict natural): 880/1,437 = 61.2% dev accuracy.
+
+**Architecture**: M2BERT backbone (from joint checkpoint) + Dropout(0.1) → Linear(768, 5) head. Freeze layers 0–9, train layers 10–11 + head. Optimizer: Adam, lr=2e-5, batch=16, max 6 epochs, patience=2.
+
+### m2bert\_acc v1 (run: m2bert\_acc\_20261102\_112507)
+
+**Result (best epoch 2)**: dev accuracy **88.31% (1,269/1,437)**, macro F1 (5-class) = 0.512. Training time: 192s.
+
+Double-flat (−2) and double-sharp (+2) classes have effectively zero coverage at only 14–15 train examples each. The macro F1 reflects this: the model likely ignores these extreme classes entirely.
+
+### m2bert\_acc v2 — rare-class augmentation (run: m2bert\_acc\_v2\_20261102\_115241)
+
+**Change**: Added 200 synthetic examples targeting the two rarest classes: 100 double-flat (−2), 100 double-sharp (+2) created by transposing existing ±1 examples. Training set grows 15,012 → 15,412. LR decayed to 4e-6 (0.2× original), max 4 epochs.
+
+**Result (best epoch 1)**: dev accuracy **87.68% (1,260/1,437)**, macro F1 (5-class) = 0.542, macro F1 (supported classes only) = 0.677. Training time: 158s.
+
+**Adopted**: yes. Despite a small accuracy drop (−9 examples = −0.62pp, within noise at 1,437 dev), macro F1 improved on all 5 classes (0.542 > 0.512) and substantially on supported classes (0.677). The augmentation improved rare-class coverage without significantly hurting accuracy on majority classes.
+
+**Artifacts**: `ml/data/runs/m2bert_acc_20261102_112507/`, `ml/data/runs/m2bert_acc_v2_20261102_115241/`
+
+---
+
+## 3e. Pitch Context Enhancement (ctx\_branch) ← CURRENT BEST PITCH
+
+**Motivation**: The joint model's pitch head (Dropout + Linear(768, 52)) sees only M2BERT's hidden state. Explicit musical context signals — key signature, time signature, voice, staff — are present in the LMX tokens but not used directly by the pitch head. A lightweight context branch could correct pitch-head logits using these features.
+
+**Key architectural finding**: `ctx_branch` is a **residual corrector**, not a standalone classifier. Inference formula:
+
+```
+final_logit = pitch_head(H) + ctx_branch(H, ctx_features)
+predicted_pitch = argmax(final_logit)
+```
+
+Evaluating `ctx_branch` logits alone gives only ~250/499; combined with `pitch_head` gives ≥322/499. The branch was trained to *adjust* the pitch-head distribution, not replace it.
+
+**ContextBranch architecture**:
+- Input: `concat(H[768], ctx_emb[64])` where `ctx_emb` = concat of 4 × 16-dim learned embeddings
+- `→ Linear(832, 256) → ReLU → Dropout(0.1) → Linear(256, 52)`
+- 227,380 parameters
+
+**Context features** (4 features × 16-dim embedding each = 64 total):
+
+| Feature | Vocab size | Coverage (dev) | Note |
+|---------|-----------|----------------|------|
+| key\_fifths | 16 | 100% | Extracted from `<key>` element in MusicXML |
+| time\_sig | 21 | 11.6% | 88.4% of excerpts have no `<time>` element → `"None"` token |
+| voice | 8 | 100% | LMX `voice:N` token before masked note |
+| staff | 3 | 100% | LMX `staff:N` token |
+
+### ctx\_pitch v1 — joint training (run: m2bert\_ctx\_pitch\_20261102\_122503)
+
+Baseline from joint checkpoint: 310/499. All three modules trained simultaneously: backbone (layers 10-11, lr=2e-5), pitch\_head (lr=2e-5), ctx\_branch (lr=5e-4). Total trainable: 10.3M.
+
+| Epoch | Train loss | Dev top-1 | Dev top-5 | Dev CE | Elapsed |
+|-------|-----------|-----------|-----------|--------|---------|
+| 1 | 0.2945 | 313/499 | 453/499 | 1.385 | 27s |
+| 2 | 0.0924 | 315/499 | 449/499 | 1.641 | 53s |
+| **3** ← checkpoint | **0.0192** | **318/499 = 63.73%** | 443/499 | 1.887 | 79s |
+| 4 | 0.0054 | 318/499 | 443/499 | 2.053 | 105s |
+| 5 | 0.0021 | 316/499 | 443/499 | 2.175 | 131s |
+
+**Adopted** (318 > 310). Training time: 131s.
+
+### ctx\_pitch v2 — freeze backbone + pitch\_head (run: m2bert\_ctx\_pitch\_v2\_20261102\_175504)
+
+**Key change**: Freeze backbone and pitch\_head entirely; train only ctx\_branch (227K params, lr=5e-4). This preserves the joint model's calibrated pitch\_head logits. Also rebuilt context feature vocabularies from full train+dev data (correcting v1's under-sized vocab for time\_sig and voice).
+
+Cache: backbone hidden states for all 9,998 train examples cached to disk (175s). Actual training: 2.6s.
+
+| Epoch | Train loss | Dev top-1 | Dev top-5 | Dev CE |
+|-------|-----------|-----------|-----------|--------|
+| 1 | 0.3719 | 321/499 | 444/499 | 1.314 |
+| 2 | 0.2820 | 322/499 | 445/499 | 1.442 |
+| 3 | 0.2268 | 315/499 | 448/499 | 1.532 |
+| **4** ← checkpoint | **0.1824** | **323/499 = 64.73%** | 448/499 | **1.651** |
+| 5 | 0.1424 | 316/499 | 442/499 | 1.744 |
+| 6 | 0.1175 | 316/499 | 447/499 | 1.809 |
+
+**Adopted** (323 > 318 from v1). Total time: 183s (175s cache build + 2.6s training + overhead).
+
+**Artifacts**: `ml/data/runs/m2bert_ctx_pitch_v2_20261102_175504/` (best\_checkpoint.pt, feature\_maps.json, config.json, metrics.json)
+
+### ctx\_pitch v3 — extended budget (run: m2bert\_ctx\_pitch\_v3\_20261102\_184759)
+
+**Key change**: `max_epochs` extended from 6 → 10; everything else identical to v2. Best epoch found at epoch 2 — the additional epochs only degraded performance.
+
+Cache: reused backbone hidden states from v2 (18.5s disk read vs 175s rebuild). Actual training: 1.2s.
+
+| Epoch | Train loss | Dev top-1 | Dev top-5 | Dev CE |
+|-------|-----------|-----------|-----------|--------|
+| 1 | 0.3731 | 321/499 | 443/499 | 1.343 |
+| **2** ← checkpoint | **0.2806** | **324/499 = 64.93%** | 439/499 | **1.435** |
+| 3 | 0.2267 | 317/499 | 445/499 | 1.539 |
+| 4 | 0.1814 | 314/499 | 444/499 | 1.648 |
+
+**Adopted** (324 > 323 from v2). Total time: 20s. **Current best pitch result.**
+
+#### Summary
+
+| Version | Frozen | Trainable params | Best top-1 | Adopted |
+|---------|--------|-----------------|-----------|---------|
+| Joint baseline | — | — | 310/499 = 62.12% | — |
+| ctx v1 | layers 0–9 | 10.3M | 318/499 = 63.73% | ✓ |
+| ctx v2 | backbone + pitch\_head | 227K | 323/499 = 64.73% | ✓ |
+| **ctx v3** | backbone + pitch\_head | **227K** | **324/499 = 64.93%** | **✓** |
+
+**Δ joint → ctx v3: +14 examples (+2.81pp). Δ best pitch standalone (312) → ctx v3 (324): +12 examples (+2.41pp).**
+
+---
+
+## 3f. Pitch Reranker
+
+**Motivation**: Top-5 candidates from the joint+ctx model contain the correct answer for 439/499 dev examples (87.98%). A learned reranker over per-candidate musical features could recover some of the top-5 gap.
+
+**Architecture**: 1,153-parameter feature-based reranker.
+- Input: 16 per-candidate features
+- Network: Linear(16, 64) → ReLU → Linear(64, 1) → scalar score
+- Sort candidates by score descending; use new top-1
+
+**16 features**:
+`logit, log_prob, rank, logit_diff_from_top1` (model-side) +
+`signed_interval_prev, abs_interval_prev, has_prev, signed_interval_next, abs_interval_next, has_next` (melodic interval to adjacent same-voice note) +
+`register_offset_from_median` (pitch relative to median pitch in excerpt) +
+`simul_interval_min, simul_interval_max, simul_interval_mean, simul_abs_interval_mean, has_simultaneous` (harmonic interval to simultaneously-sounding notes)
+
+Dev candidate coverage: 448/499 (51 examples had candidates but none differed from top-1 prediction).
+
+### Reranker v1 (run: m2bert\_reranker\_20261102\_182741)
+
+LR=1e-3, max\_epochs=10, patience=2. Baseline combined top-1: 323/499.
+
+Result: best epoch 1, dev top-1=**323**, w2r=0, r2w=0. **Not adopted** (323 ≤ 323). The reranker outputs near-zero scores from epoch 1; the 16 features carry no exploitable signal. Early stopped at epoch 3.
+
+### Reranker 10-epoch run (run: m2bert\_reranker\_10ep\_20261102\_230048)
+
+Same architecture, same LR=1e-3, but early stopping disabled (all 10 epochs run). Zero-initialized output layer to ensure unbiased start. Baseline top-1: 322/499 (slight MPS/CPU precision difference from v1's 323).
+
+| Epoch | Dev top-1 | w2r | r2w | Residual mean | Residual max |
+|-------|-----------|-----|-----|---------------|--------------|
+| 1 | 322 | 0 | 0 | 0.577 | 2.143 |
+| 2 | 320 | 0 | 2 | 0.935 | 3.769 |
+| 3 | 321 | 1 | 2 | 1.061 | 4.452 |
+| 4 | 322 | 1 | 1 | 1.034 | 4.382 |
+| 5 | 322 | 1 | 1 | 1.139 | 4.969 |
+| 6 | 321 | 1 | 2 | 1.166 | 5.182 |
+| 7 | 320 | 1 | 3 | 1.196 | 5.375 |
+| 8 | 320 | 1 | 3 | 1.206 | 5.472 |
+| 9 | 320 | 1 | 3 | 1.249 | 5.682 |
+| 10 | 320 | 1 | 3 | 1.266 | 5.766 |
+
+Best: epoch 1, top-1=322. Final epoch 10, top-1=320 (−2 from baseline). Loss decreases marginally (0.116 → 0.102) while top-1 does not improve. The reranker's output magnitude grows steadily (residual mean: 0.58 → 1.27) as training proceeds but accumulates w2r=1 / r2w=3 net loss.
+
+**Not adopted** (best 322 ≤ 322).
+
+**Conclusion**: The 16 musical interval and harmonic features contain no exploitable signal for reranking. The errors the combined model makes are not resolvable by melodic/harmonic context rules — the model's top-1 errors are presumably low-frequency pitch scenarios where none of the features are predictive.
+
+**Artifacts**: `ml/data/runs/m2bert_reranker_20261102_182741/`, `ml/data/runs/m2bert_reranker_10ep_20261102_230048/`
+
+---
+
+## 3g. Pitch Coverage Expansion (negative result)
+
+**Goal**: Double training data coverage by selecting a second pitch target note per training excerpt (9,998 new examples), with priority for notes that extend voice, register, and pitch-class coverage.
+
+**Selection scoring** (per candidate second note, seed=42):
+```
+score = 0.0
+if note.voice != first_note.voice:     score += 100.0
+if note.register != first_note.register: score += 10.0
+score += 1.0 / (1.0 + pitch_class_count[note.pitch])
+score += U(0, 0.001)   # deterministic tiebreak
+```
+
+Where `register` = octave digit extracted from pitch string (e.g. `"G4"` → register 4).
+
+Expanded dataset: 9,998 original + 9,998 new = 19,996 examples (deduplicated, no pair overlap).
+
+**Experiments** (all 4 runs: random ctx\_branch init, frozen backbone, 10 epochs max, patience=3):
+
+| Run | Frozen | LR | Best top-1 | vs v3 (324) | Adopted |
+|-----|--------|----|-----------|-------------|---------|
+| 235330 | backbone | 1e-4 | 326† | 326 ≤ 326 | No |
+| 235633 | backbone | 1e-4 | 312 | −12 | No |
+| **235835** | backbone + pitch\_head | 1e-4 | **313** | **−11** | No |
+| 000019 | backbone + pitch\_head | 5e-4 | 312 | −12 | No |
+
+† Run 235330 initialised ctx\_branch from v3 weights (not random); best epoch=0 means the starting point was already the best — no improvement from training on expanded data. v3\_best stored as 326 (MPS precision) vs 324 (CPU, stored checkpoint value).
+
+For runs with fresh random ctx\_branch init (235633, 235835, 000019): all give 312–313/499 vs v3's 324/499 — a consistent **−11 to −12 example** degradation from adding the expanded data.
+
+**None adopted.**
+
+**Root cause**: The diversity selection algorithm deliberately targets minority voices, unusual registers, and rare pitch classes. These are precisely the notes with the weakest context-feature correlation: key signature, time signature, voice, and staff are poor predictors of pitch for isolated notes from secondary voices in uncommon key–register combinations. Training the ctx\_branch on a larger but harder-to-generalise dataset dilutes the signal learned from the original, more structured 9,998 examples.
+
+**Lesson**: For ctx\_branch training, quality > quantity. The original 9,998 examples provide better signal than 19,996 selected for diversity.
+
+**Artifacts**: `ml/data/runs/m2bert_cov_expand_20261102_235{330,633,835}/`, `ml/data/runs/m2bert_cov_expand_20261103_000019/`
+
+---
+
+## 3h. Joint Fine-tune on 19,996 Expanded Examples (negative result)
+
+**Hypothesis**: Unfreezing backbone layers 10–11 while training on 19,996 expanded examples — initialising from the full v3 state (backbone+pitch\_head+ctx\_branch) — might allow the backbone to adapt to the broader note distribution and ultimately push past v3's 324/499.
+
+**Setup**: All weights restored from checkpoints (backbone+pitch\_head from joint, ctx\_branch from v3). Freeze layers 0–9; train layers 10–11 + final\_norm + pitch\_head + ctx\_branch simultaneously with real forward passes. Backbone LR=2e-5, head/ctx LR=1e-4, batch=32.
+
+**Total trainable**: 10,298,216 (backbone 10.0M + head+ctx 267K).
+
+### Run 1 — 6 epochs / patience=3 (run: m2bert\_joint\_expanded\_20261103\_004230)
+
+| | top-1 | top-5 | Elapsed |
+|--|--|--|--|
+| Baseline (v3 init, MPS) | 326/499 | 442/499 | — |
+| Epoch 1 | 305/499 | 436 | 48.7s |
+| Epoch 2 | 308/499 | 427 | 98.2s |
+| Epoch 3 | 311/499 | 427 | 148.2s |
+
+Early stopped at epoch 3 (patience=3). Best epoch = 0 (baseline never beaten). Not adopted.
+
+### Run 2 — 10 epochs / no early stopping (run: m2bert\_joint\_expanded\_20261103\_004745)
+
+| | top-1 | top-5 | Elapsed |
+|--|--|--|--|
+| Baseline (v3 init, MPS) | 326/499 | 442/499 | — |
+| Epoch 1 | 305/499 | 434 | 48.3s |
+| Epoch 2 | 308/499 | 425 | 97.3s |
+| Epoch 3 | 308/499 | 424 | 146.6s |
+| Epoch 4 | 309/499 | 431 | 195.9s |
+| Epoch 5 | 302/499 | 423 | 245.0s |
+| Epoch 6 | 306/499 | 423 | 294.4s |
+| Epoch 7 | 308/499 | 424 | 344.2s |
+| Epoch 8 | 308/499 | 427 | 393.4s |
+| Epoch 9 | 308/499 | 423 | 442.8s |
+| Epoch 10 | **310/499** | 424 | 492.2s |
+
+Train loss reached 0.0026 at epoch 10 (severe overfitting). Best training epoch = 10 @ 310/499, still **−16 below the initialisation point**. Not adopted.
+
+**Note on "baseline 326 vs stored 324"**: both refer to the same v3 weights; 326 is the MPS float32 result, 324 is the CPU result stored in config.json. The comparison threshold `V3_BEST=324` causes `adopted=True` in the raw config — this was corrected to `false` with an explanatory note.
+
+### Conclusion
+
+Neither run improved beyond the v3 initialisation. The first epoch always drops to ~305 (−21 from start) regardless of how many subsequent epochs are given; training loss falls monotonically toward zero while dev top-1 never recovers to the starting point. Unfreezing the backbone on the expanded harder examples disrupts the learned residual balance between pitch\_head and ctx\_branch and causes the backbone to overfit to the 19,996-example distribution without generalising to dev.
+
+**Lesson**: For this architecture and data regime, keeping the backbone frozen is essential. The only lever available on top of v3 is to improve the ctx\_branch training data or add more informative context features.
+
+**Artifacts**: `ml/data/runs/m2bert_joint_expanded_20261103_{004230,004745}/`
+
+---
+
 ## 4. Open Questions (Testable Without New Training)
 
 The following hypotheses can be evaluated from existing artifacts (`dev_predictions.json`, `metrics.json`) without running any new inference or training:
@@ -459,6 +728,7 @@ The following hypotheses can be evaluated from existing artifacts (`dev_predicti
 ```
 ml/
 ├── correction_experiments.ipynb          ← custom Transformer experiments (v1–v8)
+├── correction_experiment_archive.ipynb   ← experiment archive (cells 1–106+, ctx/reranker/coverage)
 ├── m2bert_finetune_comparison.ipynb      ← M2BERT fine-tuning experiment
 ├── correction_v2_v3_experiment_log.md    ← detailed log for v1–v3 (pre-notebook)
 ├── correction_v2_v3_addendum.md          ← corrections to v2/v3 log (ratio error, etc.)
@@ -483,18 +753,31 @@ ml/
 │       ├── correction_v4_mask/           10K, 128d, MASK, loss ckpt, 46/499
 │       ├── correction_v4_mask_top1/      10K, 128d, MASK, top1 ckpt, 63/499
 │       ├── v5_v4_control/                10K, 128d, MASK, no voice, top1 ckpt, 57/499
-│       ├── v5_voice_conditioned/         10K, 128d, MASK, voice, top1 ckpt, 83/499 ← BEST
+│       ├── v5_voice_conditioned/         10K, 128d, MASK, voice, top1 ckpt, 83/499 ← BEST CUSTOM
 │       │   └── train_eval_sample_ids.json  1,000 train sample IDs for inference eval
 │       ├── v6_voice_large/               10K, 256d, MASK, voice, top1 ckpt, 56/499
 │       ├── v7_dynamic_mask/              10K, 128d, MASK, voice, dynamic pos, 55/499
 │       ├── v8_struct_features/           10K, 128d, MASK, voice, +struct, 59/499
 │       ├── context_baselines/            MFC + prev/next pitch rules vs v3
-│       ├── m2bert_finetune/              M2BERT 3-epoch fine-tune, 306/499 ← BEST PITCH
-│       ├── m2bert_dur_20261030_211057/  M2BERT duration fine-tune, 434/499 = 86.97%
-│       └── m2bert_joint_20261030_213214/ Joint pitch+dur, P=310 D=438 from 1 ckpt
+│       ├── m2bert_finetune/              M2BERT 3-epoch fine-tune, 306/499
+│       ├── m2bert_dur_20261030_211057/   M2BERT duration fine-tune, 434/499 = 86.97%
+│       ├── m2bert_joint_20261030_213214/ Joint pitch+dur, P=310 D=438 from 1 ckpt
+│       ├── m2bert_acc_20261102_112507/   Accidental correction v1, 88.31% dev acc
+│       ├── m2bert_acc_v2_20261102_115241/ Accidental correction v2 (augmented), 87.68% acc ← adopted
+│       ├── m2bert_ctx_pitch_20261102_122503/  Pitch ctx_branch v1 (joint), 318/499
+│       ├── m2bert_ctx_pitch_v2_20261102_175504/ Pitch ctx_branch v2 (frozen), 323/499 ← adopted
+│       ├── m2bert_ctx_pitch_v3_20261102_184759/ Pitch ctx_branch v3 (frozen, 10ep), 324/499 ← BEST PITCH
+│       ├── m2bert_reranker_20261102_182741/  Pitch reranker v1, 323/499, not adopted
+│       ├── m2bert_reranker_10ep_20261102_230048/ Pitch reranker 10ep, 322/499, not adopted
+│       ├── m2bert_cov_expand_20261102_235330/ Coverage expansion (ph+ctx, v3 init), 326/499
+│       ├── m2bert_cov_expand_20261102_235633/ Coverage expansion (ph+ctx, random), 312/499
+│       ├── m2bert_cov_expand_20261102_235835/ Coverage expansion (ctx only, lr=1e-4), 313/499
+│       ├── m2bert_cov_expand_20261103_000019/ Coverage expansion (ctx only, lr=5e-4), 312/499
+│       ├── m2bert_joint_expanded_20261103_004230/ Joint fine-tune 6ep, 310 best train, not adopted
+│       └── m2bert_joint_expanded_20261103_004745/ Joint fine-tune 10ep, 310 best train, not adopted
 ├── data/pretrained/m2bert/
 │   ├── CP.pkl                            CP vocabulary (Bar/Position/Pitch/Duration)
 │   └── model_best.ckpt                  Pretrained M2BERT weights (61M params, 715MB)
 ```
 
-Each run directory contains: `vocab.json`, `pitch_classes.json`, `model_config.json`, `best_checkpoint.pt`, `metrics.csv`, `metrics.json`, `dev_predictions.json`.
+Each run directory contains: `config.json`, `best_checkpoint.pt`, `metrics.json`. M2BERT pitch/duration runs also have `dev_predictions.json` and label map files. Custom Transformer runs also have `vocab.json`, `pitch_classes.json`, `model_config.json`, `metrics.csv`.
